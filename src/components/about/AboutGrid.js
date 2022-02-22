@@ -8,6 +8,8 @@ import Skills from './Skills';
 import Education from './Education';
 import Socials from './Socials';
 import Objective from './Objective';
+import Resume from './Resume'; 
+import Experience from './Experience';
 
 // MUI Icons
 
@@ -30,10 +32,10 @@ function About() {
 const aboutItems = [
    <Education />,
    <Objective />,
-   <Skills />,
-   <Education />,
+   <Resume />,
+   <Experience />,
    <Greeting />,
-   <Education />,
+   <Skills />,
    <Education />,
    <Education />,
    <Socials />,

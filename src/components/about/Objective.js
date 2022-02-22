@@ -8,7 +8,7 @@ function Objective() {
     const content = () => {
         return (
             <div>
-                <p>Entry level Software Engineer </p>
+                <p>Looking for full-time entry level Software Engineer opportunities </p>
                 <p>Interested in full-stack</p>
                 <Button variant="outlined" target="_blank" href="mailto:zubyjaved95@gmail.com">
                     Hire Me

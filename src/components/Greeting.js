@@ -8,10 +8,14 @@ function Greeting() {
         <div> 
             <h1 className="Greeting">Hi I'm Zuby Javed</h1>
             <h3>Software Engineer</h3>
-                <ButtonGroup variant="contained" aria-label="outlined primary button group">
-                    <Link to="/">Projects</Link>
-                    <Link to="about">About</Link>
-                </ButtonGroup>
+            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+                <Link to="/">
+                    <Button>Projects</Button>
+                </Link>
+                <Link to="/about">
+                    <Button>About</Button>
+                </Link>
+            </ButtonGroup>
         </div>
 
     )
