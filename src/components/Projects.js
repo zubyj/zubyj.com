@@ -18,9 +18,7 @@ function Projects() {
                     }
                     return (
                         <Grid className="Project-item" item xs={4}> 
-                            {index !== 4 && 
                             <Project name={project.name} imgPath={project.path} />
-                            }
                         </Grid> 
                     )
                 })}
@@ -43,7 +41,7 @@ const projects = [
         path: require('../img/projects/iCare.png'),
     },
     {
-        name: "To-do-list",
+        name: "To Do List",
         path: require('../img/projects/To-do-list.png'),
     },
     // Centered Greeting (empty for now)

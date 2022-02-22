@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Projects from './components/Projects';
+import AboutGrid from './components/about/AboutGrid';
 
 import {
   BrowserRouter as Router,
@@ -15,9 +16,8 @@ export default function App() {
         renders the first one that matches the current URL. */}
     <Routes>
       <Route path="/" element={<Projects />} />
-      <Route path="/projects" element={<Projects />} />
+      <Route path="/about" element={<AboutGrid />} />
     </Routes>
   </Router>
-
   );
 }
