@@ -1,27 +1,41 @@
+
 import React from 'react';
+import AboutItem from './AboutItem';
 import Button from '@mui/material/Button'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
-
+import ContactMailIcon from '@mui/icons-material/ContactMail';
 
 function Socials() {
 
-    return (
-        <div>
-            <Button variant="outlined">
-                    <a target="_blank" href="https://github.com/zubyjaved">
-                        <GitHubIcon />
-                    </a>
+    const content = () => {
+        return (
+            <div>
+                <Button 
+                    variant="outlined"
+                    target="_blank" 
+                    href="https://github.com/zubyjaved"
+                >
+                    <GitHubIcon />
                     Github
                 </Button>
-                <Button variant="outlined">
-                    <a target="_blank" href="mailto:zubyjaved95@gmail.com">
-                        <EmailIcon />
-                    </a>
+                <Button 
+                    variant="outlined"
+                    target="_blank"
+                    href="mailto:zubyjaved95@gmail.com"
+                >
+                    <EmailIcon />
                     Email
-            </Button> 
+                </Button>
+            </div>
+        )
+    }
+
+    return (
+        <div>
+            <AboutItem name="Socials" icon={<ContactMailIcon />} content={content()} />
         </div>
-    )
+    );
 }
 
 export default Socials
