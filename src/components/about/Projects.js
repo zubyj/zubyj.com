@@ -1,6 +1,6 @@
 import React from 'react';
-import SchoolIcon from '@mui/icons-material/School';
 import AboutItem from './AboutItem';
+import AppsIcon from '@mui/icons-material/Apps';
 
 function Projects() {
 
@@ -8,8 +8,10 @@ function Projects() {
         return (
             <ul>
                 <li>
-                    <h4>Face Morpher</h4>
-                    <p>Avaiable on the iOS App Store</p>
+                    <h4>Face Morpher (MyMorph)</h4>
+                    <a className="App-link" target="_blank" href="https://apps.apple.com/us/app/mymorph/id1554421298">
+                        <p>Avaiable on the iOS App Store</p>
+                    </a>
                     <p>~37,000 image files generated from Nov 2021 to date.</p>
                     <p>ExpressJS, Twitter Bootstrap, Facebook API, Google Maps API, Nginx, DigitalOcean, Google Analytics</p>
                 </li>
@@ -24,7 +26,7 @@ function Projects() {
 
     return (
         <div>
-            <AboutItem name="Projects" icon={<SchoolIcon />} content={content()} />
+            <AboutItem name="Projects" icon={<AppsIcon />} content={content()} />
         </div>
     )
 }

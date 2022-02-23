@@ -1,6 +1,6 @@
 import React from 'react';
-import SchoolIcon from '@mui/icons-material/School';
 import AboutItem from './AboutItem';
+import InterestsIcon from '@mui/icons-material/Interests';
 
 function Interests() {
 
@@ -19,7 +19,7 @@ function Interests() {
 
     return (
         <div>
-            <AboutItem name="Interests" icon={<SchoolIcon />} content={content()} />
+            <AboutItem name="Interests" icon={<InterestsIcon />} content={content()} />
         </div>
     )
 }
