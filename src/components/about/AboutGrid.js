@@ -1,17 +1,17 @@
 import React from 'react'; 
 import { Box } from '@mui/system';
 import Grid from "@mui/material/Grid"; 
-import Greeting from '../Greeting';
 
-// About items
-import Skills from './Skills';
+// About Grid items
 import Education from './Education';
-import Socials from './Socials';
 import Objective from './Objective';
-import Resume from './Resume'; 
+import Skills from './Skills';
+import Projects from './Projects';
+import Greeting from '../Greeting';
 import Experience from './Experience';
-
-// MUI Icons
+import Interests from './Interests';
+import Resume from './Resume'; 
+import Socials from './Socials';
 
 function About() {
     return (
@@ -32,13 +32,13 @@ function About() {
 const aboutItems = [
    <Education />,
    <Objective />,
-   <Resume />,
+   <Skills />,
    <Experience />,
    <Greeting />,
-   <Skills />,
-   <Education />,
-   <Education />,
+   <Projects/>,
    <Socials />,
+   <Interests />,
+   <Resume />,
 ];
 
 export default About;

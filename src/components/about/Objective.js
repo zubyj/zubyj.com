@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutItem from './AboutItem';
-import WorkIcon from '@mui/icons-material/Work'
+import CallToActionIcon from '@mui/icons-material/CallToAction';
 import Button from '@mui/material/Button';
 
 function Objective() {
@@ -19,7 +19,7 @@ function Objective() {
 
     return (
         <div>
-            <AboutItem name="Objective" icon={<WorkIcon />} content={content()} />
+            <AboutItem name="Objective" icon={<CallToActionIcon />} content={content()} />
         </div>
     )
 }

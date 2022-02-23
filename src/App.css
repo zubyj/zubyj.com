@@ -23,7 +23,7 @@
   border: 1px solid #61dafb;
   padding: 1rem;
   background-color: #282c34;
-  height: 40vh;
+  height: 45vh;
 }
 
 .Project-name {
@@ -31,11 +31,6 @@
 }
 
 .Project-img { 
-  height: 30vh;
+  max-height: 40vh;
   border: 1px solid #61dafb;
-}
-
-/* Center component */
-.Greeting {
-  font-size: 3rem;
 }

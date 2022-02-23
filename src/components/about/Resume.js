@@ -2,7 +2,7 @@ import React from 'react';
 import AboutItem from './AboutItem';
 
 import Button from '@mui/material/Button';
-import SchoolIcon from '@mui/icons-material/School';
+import ArticleIcon from '@mui/icons-material/Article';
 
 function Resume() {
 
@@ -16,7 +16,7 @@ function Resume() {
 
     return (
         <div>
-            <AboutItem name="Resume" icon={<SchoolIcon />} content={content()} />
+            <AboutItem name="Resume" icon={<ArticleIcon />} content={content()} />
         </div>
     )
 }
