@@ -15,11 +15,11 @@ import Socials from './Socials';
 
 function About() {
     return (
-        <Box className="Projects-grid">
-            <Grid  container spacing={3}>
-                {aboutItems.map((item) => {
+        <Box >
+            <Grid  className="Projects-grid" container spacing={3}>
+                {aboutItems.map((item, index) => {
                     return (
-                        <Grid className="Project-item" item xs={4}>
+                        <Grid key={index} className="Project-item" item sm={12} md={4}>
                             {item}
                         </Grid>
                     )

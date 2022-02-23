@@ -1,20 +1,24 @@
 import React from 'react';
-import AboutItem from './AboutItem';
+import GridItem from './GridItem';
 import CodeIcon from '@mui/icons-material/Code';
 
 function Skills() {
 
-    const content = () => {
-        return (
-            <div>
-                <p>ReactJS, React Native, NodeJS, ExpressJS, Python, Java, Javascript, C++</p>
-            </div>
-        )
-    }
+    const sideA = 
+        <div>
+            ReactJS, React Native, NodeJS, ExpressJS, Python, Java, Javascript, C++
+        </div>
+    
+    const sideB = 
+        <div>
+            Side B
+        </div>
+
+    const icon = <CodeIcon className="Skills-icon"/>
 
     return (
         <div>
-            <AboutItem name="Skills" icon={<CodeIcon className="About-item-icon Skills-icon"/>} content={content()} />
+            <GridItem name="Skills" icon={icon} sideA={sideA} sideB={sideB} />
         </div>
     )
 }

@@ -12,6 +12,32 @@
   color: #61dafb;
 }
 
+.Grid-item {
+  cursor: pointer;
+  border: 3px solid white;
+} 
+
+.Item-title {
+  font-size: 2rem;
+}
+
+.Title-icon {
+  font-weight: normal;
+}
+
+.Side-a {
+  margin-top: 5rem !important;
+  padding-top: 10rem !important;
+  background-color: #282c34;
+}
+
+.Side-b {
+  background-color: black;
+}
+
+
+/* old */
+
 .Projects-grid {
   height: 100vh;
   text-align: center;
@@ -34,17 +60,6 @@
   border: 1px solid #61dafb;
 }
 
-.About-item-title {
-  color: #61dafb;
-  font-weight: normal;
-  font-size: 1.8rem;
-}
-
-.About-item-icon {
-  margin-left: 1rem;
-  font-size: 2rem !important;
-}
-
 .Greeting-btns {
   display: flex;
   flex-direction: row;
@@ -60,11 +75,6 @@
 
 .Avatar {
   margin-right: 3rem;
-}
-
-.Education {
-  display: flex;
-  flex-direction: row;
 }
 
 .Education-icon {
