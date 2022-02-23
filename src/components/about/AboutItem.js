@@ -3,10 +3,10 @@ import React from 'react';
 function AboutItem({name, icon, content}) {
     return (
         <div>
-            <h3>
-                {name}
-                {icon}
-            </h3>
+            <h4>
+                <span className="About-item-title">{name}</span>
+                <span>{icon}</span>
+            </h4>
             {content}
         </div>
     )

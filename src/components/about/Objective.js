@@ -19,7 +19,7 @@ function Objective() {
 
     return (
         <div>
-            <AboutItem name="Objective" icon={<CallToActionIcon />} content={content()} />
+            <AboutItem name="Objective" icon={<CallToActionIcon className="About-item-icon Objective-icon" />} content={content()} />
         </div>
     )
 }

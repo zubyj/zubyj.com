@@ -19,7 +19,7 @@ function Experience() {
 
     return (
         <div>
-            <AboutItem name="Experience" icon={<WorkIcon />} content={content()} />
+            <AboutItem name="Experience" icon={<WorkIcon className="About-item-icon Experience-icon" />} content={content()} />
         </div>
     )
 }

@@ -20,8 +20,7 @@
 }
 
 .Project-item {
-  border: 1px solid #61dafb;
-  padding: 1rem;
+  border: 2px solid #61dafb;
   background-color: #282c34;
   height: 45vh;
 }
@@ -31,6 +30,57 @@
 }
 
 .Project-img { 
-  max-height: 40vh;
+  max-height: 31vh;
   border: 1px solid #61dafb;
+}
+
+.About-item-title {
+  color: #61dafb;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+
+.About-item-icon {
+  margin-left: 1rem;
+  font-size: 2rem !important;
+}
+
+.Education-icon {
+  color: #E5A823;
+}
+
+.Experience-icon {
+  color: #b59b7c;
+}
+
+.Skills-icon {
+  color: red;
+}
+
+.Projects-icon {
+  color: purple;
+}
+
+.Socials-icon {
+  color: #FF5700; 
+}
+
+.Interests-icon {
+  color: #AA336A;
+}
+
+.Resume-icon {
+  color: whitesmoke;
+}
+
+.Objective-icon {
+  color: #CEE3F8;
+}
+
+.My-name {
+  color: #61dafb;
+}
+
+.Job-title {
+  font-weight: normal;
 }

@@ -10,6 +10,7 @@ function Interests() {
                 <li>Backpacking</li>
                 <li>Basketball</li>
                 <li>PC Gaming</li>
+                <li>Reading</li>
                 <li>Weightlifting</li>
                 <li>Piano</li>
                 <li>Wasting time on Reddit</li>
@@ -19,7 +20,7 @@ function Interests() {
 
     return (
         <div>
-            <AboutItem name="Interests" icon={<InterestsIcon />} content={content()} />
+            <AboutItem name="Interests" icon={<InterestsIcon className="About-item-icon Interests-icon" />} content={content()} />
         </div>
     )
 }

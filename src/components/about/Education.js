@@ -16,7 +16,7 @@ function Education() {
 
     return (
         <div>
-            <AboutItem name="Education" icon={<SchoolIcon />} content={content()} />
+            <AboutItem name="Education" icon={<SchoolIcon className="About-item-icon Education-icon" />} content={content()} />
         </div>
     )
 }

@@ -33,7 +33,7 @@ function Socials() {
 
     return (
         <div>
-            <AboutItem name="Socials" icon={<ContactMailIcon />} content={content()} />
+            <AboutItem name="Socials" icon={<ContactMailIcon className="About-item-icon Socials-icon" />} content={content()} />
         </div>
     );
 }

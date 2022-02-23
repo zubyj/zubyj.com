@@ -26,7 +26,7 @@ function Projects() {
 
     return (
         <div>
-            <AboutItem name="Projects" icon={<AppsIcon />} content={content()} />
+            <AboutItem name="Projects" icon={<AppsIcon className="About-item-icon Projects-icon" />} content={content()} />
         </div>
     )
 }

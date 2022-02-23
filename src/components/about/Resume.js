@@ -16,7 +16,7 @@ function Resume() {
 
     return (
         <div>
-            <AboutItem name="Resume" icon={<ArticleIcon />} content={content()} />
+            <AboutItem name="Resume" icon={<ArticleIcon className="About-item-icon Resume-icon" />} content={content()} />
         </div>
     )
 }

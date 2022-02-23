@@ -14,7 +14,7 @@ function Skills() {
 
     return (
         <div>
-            <AboutItem name="Skills" icon={<CodeIcon />} content={content()} />
+            <AboutItem name="Skills" icon={<CodeIcon className="About-item-icon Skills-icon"/>} content={content()} />
         </div>
     )
 }
