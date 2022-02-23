@@ -11,7 +11,7 @@ function Socials() {
     const content = () => {
         return (
             <div>
-                <Button 
+                <Button
                     variant="outlined"
                     target="_blank" 
                     href="https://github.com/zubyjaved"

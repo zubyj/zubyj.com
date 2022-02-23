@@ -3,54 +3,41 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
 import {Link} from "react-router-dom";
 import Typewriter from 'typewriter-effect';
-import { ThreeDRotation } from '@mui/icons-material';
+import Avatar from '@mui/material/Avatar';
 
 
 function Greeting() {
-
-    const typewriter = () => {
-        return (
-            new Typewriter(
-                '#typewriter', {
-                    strings: ['Hi', 'Im', 'Zuby', 'Javed'],
-                    autoStart: true,
-                }
-            )
-        )
-    }
-
-    const str1 = 'Hi there';
-    const str2 = <span className="My-name">Im Zuby Javed</span>;
-    const str3 = 'Software Engineer'
-
     return ( 
-        <div> 
-            <h3>
+        <div>
             <Typewriter
                 onInit={(typewriter) => 
-                    typewriter.typeString("Welcome to my website")
-                    .deleteAll()
+                    typewriter.typeString("Welcome to my portfolio")
                     .pauseFor(1000)
-                    .typeString("<h1>Hello World <h1>")
-                    .deleteChars(6)
+                    .deleteChars(15)
+                    .pauseFor(1000)
                     .typeString("<h2>Im Zuby Javed</h2>")
                     .pauseFor(1000)
                     .typeString("Software Engineer")
                     .start()
                 }
-                loop={true}
             />
-            </h3>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
-                <Link to="/">
-                    <Button>Projects</Button>
-                </Link>
-                <Link to="/about">
-                    <Button>About</Button>
-                </Link>
-            </ButtonGroup>
+            <span className="Greeting-btns">
+                <Avatar 
+                        className="Avatar"
+                        alt="Zuby Javed" 
+                        src={require("../img/selfie.png")}
+                        sx={{width: 150, height: 150}}
+                />
+                <ButtonGroup variant="contained" aria-label="outlined primary button group">
+                    <Link to="/" className="Greeting-btn">
+                        <Button>Projects</Button>
+                    </Link>
+                    <Link to="/about" className="Greeting-btn">
+                        <Button>About</Button>
+                    </Link>
+                </ButtonGroup>
+            </span>
         </div>
-
     )
 }
 
