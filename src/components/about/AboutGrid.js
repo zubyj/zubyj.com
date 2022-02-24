@@ -9,9 +9,6 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Greeting from '../Greeting';
 import Experience from './Experience';
-import Interests from './Interests';
-import Resume from './Resume'; 
-import Socials from './Socials';
 
 function AboutGrid() {
     return (
@@ -36,9 +33,6 @@ const aboutItems = [
    <Experience />,
    <Greeting />,
    <Projects/>,
-   <Socials />,
-   <Interests />,
-   <Resume />,
 ];
 
 export default AboutGrid;

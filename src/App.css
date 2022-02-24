@@ -16,10 +16,11 @@
 .Item-title {
   font-size: 1.5rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .Title-icon {
-  font-weight: normal;
+  margin-left: 1rem;
 }
 
 /* Center (Greeting) component */
@@ -28,14 +29,31 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding: 0;
 }
 
 .Greeting-btns {
-  padding: 2rem;
-  text-align: center;
+  margin: 2rem;
 }
 
 /* About components */
+
+
+.Objective {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Objective li {
+  padding: 1rem;
+}
+
+.Hire-me-btn {
+  display: flex !important;
+  justify-content: center;
+  text-align: center !important;
+}
 
 .Grad-pic {
   margin-top: 2rem;

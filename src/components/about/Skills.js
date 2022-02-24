@@ -1,13 +1,29 @@
 import React from 'react';
 import GridItem from './AboutItem';
 import CodeIcon from '@mui/icons-material/Code';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import ListItemButton from '@mui/material/ListItemButton'
+import ListItemIcon from '@mui/material/ListItemIcon'
 
 function Skills() {
 
+    const skills = ['React Native', 'NodeJS', 'ExpressJS', 'Python', 'Java', 'Javascript', 'C++'];
+
     const sideA = 
         <div>
-            ReactJS, React Native, NodeJS, ExpressJS, Python, Java, Javascript, C++
+            <List>
+                {skills.map((skill) => {
+                    return (
+                        <ListItem>
+                            <ListItemText primary={skill} />
+                        </ListItem>
+                    )
+                })}
+            </List>
         </div>
+    
     
     const sideB = 
         <div>

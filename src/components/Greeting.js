@@ -4,6 +4,8 @@ import Button from '@mui/material/Button';
 import {Link} from "react-router-dom";
 import Typewriter from 'typewriter-effect';
 import Avatar from '@mui/material/Avatar';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
 
 
 function Greeting() {
@@ -21,21 +23,33 @@ function Greeting() {
                     .start()
                 }
             />
-            <span className="Greeting-btns">
                 <Avatar 
                         className="Avatar"
                         alt="Zuby Javed" 
                         src={require("../img/selfie.png")}
                         sx={{width: 150, height: 150}}
                 />
-                <ButtonGroup variant="contained" aria-label="outlined primary button group">
-                    <Link to="/" className="Greeting-btn">
-                        <Button>Projects</Button>
-                    </Link>
-                    <Link to="/about" className="Greeting-btn">
-                        <Button>About</Button>
-                    </Link>
-                </ButtonGroup>
+                <span className="Greeting-btns">
+                    <ButtonGroup variant="contained" aria-label="outlined primary button group">
+                        <Link to="/" className="Greeting-btn">
+                            <Button variant="outlined">
+                                <FolderSpecialIcon />
+                                Projects
+                            </Button>
+                        </Link>
+                        <Link  to="/about" className="Greeting-btn">
+                            <Button variant="outlined">About Me</Button>
+                        </Link>
+                        <Button
+                            className="Greeting-btn"
+                            variant="outlined"
+                            target="_blank" 
+                            href="https://github.com/zubyjaved"
+                        >
+                            <GitHubIcon />
+                            Github
+                        </Button>
+                    </ButtonGroup>
             </span>
         </div>
     )

@@ -12,6 +12,8 @@ function ProjectItem({name, icon, imgPath, sideA, sideB}) {
 
     const img = <img className="Project-img" src={imgPath} alt="Project screenshot" />
 
+
+
     return (
         <div className="Grid-item" onClick={handleClick}>
             <div className="Item-title">

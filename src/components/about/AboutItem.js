@@ -12,9 +12,10 @@ function AboutItem({name, icon, sideA, sideB}) {
     }
 
     return (
-        <Container maxWidth="lg" className="Grid-item" onClick={handleClick}>
+        <Container className="Grid-item" onClick={handleClick}>
             <div className="Item-title">
-                {name}{icon}
+                {name}
+                <span className="Title-icon">{icon}</span>
             </div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                     <span>{sideA}</span>

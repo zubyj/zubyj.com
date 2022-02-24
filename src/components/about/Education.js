@@ -16,9 +16,9 @@ function Education() {
 
     const sideB = 
         <ul>
-            <li>San Jose State University</li>
-            <li>B.S. , Computer Science</li>
-            <li>May 2018 - December 2021</li>
+            <li className="List-item">San Jose State University</li>
+            <li className="List-item">B.S. , Computer Science</li>
+            <li className="List-item">May 2018 - December 2021</li>
         </ul>
 
     const icon = <SchoolIcon className="Education-icon"/>

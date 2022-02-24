@@ -32,9 +32,6 @@ const projectItems = [
     <TheOfficeResponseBot />,
     <Greeting />,
     <FaceMorpher />,
-    <FaceMorpher />,
-    <FaceMorpher />,
-    <FaceMorpher />,
 ];
 
 export default ProjectsGrid;
