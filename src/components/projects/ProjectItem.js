@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import Container from '@mui/material/Container'
+import Button from '@mui/material/Button';
 
 function ProjectItem({name, icon, imgPath, sideA, sideB}) {
 
@@ -15,10 +16,14 @@ function ProjectItem({name, icon, imgPath, sideA, sideB}) {
 
     return (
         <Container className="Grid-item" onClick={handleClick}>
+
             <div className="Item-title">
                 {name}
                 <span className="Title-icon">{icon}</span>
             </div>
+            <Button variant="outlined">
+                Open Project
+            </Button>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                     <span className="Side-a">
                         {sideA}
