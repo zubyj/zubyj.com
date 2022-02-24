@@ -50,8 +50,19 @@ li {
   margin-left: 1rem;
 }
 
+
+/* General stuff */
+
 .Project-languages{
   font-style: italic;
+}
+
+.Dates {
+  margin-left: 1rem;
+}
+
+.Important-text {
+  color: #E5A823 !important;
 }
 
 /* Center (Greeting) component */
@@ -148,6 +159,11 @@ li {
 
 .Skills-dropdown-icon {
   color: #61dafb !important;
+}
+
+/* Experience */
+.Job-title {
+  font-size: 1.2rem;
 }
 
 /* Project components */

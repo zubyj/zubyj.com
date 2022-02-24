@@ -8,10 +8,12 @@ function Projects() {
         <ul>
             <li>
                 <h4>Face Morpher (MyMorph)</h4>
-                <a className="App-link" target="_blank" href="https://apps.apple.com/us/app/mymorph/id1554421298">
-                    <p>Avaiable on the iOS App Store</p>
+                <a className="App-link" target="_blank" href="https://apps.apple.com/us/app/mymorph/id1554421298" onClick={(e) => e.stopPropagation()}>
+                    <p>Available on the iOS App Store</p>
                 </a>
-                <p>~37,000 image files generated from Nov 2021 to date.</p>
+                <p>
+                    <span className="Important-text">~37,000 image files generated </span>
+                    from Nov 2021 to date.</p>
                 <p className="Project-languages">ExpressJS, Twitter Bootstrap, Facebook API, Google Maps API, Nginx, DigitalOcean, Google Analytics</p>
             </li>
         </ul>   
@@ -20,7 +22,10 @@ function Projects() {
         <ul>
             <li>
                 <h4>Smart Countdown Timer (Windows/iOS)</h4>
-                <p>Available for download on Windows and iOS</p>
+                <a className="App-link" target="_blank" href="https://icaretimer.com" onClick={(e) => e.stopPropagation()}>
+                    <p>icaretimer.com</p>
+                </a>
+                <p>Prevent eye strain by following the 20-20-20 principle</p>
                 <p className="Project-languages">ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions</p>
             </li>
         </ul>
