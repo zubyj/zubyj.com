@@ -16,47 +16,53 @@ import StarBorder from '@mui/icons-material/StarBorder';
 
 function Skills() {
 
-    const skills = ['React Native', 'NodeJS', 'ExpressJS', 'Python', 'Java', 'Javascript', 'C++'];
-
-    const technologies = ['React Native, NodeJS, ExpressJS, Python, Java, Javascript, C++'];
+    const languages = ['React Native, NodeJS, ExpressJS, Python, Java, Javascript, C++'];
+    const technologies = ['Agile/Scrum, Git, Vim, Nginx, Unity, Expo, DigitalOcean, MaterialUI, Twitter Bootstrap, AJAX, jQuery, PRAW, Google Maps API, Google Analytics']
 
     const [openLanguages, setOpenLanguages] = useState(false);
+    const [openTechnologies, setOpenTechnologies] = useState(false);
 
-    const handleClick = (e) => {
+    const toggleShowLanguages = (e) => {
         e.preventDefault();
+        e.stopPropagation();
         setOpenLanguages(!openLanguages);
+    }
+
+    const toggleShowTechnologies = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setOpenTechnologies(!openTechnologies);
     }
 
     const sideA = 
         <div className="Skills">
-            <p>
-                {skills}
-            </p>
             <List>
-                <ListItemButton>
-                    <ListItemIcon>
+                <ListItemButton onClick={toggleShowLanguages}>
+                    <ListItemIcon className="Skills-dropdown-icon">
                         <LanguageOutlinedIcon />
                     </ListItemIcon>
                     <ListItemText primary="Languages and Frameworks" />
                     {openLanguages ? <ExpandLess /> : <ExpandMore />}
                 </ListItemButton>
                 <Collapse in={openLanguages} timeout="auto" unmountOnExit>
-                    <List component="div" disablePadding>
-                    <ListItemButton sx={{ pl: 4 }}>
-                        <ListItemIcon>
-                        <StarBorder />
-                        </ListItemIcon>
-                        <ListItemText primary="Starred" />
-                    </ListItemButton>
-                    </List>
+                        <ListItemText className="Project-languages" primary={languages} />
                 </Collapse>
             </List>
         </div>
-    
-    
     const sideB = 
         <div className="Skills">
-            Side B
+            <List>
+                <ListItemButton onClick={toggleShowTechnologies}>
+                    <ListItemIcon className="Skills-dropdown-icon">
+                        <LanguageOutlinedIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Technologies" />
+                    {openTechnologies ? <ExpandLess /> : <ExpandMore />}
+                </ListItemButton>
+                <Collapse in={openTechnologies} timeout="auto" unmountOnExit>
+                        <ListItemText className="Project-languages" primary={technologies} />
+                </Collapse>
+            </List>
         </div>
 
     const icon = <CodeIcon className="Skills-icon"/>

@@ -45,8 +45,8 @@ const typewriter = () => {
 }
 
 const aboutItems = [
-   <Education />,
    <Objective />,
+   <Education />,
    <Skills />,
    <Experience />,
    <Greeting text={typewriter()} section="about"/>,

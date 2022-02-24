@@ -12,7 +12,7 @@ function Projects() {
                     <p>Avaiable on the iOS App Store</p>
                 </a>
                 <p>~37,000 image files generated from Nov 2021 to date.</p>
-                <p>ExpressJS, Twitter Bootstrap, Facebook API, Google Maps API, Nginx, DigitalOcean, Google Analytics</p>
+                <p className="Project-languages">ExpressJS, Twitter Bootstrap, Facebook API, Google Maps API, Nginx, DigitalOcean, Google Analytics</p>
             </li>
         </ul>   
 
@@ -21,7 +21,7 @@ function Projects() {
             <li>
                 <h4>Smart Countdown Timer (Windows/iOS)</h4>
                 <p>Available for download on Windows and iOS</p>
-                <p>ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions</p>
+                <p className="Project-languages">ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions</p>
             </li>
         </ul>
 
