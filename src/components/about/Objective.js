@@ -20,27 +20,37 @@ function Objective() {
                     Interested in Full-stack
                 </li>
             </ul>
-            <Button variant="contained" target="_blank" href="mailto:zubyjaved95@gmail.com">
+            <Button className="Hire-btn" variant="contained" target="_blank" href="mailto:zubyjaved95@gmail.com">
                 Hire Me
             </Button> 
         </div>
 
     const sideB = 
         <div className="Objective">
-            <p>Interested in full-stack development. </p>
-            <Button variant="outlined" target="_blank" href="mailto:zubyjaved95@gmail.com">
-                <ArticleIcon />
-                Download Resume
-            </Button>
+            <ul>
+                <li>
+                    <p>Interested in full-stack but open to anything </p>
+                </li>
+                <li>
+                    <Button variant="outlined" target="_blank" href="mailto:zubyjaved95@gmail.com">
+                        <ArticleIcon />
+                        Download Resume
+                    </Button>
+                </li>
+                <li>
+                <Button 
+                    variant="outlined"
+                    target="_blank"
+                    href="mailto:zubyjaved95@gmail.com"
+                >
+                    <EmailIcon />
+                    Copy Email
+                </Button>
+                </li>
+            </ul>
 
-            <Button 
-            variant="outlined"
-            target="_blank"
-            href="mailto:zubyjaved95@gmail.com"
-            >
-                <EmailIcon />
-                Copy Email
-            </Button>
+
+
         </div>
 
     const icon = <CallToActionIcon className="Objective-icon" />

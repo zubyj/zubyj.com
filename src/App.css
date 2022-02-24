@@ -52,25 +52,31 @@
 }
 
 /* About components */
-.Objective {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.Objective li {
-  padding: 1rem;
-}
-
 .Grad-pic {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
 
+.Objective li {
+  padding: 1rem;
+}
+
+.Hire-btn {
+  width: 50%;
+  left: 25%;
+  margin-top: 3rem !important;
+}
+
+.Skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /* Project components */
 .Project-img {
-  height: 250px;
+  height: 200px;
   width: 100%;
 }
 

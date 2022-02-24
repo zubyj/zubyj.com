@@ -12,7 +12,7 @@ function Skills() {
     const skills = ['React Native', 'NodeJS', 'ExpressJS', 'Python', 'Java', 'Javascript', 'C++'];
 
     const sideA = 
-        <div>
+        <div className="Skills">
             <List>
                 {skills.map((skill) => {
                     return (
@@ -26,7 +26,7 @@ function Skills() {
     
     
     const sideB = 
-        <div>
+        <div className="Skills">
             Side B
         </div>
 
