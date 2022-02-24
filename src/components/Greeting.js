@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
 import {Link} from "react-router-dom";
@@ -6,50 +6,35 @@ import Typewriter from 'typewriter-effect';
 import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
+import InfoIcon from '@mui/icons-material/Info';
 
-
-function Greeting() {
+function Greeting({text, section}) {
     return ( 
         <div className="Greeting">
-            <Typewriter
-                onInit={(typewriter) => 
-                    typewriter.typeString("Welcome to my portfolio")
-                    .pauseFor(1000)
-                    .deleteChars(15)
-                    .pauseFor(1000)
-                    .typeString("<h2>Im Zuby Javed</h2>")
-                    .pauseFor(1000)
-                    .typeString("Software Engineer")
-                    .start()
-                }
-            />
-                <Avatar 
-                        className="Avatar"
-                        alt="Zuby Javed" 
-                        src={require("../img/selfie.png")}
-                        sx={{width: 150, height: 150}}
-                />
-                <span className="Greeting-btns">
-                    <ButtonGroup variant="contained" aria-label="outlined primary button group">
-                        <Link to="/" className="Greeting-btn">
-                            <Button variant="outlined">
-                                <FolderSpecialIcon />
-                                Projects
-                            </Button>
-                        </Link>
-                        <Link  to="/about" className="Greeting-btn">
-                            <Button variant="outlined">About Me</Button>
-                        </Link>
-                        <Button
-                            className="Greeting-btn"
-                            variant="outlined"
-                            target="_blank" 
-                            href="https://github.com/zubyjaved"
-                        >
-                            <GitHubIcon />
-                            Github
+            {text}
+            <span className="Greeting-btns">
+                <ButtonGroup aria-label="outlined primary button group">
+                    <Link to="/" className="Greeting-btn">
+                    <Button variant={section==="about" ? 'contained' : 'outlined'}>
+                        <InfoIcon />
+                        About Me
                         </Button>
-                    </ButtonGroup>
+                    </Link>
+                    <Link to="/projects" className="Greeting-btn">
+                        <Button variant={section==="projects" ? 'contained' : 'outlined'}>
+                            <FolderSpecialIcon />
+                            Projects
+                        </Button>
+                    </Link>
+                    <Button
+                        className="Greeting-btn"
+                        target="_blank" 
+                        href="https://github.com/zubyjaved"
+                    >
+                        <GitHubIcon />
+                        Github
+                    </Button>
+                </ButtonGroup>
             </span>
         </div>
     )

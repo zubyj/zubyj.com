@@ -15,8 +15,8 @@ export default function App() {
     {/* A <Routes> looks through its children <Route>s and
         renders the first one that matches the current URL. */}
     <Routes>
-      <Route path="/" element={<ProjectsGrid />} />
-      <Route path="/about" element={<AboutGrid />} />
+      <Route path="/" element={<AboutGrid />} />
+      <Route path="/projects" element={<ProjectsGrid />} />
     </Routes>
   </Router>
   );

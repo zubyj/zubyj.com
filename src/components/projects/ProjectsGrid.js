@@ -7,6 +7,7 @@ import FaceMorpher from './FaceMorpher';
 import Appnaca from './Appnaca';
 import CountdownTimer from './CountdownTimer';
 import TheOfficeResponseBot from './TheOfficeResponseBot';
+import Typewriter from 'typewriter-effect';
 
 // Projects Grid items
 function ProjectsGrid() {
@@ -25,12 +26,32 @@ function ProjectsGrid() {
     )
 }
 
+const typewriter = () => {
+    return (
+        <Typewriter
+        onInit={(typewriter) => 
+            typewriter.typeString("<h2>My Projects</h2>")
+            .pauseFor(1000)
+            .typeString("<p>These are some of my favorite and most notable projects</p>")
+            .typeString("I hope to fill this page up over the next few years.")
+            .pauseFor(1000)
+            .typeString("Stay tuned")
+            .deleteChars(10)
+            .typeString("My careers just getting started")
+            .start()
+        }
+        />
+    )
+}
+
+
+
 const projectItems = [
     <FaceMorpher />,
     <Appnaca />,
     <CountdownTimer />,
     <TheOfficeResponseBot />,
-    <Greeting />,
+    <Greeting text={typewriter()} section="projects"/>,
     <FaceMorpher />,
 ];
 

@@ -11,7 +11,7 @@ function Objective() {
         <div className="Objective">
             <ul>
                 <li>
-                    Looking for work
+                    Looking for job opportunities
                 </li>
                 <li>
                     Entry level Software Engineer
