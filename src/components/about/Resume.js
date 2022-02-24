@@ -1,5 +1,5 @@
 import React from 'react';
-import GridItem from './GridItem';
+import GridItem from './AboutItem';
 import Button from '@mui/material/Button';
 import ArticleIcon from '@mui/icons-material/Article';
 

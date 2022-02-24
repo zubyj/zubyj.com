@@ -13,13 +13,13 @@ import Interests from './Interests';
 import Resume from './Resume'; 
 import Socials from './Socials';
 
-function About() {
+function AboutGrid() {
     return (
         <Box >
-            <Grid  className="Projects-grid" container spacing={3}>
+            <Grid container spacing={3}>
                 {aboutItems.map((item, index) => {
                     return (
-                        <Grid key={index} className="Project-item" item sm={12} md={4}>
+                        <Grid key={index} item sm={12} md={4}>
                             {item}
                         </Grid>
                     )
@@ -41,4 +41,4 @@ const aboutItems = [
    <Resume />,
 ];
 
-export default About;
+export default AboutGrid;

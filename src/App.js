@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import Projects from './components/Projects';
+import ProjectsGrid from './components/projects/ProjectsGrid';
 import AboutGrid from './components/about/AboutGrid';
 
 import {
@@ -15,7 +15,7 @@ export default function App() {
     {/* A <Routes> looks through its children <Route>s and
         renders the first one that matches the current URL. */}
     <Routes>
-      <Route path="/" element={<Projects />} />
+      <Route path="/" element={<ProjectsGrid />} />
       <Route path="/about" element={<AboutGrid />} />
     </Routes>
   </Router>

@@ -1,18 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ReactCardFlip from 'react-card-flip';
+import Container from '@mui/material/Container'
 
-function AboutItem({name, icon, content}) {
+function AboutItem({name, icon, sideA, sideB}) {
 
+    const [isFlipped, setIsFlipped] = useState(false);
 
+    const handleClick = (e) => {
+        e.preventDefault();
+        setIsFlipped(!isFlipped);
+    }
 
     return (
-
-        <div>
-            <h4>
-                <span className="About-item-title">{name}</span>
-                <span>{icon}</span>
-            </h4>
-            {content}
-        </div>
+        <Container maxWidth="lg" className="Grid-item" onClick={handleClick}>
+            <div className="Item-title">
+                {name}{icon}
+            </div>
+            <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+                    <span>{sideA}</span>
+                    <span>{sideB}</span>
+            </ReactCardFlip>
+        </Container>
     )
 }
 

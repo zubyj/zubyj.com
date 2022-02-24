@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 
-function GridItem({name, icon, sideA, sideB}) {
+function ProjectItem({name, icon, imgPath, sideA, sideB}) {
 
     const [isFlipped, setIsFlipped] = useState(false);
 
@@ -10,16 +10,22 @@ function GridItem({name, icon, sideA, sideB}) {
         setIsFlipped(!isFlipped);
     }
 
+    const img = <img className="Project-img" src={imgPath} alt="Project screenshot" />
+
     return (
         <div className="Grid-item" onClick={handleClick}>
-            <span className="Item-title">{name}</span>
-            <span className="Title-icon">{icon}</span>
+            <div className="Item-title">
+                <span>{icon}{name}</span>
+            </div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                    <span className="Side-a">{sideA}</span>
+                    <span className="Side-a">
+                        {sideA}
+                        {img}
+                    </span>
                     <span className="Side-b">{sideB}</span>
             </ReactCardFlip>
         </div>
     )
 }
 
-export default GridItem;
+export default ProjectItem;

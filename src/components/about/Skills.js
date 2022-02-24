@@ -1,5 +1,5 @@
 import React from 'react';
-import GridItem from './GridItem';
+import GridItem from './AboutItem';
 import CodeIcon from '@mui/icons-material/Code';
 
 function Skills() {

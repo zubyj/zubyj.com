@@ -1,5 +1,5 @@
 import React from 'react';
-import GridItem from './GridItem';
+import GridItem from './AboutItem';
 import InterestsIcon from '@mui/icons-material/Interests';
 
 function Interests() {

@@ -8,7 +8,7 @@ import Avatar from '@mui/material/Avatar';
 
 function Greeting() {
     return ( 
-        <div>
+        <div className="Greeting">
             <Typewriter
                 onInit={(typewriter) => 
                     typewriter.typeString("Welcome to my portfolio")

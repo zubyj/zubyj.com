@@ -1,14 +1,13 @@
 import React from 'react';
 import SchoolIcon from '@mui/icons-material/School';
-import GridItem from './GridItem';
+import GridItem from './AboutItem';
 import Avatar from '@mui/material/Avatar';
 
 function Education() {
 
     const sideA = 
-        <div>
+        <div className="Grad-pic">
             <Avatar 
-                className="Avatar"
                 alt="Zuby Javed"
                 src={require("../../img/graduate.png")}
                 sx={{width: 250, height: 250}}

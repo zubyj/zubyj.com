@@ -1,5 +1,5 @@
 import React from 'react';
-import GridItem from './GridItem';
+import GridItem from './AboutItem';
 import AppsIcon from '@mui/icons-material/Apps';
 
 function Projects() {
@@ -25,7 +25,7 @@ function Projects() {
             </li>
         </ul>
 
-    const icon = <AppsIcon className="Projects-icon" />
+    const icon = <AppsIcon/>
 
     return (
         <div>

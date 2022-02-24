@@ -1,82 +1,54 @@
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
 
 .Grid-item {
+  background-color: #282c34;
   cursor: pointer;
-  border: 3px solid white;
-} 
+  border: 1px solid #61dafb;
+  margin: 1rem;
+  padding: 3rem;
+  color: whitesmoke;
+  height: 45vh;
+}
 
 .Item-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .Title-icon {
   font-weight: normal;
 }
 
-.Side-a {
-  margin-top: 5rem !important;
-  padding-top: 10rem !important;
-  background-color: #282c34;
-}
-
-.Side-b {
-  background-color: black;
-}
-
-
-/* old */
-
-.Projects-grid {
-  height: 100vh;
+/* Center (Greeting) component */
+.Greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  color: white;
-  font-size: calc(10px + 2vmin);
-}
-
-.Project-item {
-  border: 2px solid #61dafb;
-  background-color: #282c34;
-  height: 45vh;
-}
-
-.Project-name {
-  font-size: 1.5rem;
-}
-
-.Project-img { 
-  max-height: 31vh;
-  border: 1px solid #61dafb;
 }
 
 .Greeting-btns {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   padding: 2rem;
+  text-align: center;
 }
 
-.Greeting-btn {
-  margin: 1rem;
-  text-decoration: none;
+/* About components */
+
+.Grad-pic {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
-.Avatar {
-  margin-right: 3rem;
+/* Project components */
+.Project-img {
+  height: 250px;
 }
 
+/* Icon colors */
 .Education-icon {
   color: #E5A823;
 }
@@ -107,12 +79,4 @@
 
 .Objective-icon {
   color: #CEE3F8;
-}
-
-.My-name {
-  color: #61dafb;
-}
-
-.Job-title {
-  font-weight: normal;
 }

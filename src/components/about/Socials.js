@@ -1,6 +1,6 @@
 
 import React from 'react';
-import GridItem from './GridItem';
+import GridItem from './AboutItem';
 import Button from '@mui/material/Button'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';

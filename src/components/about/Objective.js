@@ -1,5 +1,5 @@
 import React from 'react';
-import GridItem from './GridItem';
+import GridItem from './AboutItem';
 import CallToActionIcon from '@mui/icons-material/CallToAction';
 import Button from '@mui/material/Button';
 
@@ -7,7 +7,8 @@ function Objective() {
 
     const sideA = 
         <div>
-            <p>Looking for full-time entry level Software Engineer opportunities </p>
+            <p>Entry level Software Engineer </p>
+            <p>Looking for opportunities</p>
             <Button variant="outlined" target="_blank" href="mailto:zubyjaved95@gmail.com">
                 Hire Me
             </Button> 
