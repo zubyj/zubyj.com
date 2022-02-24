@@ -3,14 +3,28 @@
   text-decoration: none;
 }
 
+.About-grid {
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: whitesmoke;
+}
+
+.Projects-grid {
+  background: #70e1f5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .Grid-item {
   background-color: #282c34;
   cursor: pointer;
   border: 1px solid #61dafb;
-  margin: 1rem;
-  padding: 3rem;
+  margin: 2rem;
+  padding: 2rem;
   color: whitesmoke;
-  height: 45vh;
+  height: 50vh;
+  border-radius: 30px;
 }
 
 .Item-title {
@@ -48,12 +62,6 @@
   padding: 1rem;
 }
 
-.Hire-me-btn {
-  display: flex !important;
-  justify-content: center;
-  text-align: center !important;
-}
-
 .Grad-pic {
   margin-top: 2rem;
   display: flex;
@@ -63,6 +71,7 @@
 /* Project components */
 .Project-img {
   height: 250px;
+  width: 100%;
 }
 
 /* Icon colors */

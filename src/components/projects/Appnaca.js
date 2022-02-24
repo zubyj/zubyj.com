@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import ArticleIcon from '@mui/icons-material/Article';
+import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 
 function Appnaca() {
 
@@ -8,7 +8,7 @@ function Appnaca() {
 
     const sideA = 
         <div>
-            <h3>Website </h3>
+            <h4>Website </h4>
             <p>
                 Created main website for American nonprofit organization, APPNA’s Northern California Chapter
             </p>
@@ -30,9 +30,9 @@ function Appnaca() {
             </li>
         </ul>
 
-    const icon = <ArticleIcon className="About-item-icon Resume-icon" />
+    const icon = <LocalHospitalIcon />
 
-    const imgPath = require('../../img/projects/MyMorph.png')
+    const imgPath = require('../../img/projects/appnaca.png')
 
     return (
         <div>

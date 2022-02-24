@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import ArticleIcon from '@mui/icons-material/Article';
 import Link from '@mui/material/Link';
+import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 
 function FaceMorpher() {
 
@@ -10,7 +10,7 @@ function FaceMorpher() {
     const sideA = 
         <div>
             <div>
-                iOS App
+                <h4>iOS App</h4>
                 <Link to="https://apps.apple.com/us/app/mymorph/id1554421298">
                     Available on the iOS App Store
                 </Link>
@@ -33,7 +33,7 @@ function FaceMorpher() {
             </li>
         </ul>
 
-    const icon = <ArticleIcon className="About-item-icon Resume-icon" />
+    const icon = <PeopleOutlineIcon />
 
     const imgPath = require('../../img/projects/MyMorph.png')
 

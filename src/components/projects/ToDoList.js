@@ -2,9 +2,9 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import ChatIcon from '@mui/icons-material/Chat';
 
-function TheOfficeResponseBot() {
+function ToDoList() {
 
-    const name = "The Office Response Bot"
+    const name = "To Do List"
 
     const sideA = 
         <div>
@@ -27,7 +27,7 @@ function TheOfficeResponseBot() {
 
     const icon = <ChatIcon />
 
-    const imgPath = require('../../img/projects/The-Office-Response-Bot.png')
+    const imgPath = require('../../img/projects/To-do-list.png')
 
     return (
         <div>
@@ -36,4 +36,4 @@ function TheOfficeResponseBot() {
     )
 }
 
-export default TheOfficeResponseBot;
+export default ToDoList;

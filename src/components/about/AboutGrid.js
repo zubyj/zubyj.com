@@ -13,8 +13,8 @@ import Typewriter from 'typewriter-effect';
 
 function AboutGrid() {
     return (
-        <Box >
-            <Grid container spacing={3}>
+        <Box>
+            <Grid className="About-grid" container spacing={3}>
                 {aboutItems.map((item, index) => {
                     return (
                         <Grid key={index} item sm={12} md={4}>
@@ -31,13 +31,13 @@ const typewriter = () => {
     return (
         <Typewriter
         onInit={(typewriter) => 
-            typewriter.typeString("<h2>Hi Im Zuby Javed</h2>")
+            typewriter.typeString("<h2>Hi Im <span style='color:#DEBE22'>Zuby Javed</span></h2>")
+            .typeString("<h4>Software Engineer</h4>")
+            .pauseFor(1000)
             .typeString("<p>Welcome to my portfolio</p>")
             .pauseFor(1000)
             .deleteChars(23)
-            .typeString("<h4>Software Engineer</h4>")
-            .pauseFor(1000)
-            .typeString("Looking for work")
+            .typeString("Open to job opportunities")
             .start()
         }
         />

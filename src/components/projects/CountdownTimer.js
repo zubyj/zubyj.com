@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import ArticleIcon from '@mui/icons-material/Article';
+import TimerIcon from '@mui/icons-material/Timer';
 
 function CountdownTimer() {
 
@@ -8,7 +8,7 @@ function CountdownTimer() {
 
     const sideA = 
         <div>
-            <h3>icaretimer.com</h3>
+            <h4>icaretimer.com</h4>
             <h4>Windows and MacOS App</h4> 
             <p>Smart countdown timer to prevent eye strain by following the 20-20-20 principle</p>
         </div>
@@ -26,7 +26,7 @@ function CountdownTimer() {
             </li>
         </ul>
 
-    const icon = <ArticleIcon className="About-item-icon Resume-icon" />
+    const icon = <TimerIcon />
 
     const imgPath = require('../../img/projects/iCare.png')
 
