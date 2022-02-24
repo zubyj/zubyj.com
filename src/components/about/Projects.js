@@ -25,7 +25,7 @@ function Projects() {
             </li>
         </ul>
 
-    const icon = <AppsIcon/>
+    const icon = <AppsIcon className="Projects-icon" />
 
     return (
         <div>

@@ -10,15 +10,15 @@ function Education() {
             <Avatar 
                 alt="Zuby Javed"
                 src={require("../../img/graduate.png")}
-                sx={{width: 250, height: 250}}
+                sx={{width: 200, height: 200}}
             />
         </div>
 
     const sideB = 
-        <ul>
-            <li className="List-item">San Jose State University</li>
-            <li className="List-item">B.S. , Computer Science</li>
-            <li className="List-item">May 2018 - December 2021</li>
+        <ul className="List School-list">
+            <li className="List-item School">San Jose State University</li>
+            <li className="List-item Degree">B.S. , Computer Science</li>
+            <li className="List-item School-years">May 2018 - December 2021</li>
         </ul>
 
     const icon = <SchoolIcon className="Education-icon"/>

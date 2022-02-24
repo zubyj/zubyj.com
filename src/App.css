@@ -3,6 +3,14 @@
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  padding: .5rem;
+}
+
 .About-grid {
   background: #780206;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
@@ -19,12 +27,13 @@
 .Grid-item {
   background-color: #282c34;
   cursor: pointer;
-  border: 1px solid #61dafb;
+  border: 1px dotted #61dafb;
   margin: 2rem;
   padding: 2rem;
   color: whitesmoke;
-  height: 50vh;
-  border-radius: 30px;
+  height: 40vh;
+  width: 25vw !important;
+  border-radius: 10px;
 }
 
 .Item-title {
@@ -51,26 +60,82 @@
   margin: 2rem;
 }
 
-/* About components */
+/* About Me section */
+
+/* Education */
+.School {
+  font-size: 1.2rem;
+}
+
+.School-years {
+  font-style: italic;
+}
+
+.Degree {
+  font-weight: bold;
+  margin-left: 3rem;
+  color: #61dafb;
+}
+
+.School-list {
+  margin-top: 5rem; 
+}
+
 .Grad-pic {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
 
-.Objective li {
+/* Objective */
+.Objective {
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+.Give-me-job {
+  padding-bottom: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-bottom: 1px solid #61dafb;
+  width: 80%;
+}
+
+.Objective p {
+  line-height: 32px;
+}
+
+.Objective-btns {
+  width: 120%;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.Objective-long-text {
+  margin-top: 5rem;
   padding: 1rem;
 }
 
-.Hire-btn {
-  width: 50%;
-  left: 25%;
-  margin-top: 3rem !important;
+.Dl-resume-btn {
+  color: #61dafb !important;
 }
 
+.Copy-email-btn {
+  color: #61dafb !important;
+}
+
+.Copy-email-alert {
+  position: absolute;
+  margin-top: 1rem;
+  left: 30%;
+  background-color: #282c34 !important;
+  color: white !important;
+}
+
+/* Skills */
 .Skills {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -99,14 +164,6 @@
 
 .Socials-icon {
   color: #FF5700; 
-}
-
-.Interests-icon {
-  color: #AA336A;
-}
-
-.Resume-icon {
-  color: whitesmoke;
 }
 
 .Objective-icon {

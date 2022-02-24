@@ -47,8 +47,6 @@ const typewriter = () => {
     )
 }
 
-
-
 const projectItems = [
     <FaceMorpher />,
     <Appnaca />,
