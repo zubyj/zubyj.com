@@ -14,7 +14,7 @@ import ToDoList from './ToDoList';
 function ProjectsGrid() {
     return (
         <Box >
-            <Grid  className="Projects-grid" container spacing={3}>
+            <Grid className="Projects-grid" container spacing={3}>
                 {projectItems.map((item, index) => {
                     return (
                         <Grid key={index} className="Project-item" item sm={12} md={4}>

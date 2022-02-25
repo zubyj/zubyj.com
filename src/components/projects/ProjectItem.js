@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button';
+import Link from '@mui/material/Link';
 
-function ProjectItem({name, icon, imgPath, sideA, sideB}) {
+function ProjectItem({name, icon, buttonName, path, imgPath, description}) {
 
     const [isFlipped, setIsFlipped] = useState(false);
 
@@ -12,24 +13,29 @@ function ProjectItem({name, icon, imgPath, sideA, sideB}) {
         setIsFlipped(!isFlipped);
     }
 
+    const open = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('project opened');
+        window.open(path, '_blank');
+    }
+
     const img = <img className="Project-img" src={imgPath} alt="Project screenshot" />
 
     return (
         <Container className="Grid-item" onClick={handleClick}>
-
             <div className="Item-title">
                 {name}
                 <span className="Title-icon">{icon}</span>
             </div>
-            <Button variant="outlined">
-                Open Project
+            <Button className="Open-project-btn" onClick={open} variant="contained" target="_blank">
+                {buttonName}
             </Button>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                    <span className="Side-a">
-                        {sideA}
-                        {img}
-                    </span>
-                    <span className="Side-b">{sideB}</span>
+                <span className="Project-title">
+                    {img}
+                </span>
+                    <span>{description}</span>
             </ReactCardFlip>
         </Container>
     )

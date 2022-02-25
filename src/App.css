@@ -34,8 +34,8 @@ li {
   margin: 2rem;
   padding: 2rem;
   color: whitesmoke;
-  height: 40vh;
-  width: 25vw !important;
+  height: 45vh;
+  width: 27vw !important;
   border-radius: 10px;
   opacity: 95%;
 }
@@ -167,12 +167,22 @@ li {
 }
 
 /* Project components */
-.Project-img {
-  height: 200px;
-  width: 100%;
+.Project-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
 }
 
-/* Icon colors */
+.Project-img { 
+  margin-top: 1rem;
+  max-height: 200px;
+}
+
+.Open-project-btn {
+  margin-bottom: 1rem;
+}
+
+/* About title Icon colors */
 .Education-icon {
   color: #E5A823;
 }
@@ -195,4 +205,13 @@ li {
 
 .Objective-icon {
   color: #CEE3F8;
+}
+
+/* Project title icon colors */
+.Facemorpher-icon {
+  color: purple;
+}
+
+.Appna-icon {
+  color: #ED1B2E;
 }

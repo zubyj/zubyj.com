@@ -1,46 +1,35 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import Link from '@mui/material/Link';
-import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
-import Button from '@mui/material/Button';
+import PeopleIcon from '@mui/icons-material/People';
 
 function FaceMorpher() {
 
     const name = "FaceMorpher";
-
-    const sideA = 
-        <div>
-            <div>
-                <h4>iOS App</h4>
-                <Link to="https://apps.apple.com/us/app/mymorph/id1554421298">
-                    Available on the iOS App Store
-                </Link>
-            </div>
-            <p>
-                Morphs two faces together using computer vision.
-            </p>
-        </div>
-
-    const sideB = 
-        <ul>
-            <li>
-                Allows users to morph two faces together utilizing computer vision
-            </li>
-            <li>
-                Generated ~37,000 image files between November 2021 and February 2022
-            </li>
-            <li>
-                Accumulated ~1,000 downloads to date
-            </li>
-        </ul>
-
-    const icon = <PeopleOutlineIcon />
-
+    const icon = <PeopleIcon className="Facemorpher-icon" />
+    const buttonName = "View in iOS App Store";
+    const path = 'https://apps.apple.com/us/app/mymorph/id1554421298';
     const imgPath = require('../../img/projects/MyMorph.png')
+
+    const description = 
+        <div>
+            <ul>
+                <li>
+                    Morph two faces together utilizing computer vision
+                </li>
+                <li>
+                    <span className="Important-text">Generated ~37,000 image files </span>
+                    between November 2021 and February 2022
+                </li>
+                <li>
+                    Accumulated <span className="Important-text">~1,000 downloads</span>  to date
+                </li>
+            </ul>
+        </div>
 
     return (
         <div>
-            <ProjectItem name={name} icon={icon} imgPath={imgPath} sideA={sideA} sideB={sideB} />
+            <ProjectItem name={name} icon={icon} buttonName={buttonName} path={path} imgPath={imgPath} description={description} />
         </div>
     )
 }
