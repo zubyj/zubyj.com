@@ -33,7 +33,7 @@ li {
   padding: 2rem;
   color: whitesmoke;
   height: 45vh;
-  width: 27vw !important;
+  max-width: 60vw !important;
   border-radius: 10px;
   opacity: 95%;
 }
@@ -45,7 +45,7 @@ li {
 }
 
 .Title-icon {
-  margin-left: 1rem;
+  margin-right: .5rem !important;
 }
 
 
@@ -76,6 +76,14 @@ li {
 
 .Greeting-btns {
   margin: 2rem;
+}
+
+.Greeting-btn {
+  color: whitesmoke !important;
+}
+
+.Greeting-icon {
+  color: #CEE3F8;
 }
 
 /* About Me section */
@@ -124,8 +132,9 @@ li {
 
 .Objective-btns {
   width: 120%;
-  margin-left: 2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .Objective-long-text {
@@ -174,11 +183,12 @@ li {
 
 .Project-img { 
   margin-top: 1rem;
-  max-height: 200px;
+  max-height: 280px;
+  border: .5px solid #61dafb;
 }
 
 .Open-project-btn {
-  margin-bottom: 1rem;
+  margin-left: .5rem !important;
 }
 
 /* About title Icon colors */

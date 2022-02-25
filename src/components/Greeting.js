@@ -14,15 +14,15 @@ function Greeting({text, section}) {
             {text}
             <span className="Greeting-btns">
                 <ButtonGroup aria-label="outlined primary button group">
-                    <Link to="/" className="Greeting-btn">
-                    <Button variant={section==="about" ? 'contained' : 'outlined'}>
-                        <InfoIcon />
+                    <Link to="/" >
+                    <Button className="Greeting-btn" variant={section==="about" ? 'contained' : 'outlined'}>
+                        <InfoIcon className="Greeting-icon" />
                         About Me
                         </Button>
                     </Link>
-                    <Link to="/projects" className="Greeting-btn">
-                        <Button variant={section==="projects" ? 'contained' : 'outlined'}>
-                            <FolderSpecialIcon />
+                    <Link to="/projects" >
+                        <Button className="Greeting-btn" variant={section==="projects" ? 'contained' : 'outlined'}>
+                            <FolderSpecialIcon className="Greeting-icon" />
                             Projects
                         </Button>
                     </Link>
@@ -31,7 +31,7 @@ function Greeting({text, section}) {
                         target="_blank" 
                         href="https://github.com/zubyjaved"
                     >
-                        <GitHubIcon />
+                        <GitHubIcon className="Greeting-icon"/>
                         Github
                     </Button>
                 </ButtonGroup>

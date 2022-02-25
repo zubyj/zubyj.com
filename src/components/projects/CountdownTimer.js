@@ -4,7 +4,7 @@ import TimerIcon from '@mui/icons-material/Timer';
 
 function CountdownTimer() {
 
-    const name = "Smart Countdown Timer";
+    const name = "Countdown Timer";
     const icon = <TimerIcon className="Timer-icon" />;
     const buttonName = "Open download page";
     const path = "https://icaretimer.com";
