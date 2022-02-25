@@ -11,8 +11,6 @@ li {
   padding: .5rem;
 }
 
-
-
 .About-grid {
   background: #780206;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
@@ -22,9 +20,9 @@ li {
 
 
 .Projects-grid {
-  background: #70e1f5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #23074d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .Grid-item {
@@ -73,6 +71,7 @@ li {
   text-align: center;
   padding: 0;
   font-size: 1.5rem;
+  color: whitesmoke;
 }
 
 .Greeting-btns {
@@ -214,4 +213,16 @@ li {
 
 .Appna-icon {
   color: #ED1B2E;
+}
+
+.Timer-icon {
+  color: #EFF7FF;
+}
+
+.Response-bot-icon {
+  color:#b59b7c;
+}
+
+.Todolist-icon {
+  color: #d24726;
 }

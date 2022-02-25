@@ -31,15 +31,14 @@ const typewriter = () => {
     return (
         <Typewriter
         onInit={(typewriter) => 
-            typewriter.typeString("<h2 style='color:#7F4FC4'>Projects</h2>")
-            .pauseFor(1000)
-            .typeString("<p>My favorite and most notable projects</p>")
-            .typeString("<p>I hope to fill this page up over the next few years</p>")
-            .pauseFor(1000)
+            typewriter.typeString("<h2>Projects</h2>")
+            .typeString("<p><span class='Important-text'>(3)</span> Websites deployed</p>")
+            .typeString("<p><span class='Important-text'>(1)</span> iOS apps in the App Store</p>")
+            .typeString("<p><span class='Important-text'>(1)</span>Windows/MacOS apps(1)</p>")
             .typeString("<p>My careers just getting started</p>")
             .pauseFor(1000)
             .deleteChars(31)
-            .typeString("<b>Stay tuned!</b>")
+            .typeString("<b>Stay tuned for more!</b>")
             .pauseFor(1000)
             .start()
         }

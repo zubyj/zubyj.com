@@ -34,7 +34,7 @@ const typewriter = () => {
             typewriter.typeString("<h3>Hello World</h3>")
             .pauseFor(1000)
             .deleteChars(6)
-            .typeString("<h2>I'm <span style='color:#DEBE22'>Zuby Javed</span></h2>")
+            .typeString("<h2>I'm <span class='Important-text'>Zuby Javed</span></h2>")
             .typeString("<h4 style='padding-bottom: 2rem; border-bottom: 1px solid #61dafb'>Software Engineer</h4>")
             .pauseFor(1000)
             .typeString("<p>Welcome to my portfolio</p>")

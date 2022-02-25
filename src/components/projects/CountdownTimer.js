@@ -4,10 +4,11 @@ import TimerIcon from '@mui/icons-material/Timer';
 
 function CountdownTimer() {
 
-    const name = "Smart Countdown Timer"
-    const icon = <TimerIcon />
-    const buttonName = "Open download page"
-    const imgPath = require('../../img/projects/iCare.png')
+    const name = "Smart Countdown Timer";
+    const icon = <TimerIcon className="Timer-icon" />;
+    const buttonName = "Open download page";
+    const path = "https://icaretimer.com";
+    const imgPath = require('../../img/projects/iCare.png');
 
     const description = 
         <div>
@@ -16,7 +17,7 @@ function CountdownTimer() {
                     Smart countdown timer to prevent eye strain by following the 20-20-20 principle
                 </li>
                 <li>
-                    Led a team of 4 developers by handling code reviews and leading weekly scrum meetings
+                    Managed a team of 4 developers by <span className="Important-text">leading code reviews and leading weekly scrum meetings</span>
                 </li>
                 <li className="Project-languages">
                     ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions
@@ -26,7 +27,7 @@ function CountdownTimer() {
 
     return (
         <div>
-            <ProjectItem name={name} icon={icon} buttonName={buttonName} imgPath={imgPath} description={description} />
+            <ProjectItem name={name} icon={icon} buttonName={buttonName} path={path} imgPath={imgPath} description={description} />
         </div>
     )
 }

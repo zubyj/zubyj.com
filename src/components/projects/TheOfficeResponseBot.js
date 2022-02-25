@@ -5,33 +5,28 @@ import ChatIcon from '@mui/icons-material/Chat';
 function TheOfficeResponseBot() {
 
     const name = "The Office Response Bot"
+    const icon = <ChatIcon className="Response-bot-icon"/>
+    const buttonName = "Open Website"
+    const imgPath = require('../../img/projects/The-Office-Response-Bot.png');
 
-    const sideA = 
+    const description = 
         <div>
-            <h4>Website</h4> 
-            <p>Smart countdown timer to prevent eye strain by following the 20-20-20 principle</p>
+            <ul>
+                <li>
+                    Utilizes approximate string matching to find similarity score and respond to user only if score reaches a certain threshold 
+                </li>
+                <li>
+                    Available for MacOS & Windows
+                </li>
+                <li>
+                    ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions
+                </li>
+            </ul>
         </div>
-
-    const sideB = 
-        <ul>
-            <li>
-                Led a team of 4 developers by handling code reviews and leading weekly scrum meetings
-            </li>
-            <li>
-                Available for MacOS & Windows
-            </li>
-            <li>
-                ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions
-            </li>
-        </ul>
-
-    const icon = <ChatIcon />
-
-    const imgPath = require('../../img/projects/The-Office-Response-Bot.png')
-
+        
     return (
         <div>
-            <ProjectItem name={name} icon={icon} imgPath={imgPath} sideA={sideA} sideB={sideB} />
+            <ProjectItem name={name} icon={icon} buttonName={buttonName} imgPath={imgPath} description={description} />
         </div>
     )
 }
