@@ -17,7 +17,7 @@ function ProjectsGrid() {
             <Grid className="Projects-grid" container spacing={3}>
                 {projectItems.map((item, index) => {
                     return (
-                        <Grid key={index} className="Project-item" item sm={12} md={4}>
+                        <Grid key={index} item xs={12} md={4}>
                             {item}
                         </Grid>
                     )
@@ -34,7 +34,7 @@ const typewriter = () => {
             typewriter.typeString("<h2>Projects</h2>")
             .typeString("<p><span class='Important-text'>(3)</span> Websites deployed</p>")
             .typeString("<p><span class='Important-text'>(1)</span> iOS apps in the App Store</p>")
-            .typeString("<p><span class='Important-text'>(1)</span>Windows/MacOS apps(1)</p>")
+            .typeString("<p><span class='Important-text'>(1)</span>Windows/MacOS apps avaiable for download</p>")
             .typeString("<p>My careers just getting started</p>")
             .pauseFor(1000)
             .deleteChars(31)

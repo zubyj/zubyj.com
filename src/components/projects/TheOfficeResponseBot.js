@@ -18,12 +18,12 @@ function TheOfficeResponseBot() {
                 <li>
                     Available for MacOS & Windows
                 </li>
-                <li>
-                    ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions
+                <li className="Project-languages">
+                    ReactJS, PRAW (Python Reddit API Wrapper), ExpressJS, DigitalOcean, 
                 </li>
             </ul>
         </div>
-        
+
     return (
         <div>
             <ProjectItem name={name} icon={icon} buttonName={buttonName} imgPath={imgPath} description={description} />

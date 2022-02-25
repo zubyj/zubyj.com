@@ -13,15 +13,12 @@ function ToDoList() {
         <div>
             <ul>
                 <li>
-                    Smart countdown timer to prevent eye strain by following the 20-20-20 principle
+                    Clean and simple To do list.
                 </li> 
                 <li>
-                    Led a team of 4 developers by handling code reviews and leading weekly scrum meetings
-                </li>
-                <li>
-                    Available for MacOS and Windows
-                </li>
-                <li>
+                    Created because To do lists are getting too complicated nowadays. 
+                </li> 
+                <li className="Project-languages">
                     ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions
                 </li>
             </ul>

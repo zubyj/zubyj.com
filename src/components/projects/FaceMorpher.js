@@ -24,6 +24,10 @@ function FaceMorpher() {
                 <li>
                     Accumulated <span className="Important-text">~1,000 downloads</span>  to date
                 </li>
+                <li className="Project-languages">
+                    React Native, Expo, Nginx, Python, Docker
+                </li>
+
             </ul>
         </div>
 
