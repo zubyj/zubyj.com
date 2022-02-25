@@ -6,7 +6,7 @@ function TheOfficeResponseBot() {
 
     const name = "The Office Response Bot"
     const icon = <ChatIcon className="Response-bot-icon"/>
-    const buttonName = "Open Website"
+    const buttonName = "Open Web App"
     const imgPath = require('../../img/projects/The-Office-Response-Bot.png');
 
     const description = 

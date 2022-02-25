@@ -6,7 +6,7 @@ function ToDoList() {
 
     const name = "To Do List"
     const icon = <ListIcon className="Todolist-icon" />
-    const buttonName = "Open Website"
+    const buttonName = "Open Web App"
     const imgPath = require('../../img/projects/To-do-list.png')
 
     const description = 
