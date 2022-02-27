@@ -22,9 +22,11 @@ function ProjectItem({name, icon, buttonName, path, imgPath, description}) {
     const img = <img className="Project-img" src={imgPath} alt="Project screenshot" />
 
     useEffect(() => {
-        setTimeout(() => {
-            setIsFlipped(!isFlipped);
-        }, 4000)
+        const timeout = () => {
+            setTimeout(() => {
+                setIsFlipped(!isFlipped);
+            }, 4000)
+        } 
     })
 
     return (

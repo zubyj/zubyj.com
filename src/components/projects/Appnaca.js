@@ -16,7 +16,6 @@ function Appnaca() {
                 <li>
                     Created website for American nonprofit organization, APPNA Northern California Chapter
                 </li>
-
                 <li>
                     Allows users to <span className="Important-text">schedule appointments for a free health clinic </span>
                     led by licensed APPNA physicians offered every Sunday in San Jose, CA
