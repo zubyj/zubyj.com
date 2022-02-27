@@ -86,6 +86,15 @@ li {
 /* About Me section */
 
 /* Education */
+.School-list {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.School-list li {
+  padding-top: 1rem;
+}
+
 .School {
   font-size: 1.2rem;
 }
@@ -98,10 +107,6 @@ li {
   font-weight: bold;
   margin-left: 3rem;
   color: #61dafb;
-}
-
-.School-list {
-  margin-top: 5rem; 
 }
 
 .Grad-pic {
@@ -234,9 +239,12 @@ li {
   color: #d24726;
 }
 
-
-
 @media only screen and (min-width: 768px) {
+
+  .Projects-grid, .About-grid {
+    height: 110vh;
+  }
+
   .Grid-item {
     padding: 2rem;
     margin: 1rem;
