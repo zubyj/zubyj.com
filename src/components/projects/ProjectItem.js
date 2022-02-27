@@ -7,9 +7,12 @@ function ProjectItem({name, icon, buttonName, path, imgPath, description}) {
 
     const [isFlipped, setIsFlipped] = useState(false);
 
+    const [timer, setTimer] = useState('');
+
     const handleClick = (e) => {
         e.preventDefault();
         setIsFlipped(!isFlipped);
+        clearTimeout(timer);
     }   
 
     const open = (e) => {
@@ -21,7 +24,7 @@ function ProjectItem({name, icon, buttonName, path, imgPath, description}) {
     const img = <img className="Project-img" src={imgPath} alt="Project screenshot" />
 
     useEffect(() => {
-        const timer = setTimeout(() => setIsFlipped(!isFlipped), 3000);
+        setTimer(setTimeout(() => setIsFlipped(!isFlipped), 3000));
         return () => clearTimeout(timer);
     })
 
