@@ -255,12 +255,14 @@ li {
   }
 
   .Project-img {
-    height: 15rem;
-  } 
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+
 }
 
 @media only screen and (min-width: 992px ) {
   .Grid-item {
-    width: 30vw !important;
+    width: 27vw !important;
   }
 }

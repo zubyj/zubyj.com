@@ -28,8 +28,8 @@ function AboutItem({name, icon, sideA, sideB}) {
     return (
         <Container className="Grid-item" onClick={handleClick}>
             <div className="Item-title">
-                {name}
                 <span className="Title-icon">{icon}</span>
+                {name}
             </div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                     <span>{sideA}</span>
