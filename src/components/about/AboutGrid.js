@@ -11,37 +11,32 @@ import Experience from './Experience';
 import AboutGreeting from './AboutGreeting';
 
 function AboutGrid() {
-    // On large devices, instead of greeting being first item, it should be in the center
-    function useLargeScreen() {
-        const matches = useMediaQuery('(min-width: 1200px)');
-        console.log(matches);
-        return matches;
-    }
 
-    let aboutItems = [
-        <AboutGreeting />,
+    let gridItems = [
         <Objective />,
         <Education />,
         <Skills />,
         <Experience />,
         <Projects/>,
-     ];
-     
-     if (useLargeScreen() ) {
-         aboutItems = [
-             <Objective />,
-             <Education />,
-             <Skills />,
-             <Experience />,
-             <AboutGreeting />,
-             <Projects/>,
-         ]
-     }
+    ]
+
+    /*
+    Adds greeting component at location depending on screen size. 
+        If large screen, place at center of grid.
+        If mobile, place at 1st of item of grid. 
+    */
+    const isLargeScreen = useMediaQuery('(min-width: 1200px)');
+    if (isLargeScreen) {
+        gridItems.splice(4, 0, <AboutGreeting />);
+    }
+    else {
+        gridItems.unshift(<AboutGreeting />);
+    }
 
     return (
         <Box>
             <Grid className="About-grid" container spacing={3}>
-                {aboutItems.map((item, index) => {
+                {gridItems.map((item, index) => {
                     return (
                         <Grid key={index} item xs={12} md={6} lg={4}>
                             {item}
@@ -52,7 +47,5 @@ function AboutGrid() {
         </Box>
     )
 }
-
-
 
 export default AboutGrid;

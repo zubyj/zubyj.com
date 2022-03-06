@@ -16,6 +16,7 @@ function AboutItem({name, icon, sideA, sideB}) {
             clearTimeout(timer);
         }
     }
+    
     startAutoFlip(13000);
 
     const handleClick = (e) => {
