@@ -36,7 +36,7 @@ function AboutGrid() {
 
     return (
         <Box>
-            <Navbar />
+            <Navbar active="about" />
             <Grid className="About-grid" container spacing={3}>
                 {gridItems.map((item, index) => {
                     return (

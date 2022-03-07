@@ -12,8 +12,27 @@ li {
 }
 
 .Navbar {
-  height: 5rem;
-  background: #282c34;
+  background: #282c34 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding-bottom: 1.5rem;
+}
+
+.Nav-title {
+  padding-right: 8rem;
+}
+
+.Nav-link {
+  color: #EFF7FF;
+  text-decoration: none;
+  padding-left: 5rem;
+}
+
+.Nav-link-active {
+  font-weight: bold;
+  color: #E5A823;
 }
 
 .About-grid {

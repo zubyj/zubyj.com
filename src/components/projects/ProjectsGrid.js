@@ -8,11 +8,13 @@ import Appnaca from './Appnaca';
 import CountdownTimer from './CountdownTimer';
 import TheOfficeResponseBot from './TheOfficeResponseBot';
 import ToDoList from './ToDoList';
+import Navbar from '../Navbar';
 
 // Projects Grid items
 function ProjectsGrid() {
     return (
         <Box >
+            <Navbar active="projects" />
             <Grid className="Projects-grid" container spacing={3}>
                 {projectItems.map((item, index) => {
                     return (

@@ -12,30 +12,27 @@ import Avatar from '@mui/material/Avatar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
 import InfoIcon from '@mui/icons-material/Info';
+import Toolbar from '@mui/material/Toolbar';
+import MenuIcon from '@mui/icons-material/Menu';
 
-function Navbar() {
+function Navbar({active}) {
+
     return (
-        <Container className="Navbar">
-            <AppBar position="static">
-                <ButtonGroup aria-label="outlined primary button group">
-                    Zuby Javed
-                    <Link to="/" >
-                        <Button className="Greeting-btn" variant='contained'>
-                            <InfoIcon className="Greeting-icon" />
-                            About Me
-                        </Button>
+        <Box sx={{ flexGrow: 1 }}>
+            <AppBar className="Navbar" position="static">
+                <Toolbar variant="dense">
+                    <Typography variant="h4" color="inherit" component="div" className="Nav-title">
+                        Zuby Javed
+                    </Typography>
+                    <Link to="/" className={active === "about" ? "Nav-link Nav-link-active" : "Nav-link"}>
+                        About Me
                     </Link>
-
-                    <Link to="/projects" >
-                        <Button className="Greeting-btn" variant='contained'>
-                            <FolderSpecialIcon className="Greeting-icon" />
-                            Projects
-                        </Button>
+                    <Link to="/projects" className={active === "projects" ? "Nav-link Nav-link-active" : "Nav-link"}>
+                        Projects
                     </Link>
-                </ButtonGroup>
+                </Toolbar>
             </AppBar>
-        </Container>
-
+        </Box>
     )
 }
 
