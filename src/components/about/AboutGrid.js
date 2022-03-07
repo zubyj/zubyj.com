@@ -9,6 +9,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Experience from './Experience';
 import AboutGreeting from './AboutGreeting';
+import Navbar from '../Navbar';
 
 function AboutGrid() {
 
@@ -35,6 +36,7 @@ function AboutGrid() {
 
     return (
         <Box>
+            <Navbar />
             <Grid className="About-grid" container spacing={3}>
                 {gridItems.map((item, index) => {
                     return (
