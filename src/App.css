@@ -190,6 +190,7 @@ li {
 }
 
 .Open-project-btn {
+  margin-top: 1rem !important;
   margin-left: .5rem !important;
 }
 
@@ -255,8 +256,8 @@ li {
   }
 
   .Project-img {
-    margin-top: 2rem;
     max-width: 100%;
+    max-height: 15rem;
   }
 
 }

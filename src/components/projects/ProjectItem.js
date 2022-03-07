@@ -17,7 +17,8 @@ function ProjectItem({name, icon, buttonName, path, imgPath, description}) {
             clearTimeout(timer);
         }
     }
-    startAutoFlip(13000);
+    
+    startAutoFlip(8000);
 
     const handleClick = (e) => {
         e.preventDefault();
@@ -38,9 +39,11 @@ function ProjectItem({name, icon, buttonName, path, imgPath, description}) {
             <div className="Item-title">
                 <span className="Title-icon">{icon}</span>
                 {name}
-                <Button className="Open-project-btn" onClick={open} variant="contained" target="_blank">
-                    {buttonName}
-                </Button>
+                <div>
+                    <Button className="Open-project-btn" onClick={open} variant="contained" target="_blank">
+                        {buttonName}
+                    </Button>
+                </div>
             </div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                 <span className="Project-title">
