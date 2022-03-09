@@ -7,7 +7,7 @@ function TheOfficeResponseBot() {
     const name = "The Office Response Bot"
     const icon = <ChatIcon className="Response-bot-icon"/>
     const buttonName = "Open Web App"
-    const path = 'http://zubyj.me/projects/responsebot';
+    const path = 'http://zubyj.me/projects/the-office-response-bot';
     const imgPath = require('../../img/projects/The-Office-Response-Bot.png');
 
     const description = 
