@@ -7,8 +7,6 @@ function AboutItem({name, icon, sideA, sideB}) {
     const [isFlipped, setIsFlipped] = useState(false);
     const [isAutoFlip, setIsAutoFlip] = useState(true);
 
-
-
     // duration in milliseconds.
     const startAutoFlip = (duration) => {
         const timer = setTimeout(() => setIsFlipped(!isFlipped), 4000);

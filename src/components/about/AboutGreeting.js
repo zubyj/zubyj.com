@@ -27,7 +27,7 @@ function AboutGreeting() {
     }
 
     return (
-        <Greeting text={typewriter()} section="about"/>
+        <Greeting text={typewriter()} activePage="about"/>
     )
 }
 

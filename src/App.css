@@ -18,6 +18,7 @@ li {
   align-items: center;
   height: 10vh;
   padding-bottom: 1.5rem;
+  border-bottom: 2px solid black;
 }
 
 .Nav-title {
@@ -95,21 +96,25 @@ li {
   color: whitesmoke;
 }
 
-.Greeting-btns {
-  margin: 2rem;
+.Greeting-btns { 
+  margin: 3rem;
+  justify-content: center;
 }
 
 .Greeting-btn {
-  color: whitesmoke !important;
+  background: #282c34 !important;
+  color: white !important;
+}
+
+.Greeting-btn-active {
+  background: #282c34 !important;
+  color: #E5A823 !important;
 }
 
 .Greeting-icon {
-  color: #CEE3F8;
+  color: #61dafb;
 }
 
-/* About Me section */
-
-/* Education */
 .School-list {
   padding-top: 3rem;
   text-align: center;
