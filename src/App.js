@@ -17,6 +17,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<AboutGrid />} />
       <Route path="/projects" element={<ProjectsGrid />} />
+      <Route path="/projects/the-office-response-bot" element="http://zubyj.me/projects/the-office-response-bot" />
     </Routes>
   </Router>
   );
