@@ -22,12 +22,12 @@ function TheOfficeResponseBot() {
                 <li className="Project-languages">
                     ReactJS, PRAW (Python Reddit API Wrapper), ExpressJS, DigitalOcean, 
                 </li>
-            </ul>
+            </ul>3333333
         </div>
 
     return (
         <div>
-            <ProjectItem name={name} icon={icon} buttonName={buttonName} imgPath={imgPath} description={description} />
+            <ProjectItem name={name} icon={icon} path={path} buttonName={buttonName} imgPath={imgPath} description={description} />
         </div>
     )
 }
