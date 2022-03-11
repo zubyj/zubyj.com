@@ -27,7 +27,7 @@ function ToDoList() {
 
     return (
         <div>
-            <ProjectItem name={name} icon={icon} buttonName={buttonName} imgPath={imgPath} description={description}/>
+            <ProjectItem name={name} icon={icon} buttonName={buttonName} path={path} imgPath={imgPath} description={description}/>
         </div>
     )
 }
