@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bdf6782f.css",
+    "main.js": "/static/js/main.635ee75a.js",
+    "static/js/787.f7660ff3.chunk.js": "/static/js/787.f7660ff3.chunk.js",
+    "static/media/To-do-list.png": "/static/media/To-do-list.e870c7b3ef56e2187b8a.png",
+    "static/media/appnaca.png": "/static/media/appnaca.c665c514b8792fcef3af.png",
+    "static/media/graduate.png": "/static/media/graduate.5d64907ba70636265fbb.png",
+    "static/media/The-Office-Response-Bot.png": "/static/media/The-Office-Response-Bot.54e74cf2c017630e9055.png",
+    "static/media/MyMorph.png": "/static/media/MyMorph.d3d889d8552e7805ac0a.png",
+    "static/media/iCare.png": "/static/media/iCare.69f80870042c5714d906.png",
+    "static/media/Zuby_Javed_Resume.pdf": "/static/media/Zuby_Javed_Resume.9b042c50f35b210957bd.pdf",
+    "static/media/shark-attack-game.png": "/static/media/shark-attack-game.8e37fa27fb36748a866a.png",
+    "index.html": "/index.html",
+    "main.bdf6782f.css.map": "/static/css/main.bdf6782f.css.map",
+    "main.635ee75a.js.map": "/static/js/main.635ee75a.js.map",
+    "787.f7660ff3.chunk.js.map": "/static/js/787.f7660ff3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdf6782f.css",
+    "static/js/main.635ee75a.js"
+  ]
+}
