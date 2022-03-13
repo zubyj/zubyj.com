@@ -1,26 +1,29 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import ChatIcon from '@mui/icons-material/Chat';
+import Waves from '@mui/icons-material/Waves';
 
 function SharkAttack() {
 
     const name = "Shark Attack Game"
-    const icon = <ChatIcon className="Response-bot-icon"/>
+    const icon = <Waves className="Waves-icon"/>
     const buttonName = "Open Browser Game"
-    const path = '/projects/shark-attack/';
+    const path = 'https://zubydoo.itch.io/shark-attack';
     const imgPath = require('../../img/projects/shark-attack-game.png');
 
     const description = 
         <div>
             <ul>
+                <li>Created with Unity</li>
                 <li>
-                    Utilizes approximate string matching to find similarity score and respond to user only if score reaches a certain threshold 
+                    Objective - Dodge the shark and
+                    <span className="Important-text"> find the hidden treasure.</span> Beat all 5 levels to win the game!
                 </li>
                 <li>
-                    Available for MacOS & Windows
+                    <span className="Important-text">Created in collaboration with Elena Pearson </span>
+                    for CS108 Introduction to Game Studies
                 </li>
                 <li className="Project-languages">
-                    ReactJS, PRAW (Python Reddit API Wrapper), ExpressJS, DigitalOcean, 
+                    Unity, C++, Hosted on itch.io, Artwork made using pixilart.com
                 </li>
             </ul>
         </div>

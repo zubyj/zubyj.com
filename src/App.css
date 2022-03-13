@@ -269,10 +269,22 @@ li {
   color: #d24726;
 }
 
+.Waves-icon {
+  color: #44A7C4;
+}
+
+.Calculate-icon {
+  color: lightcoral;
+}
+
 @media only screen and (min-width: 768px) {
 
-  .Projects-grid, .About-grid {
+  .Projects-grid {
     height: 160vh;
+  }
+
+  .About-grid {
+    height: 100vh;
   }
 
   .Grid-item {
