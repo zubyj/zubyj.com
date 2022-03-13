@@ -2,13 +2,13 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import ChatIcon from '@mui/icons-material/Chat';
 
-function TheOfficeResponseBot() {
+function SharkAttack() {
 
-    const name = "The Office Response Bot"
+    const name = "Shark Attack Game"
     const icon = <ChatIcon className="Response-bot-icon"/>
-    const buttonName = "Open Web App"
-    const path = '/projects/the-office-response-bot/';
-    const imgPath = require('../../img/projects/The-Office-Response-Bot.png');
+    const buttonName = "Open Browser Game"
+    const path = '/projects/shark-attack/';
+    const imgPath = require('../../img/projects/shark-attack-game.png');
 
     const description = 
         <div>
@@ -32,4 +32,4 @@ function TheOfficeResponseBot() {
     )
 }
 
-export default TheOfficeResponseBot;
+export default SharkAttack;

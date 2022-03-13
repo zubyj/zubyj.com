@@ -2,13 +2,15 @@ import React from 'react';
 import { Box } from '@mui/system';
 import Grid from "@mui/material/Grid"; 
 
+import Navbar from '../Navbar';
 import ProjectsGreeting from './ProjectsGreeting';
 import FaceMorpher from './FaceMorpher';
 import Appnaca from './Appnaca';
 import CountdownTimer from './CountdownTimer';
 import TheOfficeResponseBot from './TheOfficeResponseBot';
 import ToDoList from './ToDoList';
-import Navbar from '../Navbar';
+import SharkAttack from './SharkAttack';
+import TippingCalculator from './TippingCalculator';
 
 // Projects Grid items
 function ProjectsGrid() {
@@ -35,6 +37,8 @@ const projectItems = [
     <TheOfficeResponseBot />,
     <ProjectsGreeting />,
     <ToDoList />,
+    <SharkAttack />,
+    <TippingCalculator />,
 ];
 
 export default ProjectsGrid;

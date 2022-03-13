@@ -214,7 +214,7 @@ li {
 
 .Project-img { 
   margin-top: 1rem;
-  max-height: 280px;
+  max-height: 200px !important;
   border: .5px solid #61dafb;
 }
 
@@ -272,7 +272,7 @@ li {
 @media only screen and (min-width: 768px) {
 
   .Projects-grid, .About-grid {
-    height: 110vh;
+    height: 160vh;
   }
 
   .Grid-item {
