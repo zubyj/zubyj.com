@@ -9,7 +9,6 @@ import Appnaca from './Appnaca';
 import CountdownTimer from './CountdownTimer';
 import TheOfficeResponseBot from './TheOfficeResponseBot';
 import ToDoList from './ToDoList';
-import SharkAttack from './SharkAttack';
 import TippingCalculator from './TippingCalculator';
 
 // Projects Grid items
@@ -37,7 +36,6 @@ const projectItems = [
     <TheOfficeResponseBot />,
     <ProjectsGreeting />,
     <ToDoList />,
-    <SharkAttack />,
     <TippingCalculator />,
 ];
 
