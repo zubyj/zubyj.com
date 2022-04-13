@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.479236ba.css",
-    "main.js": "/static/js/main.dccf4bd6.js",
+    "main.js": "/static/js/main.49bb19c0.js",
     "static/js/787.f7660ff3.chunk.js": "/static/js/787.f7660ff3.chunk.js",
     "static/media/To-do-list.png": "/static/media/To-do-list.e870c7b3ef56e2187b8a.png",
     "static/media/appnaca.png": "/static/media/appnaca.c665c514b8792fcef3af.png",
@@ -11,14 +11,13 @@
     "static/media/MyMorph.png": "/static/media/MyMorph.d3d889d8552e7805ac0a.png",
     "static/media/iCare.png": "/static/media/iCare.69f80870042c5714d906.png",
     "static/media/Zuby_Javed_Resume.pdf": "/static/media/Zuby_Javed_Resume.9b042c50f35b210957bd.pdf",
-    "static/media/shark-attack-game.png": "/static/media/shark-attack-game.8e37fa27fb36748a866a.png",
     "index.html": "/index.html",
     "main.479236ba.css.map": "/static/css/main.479236ba.css.map",
-    "main.dccf4bd6.js.map": "/static/js/main.dccf4bd6.js.map",
+    "main.49bb19c0.js.map": "/static/js/main.49bb19c0.js.map",
     "787.f7660ff3.chunk.js.map": "/static/js/787.f7660ff3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.479236ba.css",
-    "static/js/main.dccf4bd6.js"
+    "static/js/main.49bb19c0.js"
   ]
 }
