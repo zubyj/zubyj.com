@@ -13,22 +13,17 @@ li {
 
 .Navbar {
   background: #282c34 !important;
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 10vh;
   padding-bottom: 1.5rem;
-  border-bottom: 2px solid black;
 }
 
-.Nav-title {
-  padding-right: 8rem;
-}
 
 .Nav-link {
   color: #EFF7FF;
   text-decoration: none;
-  padding-left: 5rem;
+  padding-left: 1rem;
 }
 
 .Nav-link-active {
@@ -49,16 +44,15 @@ li {
 }
 
 .Grid-item {
-  background-color: #282c34;
-  border: 2px solid black;
   cursor: pointer;
   padding: 1rem;
   margin: 1rem;
   color: whitesmoke;
   height: 45vh;
   width: 33rem;
-  border-radius: 10px;
   opacity: 95%;
+  border-radius: 10px;
+  border-bottom: 1px solid white;
 }
 
 .Item-title {
@@ -97,7 +91,6 @@ li {
 }
 
 .Greeting-btns { 
-  margin: 3rem;
   justify-content: center;
 }
 
@@ -279,6 +272,10 @@ li {
 
 @media only screen and (min-width: 768px) {
 
+  .Nav-link {
+    padding-left: 5rem;
+  }
+
   .Projects-grid {
     height: 160vh;
   }
@@ -292,8 +289,8 @@ li {
     margin: 1rem;
     color: whitesmoke;
     height: 40vh;
-    border-radius: 10px;
     opacity: 95%;
+    border: .5px solid white;
   }
 
   .Project-img {
@@ -306,5 +303,9 @@ li {
 @media only screen and (min-width: 992px ) {
   .Grid-item {
     width: 27vw !important;
+  }
+
+  .Nav-title {
+    padding-right: 8rem;
   }
 }

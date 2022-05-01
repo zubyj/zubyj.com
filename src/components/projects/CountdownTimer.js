@@ -17,7 +17,7 @@ function CountdownTimer() {
                     Smart countdown timer to prevent eye strain by following the 20-20-20 principle
                 </li>
                 <li>
-                    Managed a team of 4 developers by <span className="Important-text">leading code reviews and leading weekly scrum meetings</span>
+                    Class Project for CS160 Software Engineering. Managed a team of 4 developers by <span className="Important-text">leading code reviews and leading weekly scrum meetings</span>
                 </li>
                 <li className="Project-languages">
                     ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions

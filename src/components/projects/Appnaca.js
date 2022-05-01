@@ -14,16 +14,16 @@ function Appnaca() {
         <div>
             <ul>
                 <li>
-                    Created website for American nonprofit organization, APPNA Northern California Chapter
+                Developed and hosted the main website for a local nonprofit organization
                 </li>
                 <li>
-                    Allows users to <span className="Important-text">schedule appointments for a free health clinic </span>
-                    led by licensed APPNA physicians offered every Sunday in San Jose, CA
+                Worked with chapter president to add content including donation campaigns and <span className="Important-text">scheduling appointments for free health clinics</span> offered in San Jose, CA
                 </li>
                 <li>
-                    Attained a total of 
-                    <span className="Important-text"> 447 users</span>  as of February 2021
+                Reached  <span className="Important-text"> 486 users</span> visitors since the website deployed
                 </li>
+                <li className="Project-languages">
+                NodeJS, Bootstrap, Nginx, ExpressJS, Google Maps API, Google Analytics, DigitalOcean</li>
             </ul>
         </div>
 

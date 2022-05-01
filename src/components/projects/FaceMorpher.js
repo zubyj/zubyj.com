@@ -15,17 +15,16 @@ function FaceMorpher() {
         <div>
             <ul>
                 <li>
-                    Morph two faces together utilizing computer vision
+                Created the frontend which lets users upload two faces and calls our API to morph them together
                 </li>
                 <li>
-                    <span className="Important-text">Generated ~37,000 image files </span>
-                    between November 2021 and February 2022
+                Reduced server load by adding frontend error handling so users upload images with valid sizes and formats before being able to morph
                 </li>
                 <li>
-                    Accumulated <span className="Important-text">~1,000 downloads</span>  to date
+                Added analytics showing <span className="Important-text">37,000 image files generated </span>from uploads and morphs between Nov 2021 and Feb 2022
                 </li>
                 <li className="Project-languages">
-                    React Native, Expo, Nginx, Python, Docker
+                React Native, Expo, Nginx, Python, Docker
                 </li>
 
             </ul>
