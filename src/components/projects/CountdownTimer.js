@@ -14,10 +14,13 @@ function CountdownTimer() {
         <div>
             <ul>
                 <li>
-                    Smart countdown timer to prevent eye strain by following the 20-20-20 principle
+                Managed 2 frontend and 2 backend engineers by <span className="Important-text">leading scrum meetings and code reviews</span>
                 </li>
                 <li>
-                    Class Project for CS160 Software Engineering. Managed a team of 4 developers by <span className="Important-text">leading code reviews and leading weekly scrum meetings</span>
+                Created and hosted the landing page where users can download iCare for Windows and MacOS
+                </li>
+                <li>
+                Class Project for CS160 Software Engineering taken at SJSU
                 </li>
                 <li className="Project-languages">
                     ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions

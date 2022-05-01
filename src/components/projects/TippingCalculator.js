@@ -13,15 +13,16 @@ function TippingCalculator() {
     const description = 
         <div>
             <ul>
+                <li>One of the first apps I made while I was learning HTML, CSS, and JS</li>
                 <li>
                 Given total amount and tip, calculates the final bill and
                 <span className="Important-text"> predicts your mood with a funny image.</span>
                 </li>
                 <li>
-                    Made from scratch. (No additional libraries used)
+                Made from scratch. (No additional libraries used)
                 </li>
                 <li className="Project-languages">
-                    HTML, CSS, Javascript
+                 HTML, CSS, Javascript
                 </li>
             </ul>
         </div>

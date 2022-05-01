@@ -15,16 +15,16 @@ function FaceMorpher() {
         <div>
             <ul>
                 <li>
-                Created the frontend which lets users upload two faces and calls our API to morph them together
+                Worked with a backend developer to design and build an iOS app from their existing morph API
                 </li>
                 <li>
-                Reduced server load by adding frontend error handling so users upload images with valid sizes and formats before being able to morph
+                Reduced server load by adding frontend error handling to ensure users upload images with valid sizes and formats 
                 </li>
                 <li>
                 Added analytics showing <span className="Important-text">37,000 image files generated </span>from uploads and morphs between Nov 2021 and Feb 2022
                 </li>
                 <li className="Project-languages">
-                React Native, Expo, Nginx, Python, Docker
+                React Native, Expo, Google Firebase
                 </li>
 
             </ul>

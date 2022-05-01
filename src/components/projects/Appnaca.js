@@ -20,7 +20,7 @@ function Appnaca() {
                 Worked with chapter president to add content including donation campaigns and <span className="Important-text">scheduling appointments for free health clinics</span> offered in San Jose, CA
                 </li>
                 <li>
-                Reached  <span className="Important-text"> 486 users</span> visitors since the website deployed
+                Reached  <span className="Important-text"> 486 </span> visitors since the website deployed
                 </li>
                 <li className="Project-languages">
                 NodeJS, Bootstrap, Nginx, ExpressJS, Google Maps API, Google Analytics, DigitalOcean</li>

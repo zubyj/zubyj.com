@@ -14,10 +14,13 @@ function TheOfficeResponseBot() {
         <div>
             <ul>
                 <li>
-                    Utilizes approximate string matching to find similarity score and respond to user only if score reaches a certain threshold 
+                Created Reddit bots that respond to comments resembling lines from NBC’s The Office
                 </li>
                 <li>
-                    Available for MacOS & Windows
+                Generates between <span className="Important-text">3-4k upvotes/karma per week</span> while live
+                </li>
+                <li>
+                Uses fuzzy string matching to find the closest matching line to the user text and responds with the following line from the script
                 </li>
                 <li className="Project-languages">
                     ReactJS, PRAW (Python Reddit API Wrapper), ExpressJS, DigitalOcean, 

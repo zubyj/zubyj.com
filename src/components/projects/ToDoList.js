@@ -14,13 +14,13 @@ function ToDoList() {
         <div>
             <ul>
                 <li>
-                    Clean and simple To do list.
-                </li> 
-                <li>
                     Created because To do lists are getting too complicated nowadays. 
                 </li> 
+                <li>
+                    Add, remove, edit, and finish is all you need.
+                </li> 
                 <li className="Project-languages">
-                    ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions
+                    ReactJS, MaterialUI, Nginx
                 </li>
             </ul>
         </div>
