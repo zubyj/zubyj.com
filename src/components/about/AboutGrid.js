@@ -23,8 +23,8 @@ function AboutGrid() {
 
     /*
     Adds greeting component at location depending on screen size. 
-        If large screen, place at center of grid.
-        If mobile, place at 1st of item of grid. 
+    If large screen, place at center of grid.
+    If mobile, place at 1st of item of grid. 
     */
     const isLargeScreen = useMediaQuery('(min-width: 1200px)');
     if (isLargeScreen) {
