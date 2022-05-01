@@ -18,7 +18,7 @@ function Greeting({text, activePage}) {
                     </Button>
                 </Link>
                 <Link to="/projects" >
-                    <Button className={activePage === "projects" ? "Greeting-btn-active" : "Greeting-btn"} variant='contained'>
+                    <Button className={activePage === "projects" ? "Greeting-btn-active" : "Greeting-btn"} >
                         <FolderSpecialIcon className="Greeting-icon" />
                         Projects
                     </Button>

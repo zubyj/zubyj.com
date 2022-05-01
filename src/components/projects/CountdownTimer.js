@@ -28,7 +28,7 @@ function CountdownTimer() {
             </ul>
         </div>
 
-    return (
+    return (    
         <div>
             <ProjectItem name={name} icon={icon} buttonName={buttonName} path={path} imgPath={imgPath} description={description} />
         </div>
