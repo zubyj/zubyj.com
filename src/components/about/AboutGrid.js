@@ -9,6 +9,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Experience from './Experience';
 import AboutGreeting from './AboutGreeting';
+import Languages  from './Languages';
 import Navbar from '../Navbar';
 
 function AboutGrid() {
@@ -16,7 +17,7 @@ function AboutGrid() {
     let gridItems = [
         <Objective />,
         <Education />,
-        <Skills />,
+        <Languages />,
         <Experience />,
         <Projects/>,
     ]

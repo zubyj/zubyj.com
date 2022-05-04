@@ -92,6 +92,7 @@ li {
 
 .Greeting-btns { 
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .Greeting-btn {
@@ -182,16 +183,21 @@ li {
   color: white !important;
 }
 
-/* Skills */
-.Skills {
-  display: flex;
-  flex-direction: column;
+/* Languages */
+.Languages-grid {
   justify-content: center;
+  text-align: center;
+  margin-top: 2rem !important;
 }
 
-.Skills-dropdown-icon {
-  color: #61dafb !important;
+.Languages-name {
+  margin-top: 2rem !important; 
 }
+
+.Languages-icon {
+  width: 50px !important;
+}
+
 
 /* Experience */
 .Job-title {

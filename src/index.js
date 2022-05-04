@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <script src="path/to/dist/feather.js"></script>
   </React.StrictMode>,
   document.getElementById('root')
 );

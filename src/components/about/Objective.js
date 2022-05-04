@@ -31,7 +31,7 @@ function Objective() {
                     Entry level Software Engineer
                 </li>
                 <li className="Give-me-job">
-                    Looking for job opportunities
+                    Open to job opportunities
                 </li>
             </ul>
             <ButtonGroup className="Objective-btns" variant="outlined" aria-label="download resume and copy email buttons">
@@ -57,7 +57,10 @@ function Objective() {
 
     const sideB = 
         <div className="Objective">
-            <p>I'm interested in full-stack engineering. However, as a new grad, I'm open to most SWE related opportunities. Feel free to reach out!</p>
+            <p>
+                Hi. I'm currently searching for an entry-level software engineering role. I'm interested in developing web apps but as a new grad, I'm
+                open to most SWE-related opportunities. Don't hesitate to say hi! 
+            </p>
         </div>
 
     const icon = <CallToActionIcon className="Objective-icon" />
