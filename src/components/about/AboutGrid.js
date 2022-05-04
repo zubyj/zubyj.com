@@ -3,23 +3,24 @@ import { Box } from '@mui/system';
 import Grid from "@mui/material/Grid"; 
 import useMediaQuery from '@mui/material/useMediaQuery';
 
+import Navbar from '../Navbar';
+
+// Cards
 import Education from './Education';
 import Objective from './Objective';
-import Skills from './Skills';
-import Projects from './Projects';
 import Experience from './Experience';
 import AboutGreeting from './AboutGreeting';
 import Languages  from './Languages';
-import Navbar from '../Navbar';
+import Technologies from './Technologies';
 
 function AboutGrid() {
 
     let gridItems = [
         <Objective />,
         <Education />,
-        <Languages />,
         <Experience />,
-        <Projects/>,
+        <Languages />,
+        <Technologies/>,
     ]
 
     /*

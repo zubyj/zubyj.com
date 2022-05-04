@@ -3,22 +3,28 @@ import Grid from '@mui/material/Grid';
 import GridItem from './AboutItem';
 import CodeIcon from '@mui/icons-material/Code';
 
-import js from '../../img/languages/js.svg';
-import python from '../../img/languages/python.svg';
-import react from '../../img/languages/react.svg';
-import reactNative from '../../img/languages/react-native.svg';
-import java from '../../img/languages/java.svg';
-import node from '../../img/languages/node.svg';
+import git from '../../img/technologies/git.svg';
+import vim from '../../img/technologies/vim.svg';
+import npm from '../../img/technologies/npm.svg';
+import nginx from '../../img/technologies/nginx.svg';
+import analytics from '../../img/technologies/analytics.svg';
+import trello from '../../img/technologies/trello.svg';
+import digitalocean from '../../img/technologies/digitalocean.svg';
+import bootstrap from '../../img/technologies/bootstrap.svg';
+import expo from '../../img/technologies/expo.svg';
 
-function Languages() {
+function Technologies() {
 
     const langs = {
-        'Javascript': js,
-        'Python' : python,
-        'ReactJS' : react,
-        'Java': java,
-        'React Native' : reactNative,
-        'NodeJS' : node,
+        'Git': git,
+        'Vim': vim,
+        'Npm': npm,
+        'Bootstrap': bootstrap,
+        'Expo': expo,
+        'Nginx': nginx,
+        'Analytics': analytics,
+        'Trello': trello,
+        'Digitalocean': digitalocean,
     }
 
     let names = Object.keys(langs);
@@ -50,9 +56,9 @@ function Languages() {
 
     return (
         <div>
-            <GridItem name="Languages" icon={icon} sideA={sideA} sideB={sideB} />
+            <GridItem name="Technologies" icon={icon} sideA={sideA} sideB={sideB} />
         </div>
     )
 }
 
-export default Languages;
+export default Technologies;

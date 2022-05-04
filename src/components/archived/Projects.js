@@ -1,5 +1,5 @@
 import React from 'react';
-import GridItem from './AboutItem';
+import GridItem from '../about/AboutItem';
 import AppsIcon from '@mui/icons-material/Apps';
 
 function Projects() {
