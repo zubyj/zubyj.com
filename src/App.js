@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+
 import ProjectsGrid from './components/projects/ProjectsGrid';
 import AboutGrid from './components/about/AboutGrid';
 

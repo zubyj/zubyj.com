@@ -5,7 +5,7 @@ import CodeIcon from '@mui/icons-material/Code';
 
 import js from '../../img/languages/js.svg';
 import python from '../../img/languages/python.svg';
-import react from '../../img/languages/react.svg';
+import react from '../../img/languages/react2.svg';
 import reactNative from '../../img/languages/react-native.svg';
 import java from '../../img/languages/java.svg';
 import node from '../../img/languages/node.svg';
@@ -25,7 +25,7 @@ function Languages() {
     let icons = Object.values(langs);
 
     const sideA = 
-        <Grid className="Languages-grid" container spacing={5}>
+        <Grid className="Languages-grid Breathing" container spacing={5}>
             {icons.map((icon) => {
                 return (
                     <Grid item xs={4} className="Languages-grid-item">

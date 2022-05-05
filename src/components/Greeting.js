@@ -12,13 +12,13 @@ function Greeting({text, activePage}) {
             {text}
             <ButtonGroup aria-label="outlined primary button group" className="Greeting-btns">
                 <Link to="/">
-                <Button className={activePage === "about" ? "Greeting-btn-active" : "Greeting-btn"}>
+                <Button className={activePage === "about" ? "Greeting-btn Greeting-btn-active" : "Greeting-btn"}>
                     <InfoIcon className="Greeting-icon" />
                     About Me
                     </Button>
                 </Link>
                 <Link to="/projects" >
-                    <Button className={activePage === "projects" ? "Greeting-btn-active" : "Greeting-btn"} >
+                    <Button className={activePage === "projects" ? "Greeting-btn Greeting-btn-active" : "Greeting-btn"} >
                         <FolderSpecialIcon className="Greeting-icon" />
                         Projects
                     </Button>

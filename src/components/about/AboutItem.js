@@ -36,6 +36,7 @@ function AboutItem({name, icon, sideA, sideB}) {
                     <span>{sideB}</span>
             </ReactCardFlip>
         </Container>
+
     )
 }
 

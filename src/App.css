@@ -1,3 +1,4 @@
+
 .App-link {
   color: #61dafb;
   text-decoration: none;
@@ -11,36 +12,38 @@ li {
   padding: .5rem;
 }
 
+/* Navbar */
 .Navbar {
-  background: #282c34 !important;
   justify-content: center;
   align-items: center;
   height: 10vh;
   padding-bottom: 1.5rem;
-}
-
-
-.Nav-link {
-  color: #EFF7FF;
-  text-decoration: none;
-  padding-left: 1rem;
-}
-
-.Nav-link-active {
   font-weight: bold;
-  color: #E5A823;
-}
-
-.About-grid {
   background: #780206;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.Projects-grid {
-  background: #23074d;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.Nav-link {
+  color: #EFF7FF;
+  text-decoration: none;
+  padding: .2rem !important;
+  font-size: .8rem !important;
+}
+
+.Nav-link:hover {
+  border-bottom: 1px solid white;
+}
+
+.Nav-link-active {
+  color: #E5A823;
+}
+
+.About-grid, .Projects-grid {
+  border-top: 2px solid white;
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .Grid-item {
@@ -64,9 +67,6 @@ li {
   margin-right: .5rem !important;
 }
 
-
-/* General stuff */
-
 .Project-languages{
   font-style: italic;
 }
@@ -79,20 +79,18 @@ li {
   color: #E5A823 !important;
 }
 
-/* Center (Greeting) component */
+/* User Greeting component */
 .Greeting {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
-  padding: 0;
   font-size: 1.5rem;
   color: whitesmoke;
 }
 
 .Greeting-btns { 
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1rem !important;
 }
 
 .Greeting-btn {
@@ -103,6 +101,7 @@ li {
 .Greeting-btn-active {
   background: #282c34 !important;
   color: #E5A823 !important;
+  font-weight: bold !important;
 }
 
 .Greeting-icon {
@@ -279,7 +278,8 @@ li {
 @media only screen and (min-width: 768px) {
 
   .Nav-link {
-    padding-left: 5rem;
+    margin: 1rem;
+    font-size: 1rem !important;
   }
 
   .Projects-grid {
@@ -295,7 +295,6 @@ li {
     margin: 1rem;
     color: whitesmoke;
     height: 40vh;
-    opacity: 95%;
     border: .5px solid white;
   }
 
@@ -308,6 +307,10 @@ li {
     margin-top: 3rem;
   }
 
+  .Greeting-btn {
+    margin-right: 1rem !important;
+  }
+
 }
 
 @media only screen and (min-width: 992px ) {
@@ -318,4 +321,64 @@ li {
   .Nav-title {
     padding-right: 8rem;
   }
+
+
+}
+
+/* Animations */
+.Breathing {
+  -webkit-animation: breathing 5s ease-out infinite normal;
+  animation: breathing 5s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 2px;
+  text-align: center;    
+  }
+
+
+@-webkit-keyframes breathing {
+0% {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+25% {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+60% {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+100% {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+}
+
+@keyframes breathing {
+0% {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+25% {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+60% {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+100% {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
 }
