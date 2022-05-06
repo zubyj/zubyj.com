@@ -1,0 +1,176 @@
+.School-list {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  
+  .School-list li {
+    padding-top: 1rem;
+  }
+  
+  .School {
+    font-size: 1.2rem;
+  }
+  
+  .School-years {
+    font-style: italic;
+  }
+  
+  .Degree {
+    font-weight: bold;
+    margin-left: 3rem;
+    color: #61dafb;
+  }
+  
+  .Grad-pic {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Objective */
+  .Objective {
+    margin-top: 4rem;
+  }
+  
+  .Give-me-job {
+    padding-bottom: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-bottom: 1px solid #61dafb;
+    width: 80%;
+  }
+  
+  .Objective p {
+    line-height: 32px;
+  }
+  
+  .Objective-btns {
+    width: 120%;
+    margin-top: 3rem;
+    display: flex;
+  }
+  
+  .Objective-long-text {
+    margin-top: 5rem;
+    padding: 1rem;
+  }
+  
+  .Dl-resume-btn {
+    color: #61dafb !important;
+  }
+  
+  .Copy-email-btn {
+    color: #61dafb !important;
+  }
+  
+  .Copy-email-alert {
+    position: absolute;
+    margin-top: 1rem;
+    left: 30%;
+    background-color: #282c34 !important;
+    color: white !important;
+  }
+  
+  /* Languages */
+  .Languages-grid {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem !important;
+  }
+  
+  .Languages-name {
+    margin-top: 2rem !important; 
+  }
+  
+  .Languages-icon {
+    width: 50px !important;
+  }
+  
+  
+  /* Experience */
+  .Job-title {
+    font-size: 1.2rem;
+  }
+
+  /* About title Icon colors */
+.Education-icon {
+    color: #E5A823;
+  }
+  
+  .Experience-icon {
+    color: #b59b7c;
+  }
+  
+  .Skills-icon {
+    color: red;
+  }
+  
+  .Projects-icon {
+    color: purple;
+  }
+  
+  .Socials-icon {
+    color: #FF5700; 
+  }
+  
+  .Objective-icon {
+    color: #CEE3F8;
+  }
+
+  /* Animations */
+.Breathing {
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 2px;
+    text-align: center;    
+  }
+  
+  @-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  }
+  
+  @keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  }
+  

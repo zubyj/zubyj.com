@@ -13,8 +13,8 @@
 .Nav-link {
   color: #EFF7FF;
   text-decoration: none;
-  padding: 10px !important;
-  font-size: .8rem !important;
+  padding: 20px !important;
+  font-size: 1rem !important;
 }
 
 .Nav-link:hover {
@@ -32,6 +32,7 @@
     font-size: 1.2rem;
     margin-right: 1rem;
     transition: all 0.25s ease-out;
+    display: none;
 }
 .shadows:hover {
     text-shadow: -16px 6px 15px #ced0d3;
@@ -44,5 +45,6 @@
 
   .shadows {
     font-size: 2rem;
+    display: inline;
   }
 }

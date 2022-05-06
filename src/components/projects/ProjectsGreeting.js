@@ -9,10 +9,10 @@ function ProjectsGreeting() {
             <Typewriter
             onInit={(typewriter) => 
                 typewriter.typeString("<h2>Projects</h2>")
-                .changeDelay(70)
+                .changeDelay(50)
                 .typeString("<p><span class='Important-text'>(1)</span> iOS app in the App Store</p>")
                 .typeString("<p><span class='Important-text'>(2)</span> Websites live</p>")
-                .changeDelay(50)
+                .changeDelay(30)
                 .typeString("<p><span class='Important-text'>(2)</span> Web apps deployed</p>")
                 .typeString("<p><span class='Important-text'>(1)</span> Windows/MacOS apps available for download</p>")
                 .pauseFor(1000)

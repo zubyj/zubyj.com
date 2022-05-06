@@ -3,7 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Typography from '@mui/material/Typography';
 import {Link} from "react-router-dom";
 import Toolbar from '@mui/material/Toolbar';
-import '../Navbar.scss'
+import './Navbar.scss'
 
 function Navbar({active}) {
 
