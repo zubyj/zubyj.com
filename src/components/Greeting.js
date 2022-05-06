@@ -14,7 +14,7 @@ function Greeting({text, activePage}) {
                 <Link to="/">
                 <Button className={activePage === "about" ? "Greeting-btn Greeting-btn-active" : "Greeting-btn"}>
                     <InfoIcon className="Greeting-icon" />
-                    About Me
+                    About
                     </Button>
                 </Link>
                 <Link to="/projects" >

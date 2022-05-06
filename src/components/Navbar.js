@@ -3,7 +3,6 @@ import AppBar from '@mui/material/AppBar';
 import Typography from '@mui/material/Typography';
 import {Link} from "react-router-dom";
 import Toolbar from '@mui/material/Toolbar';
-
 import '../Navbar.scss'
 
 function Navbar({active}) {
@@ -19,12 +18,12 @@ function Navbar({active}) {
         <AppBar className="Navbar" position="static">
             <Toolbar variant="dense">
                 <Typography variant="h5" color="inherit" component="div" className="Nav-title">
-                    <div class="content">
-                         <h2 class="text_shadows">ZUBY JAVED</h2>
-                    </div>
+                <section>
+                <div className="shadows">Zuby Javed</div>
+                </section>
                 </Typography>
                 <Link to="/" className={getClassName("about")}>
-                    ABOUT ME
+                    ABOUT
                 </Link>
                 <Link to="/projects" className={getClassName("projects")}>
                     PROJECTS
