@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.Nav-title {
+  display: none;
+}
+
 .Nav-link {
   color: #EFF7FF;
   text-decoration: none;
@@ -30,19 +34,21 @@
     font-size: 1.2rem;
     margin-right: 1rem;
     transition: all 0.25s ease-out;
-    display: none;
 }
 .shadows:hover {
     text-shadow: -16px 6px 15px #ced0d3;
 }
 
 @media only screen and (min-width: 768px) {
+  .Nav-title {
+    display: inline;
+  }
+
   .Nav-link {
     font-size: 1.1rem !important;
   }
 
   .shadows {
     font-size: 2rem;
-    display: inline;
   }
 }

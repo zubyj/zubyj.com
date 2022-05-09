@@ -42,7 +42,7 @@ function AboutGrid() {
             <Grid className="About-grid " container spacing={3}>
                 {gridItems.map((item, index) => {
                     return (
-                        <Grid key={index} item xs={12} md={6} lg={4}>
+                        <Grid key={index} item xs={12} lg={4}>
                             {item}
                         </Grid>
                     )

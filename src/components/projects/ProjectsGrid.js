@@ -43,7 +43,7 @@ function ProjectsGrid() {
             <Grid className="Projects-grid" container spacing={3}>
                 {projectItems.map((item, index) => {
                     return (
-                        <Grid key={index} item xs={12} sm={6} md={6} lg={4}>
+                        <Grid key={index} item xs={12} lg={4}>
                             {item}
                         </Grid>
                     )

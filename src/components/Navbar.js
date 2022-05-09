@@ -18,9 +18,9 @@ function Navbar({active}) {
         <AppBar className="Navbar" position="static">
             <Toolbar variant="dense">
                 <Typography variant="h5" color="inherit" component="div" className="Nav-title">
-                <section>
-                    Zuby Javed
-                </section>
+                    <section>
+                        Zuby Javed
+                    </section>
                 </Typography>
                 <Link to="/" className={getClassName("about")}>
                     ABOUT
