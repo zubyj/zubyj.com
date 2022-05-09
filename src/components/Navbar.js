@@ -9,9 +9,9 @@ function Navbar({active}) {
 
     let getClassName = (activeClass) => {
         if (active === activeClass) {
-            return "Nav-link Nav-link-active";
+            return "Nav-link Nav-link-active shadows";
         }
-        return "Nav-link"
+        return "Nav-link shadows"
     }
 
     return (
@@ -19,7 +19,7 @@ function Navbar({active}) {
             <Toolbar variant="dense">
                 <Typography variant="h5" color="inherit" component="div" className="Nav-title">
                 <section>
-                <div className="shadows">Zuby Javed</div>
+                    Zuby Javed
                 </section>
                 </Typography>
                 <Link to="/" className={getClassName("about")}>
@@ -28,7 +28,7 @@ function Navbar({active}) {
                 <Link to="/projects" className={getClassName("projects")}>
                     PROJECTS
                 </Link>
-                <a target="_blank" href="https://github.com/zubyjaved" className="Nav-link">
+                <a target="_blank" href="https://github.com/zubyjaved" className="Nav-link shadows">
                     GITHUB    
                 </a>
             </Toolbar>

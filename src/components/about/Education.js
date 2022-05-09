@@ -6,7 +6,7 @@ import Avatar from '@mui/material/Avatar';
 function Education() {
 
     const sideA = 
-        <div className="Grad-pic Breathing">
+        <div className="Grad-pic">
             <Avatar 
                 alt="Zuby Javed"
                 src={require("../../img/graduate.png")}

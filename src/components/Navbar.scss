@@ -1,13 +1,11 @@
 /* Navbar */
 .Navbar {
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-  padding-bottom: 1.5rem;
-  font-weight: bold;
   background: #780206;  /* fallback for old browsers */
+  padding: 1rem;
   background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  justify-content: center;
+  align-items: center;
 }
 
 .Nav-link {

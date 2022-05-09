@@ -25,7 +25,7 @@ function Languages() {
     let icons = Object.values(langs);
 
     const sideA = 
-        <Grid className="Languages-grid Breathing" container spacing={5}>
+        <Grid className="Languages-grid" container spacing={3}>
             {icons.map((icon) => {
                 return (
                     <Grid item xs={4} className="Languages-grid-item">
@@ -36,7 +36,7 @@ function Languages() {
         </Grid>
 
     const sideB = 
-        <Grid className="Languages-grid" container spacing={5}>
+        <Grid className="Languages-grid" container spacing={3}>
             {names.map((name) => {
                 return (
                     <Grid item xs={4} className="Languages-grid-item Languages-name">
