@@ -17,10 +17,9 @@ function Navbar({active}) {
     return (
         <AppBar className="Navbar" position="static">
             <Toolbar variant="dense">
-                <Typography variant="h5" color="inherit" component="div" className="Nav-title">
-                    <section>
-                        Zuby Javed
-                    </section>
+                <Typography variant="h2" color="inherit" component="div" className="Nav-title">
+                        <span class="title-word title-word-1">Zuby</span>
+                        <span class="title-word title-word-2">Javed</span>
                 </Typography>
                 <Link to="/" className={getClassName("about")}>
                     ABOUT

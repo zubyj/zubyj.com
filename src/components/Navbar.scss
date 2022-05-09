@@ -1,7 +1,7 @@
 /* Navbar */
 .Navbar {
   background: #780206;  /* fallback for old browsers */
-  padding: 1rem;
+  padding-bottom: 1rem;
   background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   justify-content: center;
@@ -9,9 +9,15 @@
 }
 
 .Nav-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800 !important;
+  font-size: 4vw !important;
+  margin-right: 2rem !important;
   display: none;
 }
 
+/* Navbar links */
 .Nav-link {
   color: #EFF7FF;
   text-decoration: none;
@@ -39,9 +45,38 @@
     text-shadow: -16px 6px 15px #ced0d3;
 }
 
+/* Static color change animation */
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+  margin-left: 1rem;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
 @media only screen and (min-width: 768px) {
   .Nav-title {
     display: inline;
+    font-size: 4vw !important;
   }
 
   .Nav-link {
@@ -52,3 +87,18 @@
     font-size: 2rem;
   }
 }
+
+@media only screen and (min-width: 900px) {
+  .Nav-title {
+    display: inline;
+    font-size: 3vw !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Nav-title {
+    font-size: 2vw !important;
+  }
+}
+
+
