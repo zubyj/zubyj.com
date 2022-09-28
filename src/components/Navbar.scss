@@ -2,7 +2,7 @@
 .Navbar {
   background: #780206;  /* fallback for old browsers */
   padding-bottom: 1rem;
-  background: black !important;
+  background: #0e1111 !important;
   justify-content: center;
   align-items: center;
 }
@@ -28,7 +28,7 @@
 }
 
 .Nav-link:hover {
-  border-bottom: 1px solid white;
+  color: #E5A823;
 }
 
 .Nav-link-active {
