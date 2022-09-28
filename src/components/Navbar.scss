@@ -2,8 +2,7 @@
 .Navbar {
   background: #780206;  /* fallback for old browsers */
   padding-bottom: 1rem;
-  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: black !important;
   justify-content: center;
   align-items: center;
 }
@@ -21,7 +20,10 @@
 .Nav-link {
   color: #EFF7FF;
   text-decoration: none;
-  padding: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 1rem !important;
 }
 
@@ -97,7 +99,7 @@
 
 @media only screen and (min-width: 1200px) {
   .Nav-title {
-    font-size: 2vw !important;
+    font-size: 1.5vw !important;
   }
 }
 

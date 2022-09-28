@@ -13,7 +13,7 @@ function AboutGreeting() {
                 .deleteChars(12)
                 .typeString("<h2>I'm <span class='Important-text'>Zuby Javed</span></h2>")
                 .changeDelay(70)
-                .typeString("<h4 style='padding-bottom: 2rem; border-bottom: 1px solid #61dafb'>Software Engineer</h4>")
+                .typeString("<h4 style='padding-bottom: 2rem;'>Software Engineer</h4>")
                 .pauseFor(1000)
                 .typeString("<p>Welcome to my portfolio</p>")
                 .pauseFor(1000)

@@ -34,7 +34,7 @@ function Technologies() {
         <Grid className="Languages-grid" container spacing={3}>
             {icons.map((icon) => {
                 return (
-                    <Grid item xs={4} className="Languages-grid-item Breathing">
+                    <Grid item xs={4} className="Languages-grid-item">
                         <img src ={icon} className="Languages-icon" />
                     </Grid>
                 )

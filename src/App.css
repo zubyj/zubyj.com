@@ -4,9 +4,9 @@
   flex-direction: column;
   text-align: center;
   font-size: 1rem;
-  color: whitesmoke;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: whitesmoke !important;
 }
 
 .Greeting-btns { 
@@ -17,16 +17,17 @@
 .Greeting-btn {
   background: #282c34 !important;
   color: white !important;
+  font-weight: bolder !important;
 }
 
 .Greeting-btn-active {
   background: #282c34 !important;
   color: #E5A823 !important;
-  font-weight: bold !important;
 }
 
 .Greeting-icon {
   color: #61dafb;
+  padding-right: 1rem;
 }
 
 /* General & shared components */
@@ -60,6 +61,7 @@ li {
   opacity: 95%;
   border-radius: 10px;
   border: 1px solid white;
+  background: #000;
 }
 
 .Item-title {
@@ -87,6 +89,12 @@ li {
 
   .Projects-grid {
     height: 160vh;
+  }
+
+  .Greeting-menu {
+    height: 90vh;
+    padding-top: 20vh;
+    background-image: url(/src/img/old-black.jpeg) 
   }
 
   .About-grid {
@@ -133,7 +141,6 @@ li {
   .About-grid, .Projects-grid {
     height: 100% !important;
   }
-
 
   .Grid-item {
     width: 60vw !important;
