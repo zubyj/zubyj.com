@@ -2,9 +2,6 @@ import React from "react";
 import './App.css';
 import './components/about/AboutGrid.css';
 import './components/projects/ProjectsGrid.css';
-
-
-
 import ProjectsGrid from './components/projects/ProjectsGrid';
 import AboutGrid from './components/about/AboutGrid';
 

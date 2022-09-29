@@ -14,7 +14,7 @@ function ToDoList() {
         <div>
             <ul>
                 <li>
-                    Created because To do lists are getting too complicated nowadays. 
+                    Created because to do lists are getting too complicated nowadays.
                 </li> 
                 <li>
                     Add, remove, edit, and finish is all you need.

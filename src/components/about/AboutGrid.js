@@ -6,7 +6,6 @@ import Navbar from '../Navbar';
 // Cards
 import Education from './Education';
 import Objective from './Objective';
-import Experience from './Experience';
 import AboutGreeting from './AboutGreeting';
 import Languages  from './Languages';
 import Technologies from './Technologies';

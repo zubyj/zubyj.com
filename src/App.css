@@ -1,17 +1,19 @@
 /* User Greeting component */
 .Greeting {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   font-size: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
   color: whitesmoke !important;
+}
+
+.Greeting-menu {
+  background-image: url(/src/img/old-black.jpeg) 
 }
 
 .Greeting-btns { 
   justify-content: center;
-  margin-top: 1rem !important;
+  margin-top: 3rem !important;
 }
 
 .Greeting-btn {
@@ -62,6 +64,7 @@ li {
   border-radius: 10px;
   border: 1px solid white;
   background: #000;
+  background-image: url(/src/img/old-black.jpeg)
 }
 
 .Item-title {
@@ -77,9 +80,6 @@ li {
   color: #E5A823 !important;
 }
 
-
-
-
 @media only screen and (min-width: 768px) {
 
   .Nav-link {
@@ -94,7 +94,6 @@ li {
   .Greeting-menu {
     height: 90vh;
     padding-top: 20vh;
-    background-image: url(/src/img/old-black.jpeg) 
   }
 
   .About-grid {
@@ -112,7 +111,7 @@ li {
     height: 40vh;
     border: .5px solid white;
   }
-
+  
   .Greeting {
     font-size: 1.5rem;
   }
@@ -132,9 +131,8 @@ li {
   }
 
   .Nav-title {
-    padding-right: 8rem;
+    padding-right: 12rem;
   }
-
 }
 
 @media (orientation: landscape) and (max-width: 960px ) {

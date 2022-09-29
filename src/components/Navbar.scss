@@ -1,10 +1,11 @@
 /* Navbar */
 .Navbar {
   background: #780206;  /* fallback for old browsers */
-  padding-bottom: 1rem;
-  background: #0e1111 !important;
-  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background: black !important;
   align-items: center;
+  border-bottom: 1px solid white;
 }
 
 .Nav-title {
@@ -12,7 +13,6 @@
   text-transform: uppercase;
   font-weight: 800 !important;
   font-size: 4vw !important;
-  margin-right: 2rem !important;
   display: none;
 }
 
@@ -22,8 +22,6 @@
   text-decoration: none;
   padding-left: 20px !important;
   padding-right: 20px !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
   font-size: 1rem !important;
 }
 
