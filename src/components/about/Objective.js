@@ -58,8 +58,7 @@ function Objective() {
     const sideB = 
         <div className="Objective">
             <p>
-                Hi. I'm currently searching for an entry-level software engineering role. I'm interested in developing web apps but as a new grad, I'm
-                open to most SWE-related opportunities. Don't hesitate to say hi! 
+                Hi. I'm currently searching for an entry-level software engineering role.  Don't hesitate to say hi! 
             </p>
         </div>
 

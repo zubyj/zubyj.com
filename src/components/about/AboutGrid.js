@@ -7,7 +7,6 @@ import Navbar from '../Navbar';
 import Education from './Education';
 import Objective from './Objective';
 import AboutGreeting from './AboutGreeting';
-import Languages  from './Languages';
 import Technologies from './Technologies';
 
 function AboutGrid() {
@@ -15,7 +14,6 @@ function AboutGrid() {
     let gridItems = [
         <Objective />,
         <Education />,
-        <Languages />,
         <Technologies/>,
     ]
 
