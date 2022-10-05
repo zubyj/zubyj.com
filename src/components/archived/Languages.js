@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
-import GridItem from './AboutItem';
+import GridItem from '../about/AboutItem';
 import CodeIcon from '@mui/icons-material/Code';
 
 import js from '../../img/languages/js.svg';
@@ -13,12 +13,7 @@ import node from '../../img/languages/node.svg';
 function Languages() {
 
     const langs = {
-        'Javascript': js,
-        'Python' : python,
-        'ReactJS' : react,
-        'Java': java,
-        'React Native' : reactNative,
-        'NodeJS' : node,
+
     }
 
     let names = Object.keys(langs);
