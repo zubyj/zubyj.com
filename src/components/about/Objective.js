@@ -28,7 +28,7 @@ function Objective() {
         <div className="Objective">
             <ul>
                 <li>
-                    Entry level Software Engineer
+                    Junior Software Engineer
                 </li>
                 <li className="Give-me-job">
                     Open to job opportunities

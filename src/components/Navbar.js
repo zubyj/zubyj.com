@@ -27,7 +27,7 @@ function Navbar({active}) {
                 <Link to="/projects" className={getClassName("projects")}>
                     PROJECTS
                 </Link>
-                <a target="_blank" href="https://github.com/zubyjaved" className="Nav-link shadows">
+                <a target="_blank" href="https://github.com/zubyj" className="Nav-link shadows">
                     GITHUB    
                 </a>
             </Toolbar>

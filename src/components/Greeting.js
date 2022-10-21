@@ -26,7 +26,7 @@ function Greeting({text, activePage}) {
                 <Button
                     className="Greeting-btn"
                     target="_blank" 
-                    href="https://github.com/zubyjaved"
+                    href="https://github.com/zubyj"
                 >
                     <GitHubIcon className="Greeting-icon"/>
                     Github
