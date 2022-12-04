@@ -12,7 +12,7 @@ function Objective() {
     const [showAlert, setShowAlert] = useState(false);
 
     const copyEmail = (e) => {
-        const email = 'zubyjaved95@gmail.com';
+        const email = 'zubybjaved@gmail.com';
         e.preventDefault();
         e.stopPropagation();
         navigator.clipboard.writeText(email);
