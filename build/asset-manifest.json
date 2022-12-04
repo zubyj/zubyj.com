@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ac77015.css",
-    "main.js": "/static/js/main.fd529577.js",
+    "main.css": "/static/css/main.e62cb887.css",
+    "main.js": "/static/js/main.24701151.js",
     "static/js/787.f7660ff3.chunk.js": "/static/js/787.f7660ff3.chunk.js",
     "static/media/To-do-list.png": "/static/media/To-do-list.e870c7b3ef56e2187b8a.png",
     "static/media/appnaca.png": "/static/media/appnaca.c665c514b8792fcef3af.png",
@@ -11,7 +11,7 @@
     "static/media/The-Office-Response-Bot.png": "/static/media/The-Office-Response-Bot.54e74cf2c017630e9055.png",
     "static/media/iCare.png": "/static/media/iCare.69f80870042c5714d906.png",
     "static/media/MyMorph.png": "/static/media/MyMorph.97f9b267176255f1aef7.png",
-    "static/media/Zuby_Javed_Resume.pdf": "/static/media/Zuby_Javed_Resume.f336a9f1eb2892a5788d.pdf",
+    "static/media/Zuby_Javed_Resume.pdf": "/static/media/Zuby_Javed_Resume.8cac57b31bc0e76cdbd3.pdf",
     "static/media/vim.svg": "/static/media/vim.47959bed5c257d2c7e7da8c7deb8c7e7.svg",
     "static/media/react-native.svg": "/static/media/react-native.573e83fd52a26acb631ffa45bb4be7fd.svg",
     "static/media/react2.svg": "/static/media/react2.7098e2714733fed1ce8cdb90d51c4289.svg",
@@ -25,12 +25,12 @@
     "index.html": "/index.html",
     "static/media/js.svg": "/static/media/js.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/npm.svg": "/static/media/npm.2c362bda3c7fcda8ec0c3cd014152814.svg",
-    "main.4ac77015.css.map": "/static/css/main.4ac77015.css.map",
-    "main.fd529577.js.map": "/static/js/main.fd529577.js.map",
+    "main.e62cb887.css.map": "/static/css/main.e62cb887.css.map",
+    "main.24701151.js.map": "/static/js/main.24701151.js.map",
     "787.f7660ff3.chunk.js.map": "/static/js/787.f7660ff3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac77015.css",
-    "static/js/main.fd529577.js"
+    "static/css/main.e62cb887.css",
+    "static/js/main.24701151.js"
   ]
 }
