@@ -18,7 +18,7 @@ function Education() {
         <ul className="List School-list">
             <li className="List-item School">San Jose State University</li>
             <li className="List-item Degree">B.S. , Computer Science</li>
-            <li className="List-item School-years">May 2018 - December 2021</li>
+            <li className="List-item School-years">2018 - 2022</li>
         </ul>
 
     const icon = <SchoolIcon className="Education-icon"/>
