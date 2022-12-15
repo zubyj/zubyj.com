@@ -5,6 +5,11 @@ import './components/projects/ProjectsGrid.css';
 import ProjectsGrid from './components/projects/ProjectsGrid';
 import AboutGrid from './components/about/AboutGrid';
 
+// Analytics
+import ReactGA from 'react-ga';
+const TRACKING_ID = "UA-134417733-1";
+ReactGA.initialize(TRACKING_ID);
+
 import {
   BrowserRouter as Router,
   Routes,
