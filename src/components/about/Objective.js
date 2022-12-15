@@ -28,10 +28,13 @@ function Objective() {
         <div className="Objective">
             <ul>
                 <li>
-                    Software Engineer
+                    I'm a Software Engineer.
+                </li>
+                <li>
+                    I have experience developing web and iOS applications. 
                 </li>
                 <li className="Give-me-job">
-                    Open to job opportunities
+                    Open to job opportunities.
                 </li>
             </ul>
             <ButtonGroup className="Objective-btns" variant="outlined" aria-label="download resume and copy email buttons">
