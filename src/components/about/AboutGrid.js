@@ -9,6 +9,7 @@ import Objective from './Objective';
 import AboutGreeting from './AboutGreeting';
 import Technologies from './Technologies';
 
+
 function AboutGrid() {
 
     let gridItems = [

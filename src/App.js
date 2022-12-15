@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './App.css';
 import './components/about/AboutGrid.css';
 import './components/projects/ProjectsGrid.css';
@@ -14,9 +14,16 @@ import {
   Route,
 } from "react-router-dom";
 
+const TRACKING_ID = "UA-134417733-1";
+ReactGA.initialize(TRACKING_ID);
+
+
 export default function App() {
-  const TRACKING_ID = "UA-134417733-1";
-  ReactGA.initialize(TRACKING_ID);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
   <Router>
     {/* A <Routes> looks through its children <Route>s and

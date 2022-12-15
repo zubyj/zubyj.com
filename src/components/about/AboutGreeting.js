@@ -1,6 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import Greeting from '../Greeting';
+import ReactGA from "react-ga";
 
 function AboutGreeting() {
 
