@@ -28,7 +28,7 @@ function Objective() {
         <div className="Objective">
             <ul>
                 <li>
-                    Junior Software Engineer
+                    Software Engineer
                 </li>
                 <li className="Give-me-job">
                     Open to job opportunities
@@ -58,7 +58,7 @@ function Objective() {
     const sideB = 
         <div className="Objective">
             <p>
-                Hi. I'm currently searching for an entry-level software engineering role.  Don't hesitate to say hi! 
+                I'm a software engineer with experience in web and iOS development. Feel free to reach out.
             </p>
         </div>
 
