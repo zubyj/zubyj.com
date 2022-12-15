@@ -7,8 +7,6 @@ import AboutGrid from './components/about/AboutGrid';
 
 // Analytics
 import ReactGA from 'react-ga';
-const TRACKING_ID = "UA-134417733-1";
-ReactGA.initialize(TRACKING_ID);
 
 import {
   BrowserRouter as Router,
@@ -17,6 +15,8 @@ import {
 } from "react-router-dom";
 
 export default function App() {
+  const TRACKING_ID = "UA-134417733-1";
+  ReactGA.initialize(TRACKING_ID);
   return (
   <Router>
     {/* A <Routes> looks through its children <Route>s and
