@@ -16,6 +16,7 @@ class App extends Component {
   setGA = () => {
     const TRACKING_ID = "UA-134417733-1";
     ReactGA.initialize(TRACKING_ID);
+    ReactGA.pageview('Init page view');
   };
 
   componentDidMount() {
