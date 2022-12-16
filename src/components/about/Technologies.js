@@ -45,7 +45,7 @@ function Technologies() {
             {icons.map((icon) => {
                 return (
                     <Grid item xs={4} className="Languages-grid-item">
-                        <img src ={icon} className="Languages-icon" />
+                        <img src ={icon} className="Languages-icon" alt="Languages and Frameworks" />
                     </Grid>
                 )
             })}

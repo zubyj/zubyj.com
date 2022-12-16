@@ -1,6 +1,5 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import Link from '@mui/material/Link';
 import PeopleIcon from '@mui/icons-material/People';
 
 function FaceMorpher() {

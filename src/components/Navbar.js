@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Typography from '@mui/material/Typography';
 import {Link} from "react-router-dom";
@@ -27,7 +27,7 @@ function Navbar({active}) {
                 <Link to="/projects" className={getClassName("projects")}>
                     PROJECTS
                 </Link>
-                <a target="_blank" href="https://github.com/zubyj" className="Nav-link shadows">
+                <a target="_blank" rel="noreferrer" href="https://github.com/zubyj" className="Nav-link shadows">
                     GITHUB    
                 </a>
             </Toolbar>
