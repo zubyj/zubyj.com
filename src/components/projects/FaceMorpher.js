@@ -10,20 +10,17 @@ function FaceMorpher() {
     const path = 'https://apps.apple.com/us/app/mymorph/id1554421298';
     const imgPath = require('../../img/projects/MyMorph.png')
 
-    const description = 
+    const description =
         <div>
             <ul>
                 <li>
-                Worked with a backend developer to design and build an iOS app from their existing morph API
+                    Created a mobile app using React Native that blends two faces together to create a unique morphed image, leading to over <span className="Important-text">13,000 downloads</span> on the iOS App Store
                 </li>
                 <li>
-                Reduced server load by adding frontend error handling to ensure users upload images with valid sizes and formats 
-                </li>
-                <li>
-                Added analytics showing <span className="Important-text">37,000 image files generated </span>from uploads and morphs between Nov 2021 and Feb 2022
+                    Implemented client-side input validation and server logging mechanisms, leading to a <span className="Important-text">10% reduction</span>in server load and enhancing app security
                 </li>
                 <li className="Project-languages">
-                React Native, Expo, Google Firebase
+                    React Native, Expo, Google Firebase
                 </li>
 
             </ul>

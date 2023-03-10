@@ -10,25 +10,22 @@ function CountdownTimer() {
     const path = "https://icaretimer.com";
     const imgPath = require('../../img/projects/iCare.png');
 
-    const description = 
+    const description =
         <div>
             <ul>
                 <li>
-                Managed 2 frontend and 2 backend engineers by <span className="Important-text">leading scrum meetings and code reviews</span>
+                    Led a team of 4 engineers in developing a desktop application, utilizing agile methodologies by <span className="Important-text"> conducting scrum meetings, handling code reviews, and merging pull requests</span>
                 </li>
                 <li>
-                Created and hosted the landing page where users can download iCare for Windows and MacOS
-                </li>
-                <li>
-                Class Project for CS160 Software Engineering taken at SJSU
+                    Designed and developed the backend functionality using MySQL and ExpressJS, including the implementation of user preference storage and retrieval, such as timer duration, custom sound notifications, and usage data analysis
                 </li>
                 <li className="Project-languages">
-                    ElectronJS, ReactJS, ExpressJS, MySQL, Trello, Docker, DigitalOcean, Github Actions
+                    ElectronJS, ReactJS, ExpressJS,  MySQL, Trello, Nginx, Github Actions, and DigitalOcean
                 </li>
             </ul>
         </div>
 
-    return (    
+    return (
         <div>
             <ProjectItem name={name} icon={icon} buttonName={buttonName} path={path} imgPath={imgPath} description={description} />
         </div>

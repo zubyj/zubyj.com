@@ -10,20 +10,18 @@ function Appnaca() {
     const path = 'https://appnaca.org';
     const imgPath = require('../../img/projects/appnaca.png');
 
-    const description = 
+    const description =
         <div>
             <ul>
                 <li>
-                Developed and hosted the main website for a local nonprofit organization
+                    Designed and hosted the website for a local nonprofit organization, resulting in over <span className="Important-text">600 visitors</span>
                 </li>
                 <li>
-                Worked with chapter president to add content including donation campaigns and <span className="Important-text">scheduling appointments for free health clinics</span> offered in San Jose, CA
-                </li>
-                <li>
-                Reached  <span className="Important-text"> 486 </span> visitors since the website deployed
+                    Allow users to donate to various charities, schedule appointments at free health clinics, and contact board members to register for the organization
                 </li>
                 <li className="Project-languages">
-                NodeJS, Bootstrap, Nginx, ExpressJS, Google Maps API, Google Analytics, DigitalOcean</li>
+                    ExpressJS, Nginx, Bootstrap 4, Adobe XD, Google Analytics, and DigitalOcean
+                </li>
             </ul>
         </div>
 
