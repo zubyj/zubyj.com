@@ -1,6 +1,6 @@
-import React from 'react'; 
+import React from 'react';
 import { Box } from '@mui/system';
-import Grid from "@mui/material/Grid"; 
+import Grid from "@mui/material/Grid";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 import Navbar from '../Navbar';
@@ -8,6 +8,7 @@ import ProjectsGreeting from './ProjectsGreeting';
 import FaceMorpher from './FaceMorpher';
 import Appnaca from './Appnaca';
 import CountdownTimer from './CountdownTimer';
+import TheOfficeScriptAPI from './TheOfficeScriptAPI';
 import TheOfficeResponseBot from './TheOfficeResponseBot';
 import ToDoList from './ToDoList';
 import TippingCalculator from './TippingCalculator';
@@ -15,10 +16,11 @@ import TippingCalculator from './TippingCalculator';
 // Projects Grid items
 function ProjectsGrid() {
 
-    let  projectItems = [
+    let projectItems = [
         <FaceMorpher />,
         <Appnaca />,
         <CountdownTimer />,
+        <TheOfficeScriptAPI />,
         <TheOfficeResponseBot />,
         <ToDoList />,
         <TippingCalculator />,
