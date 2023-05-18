@@ -8,10 +8,10 @@
 }
 
 .Greeting-menu {
-  background-image: url(/src/img/old-black.jpeg) 
+  background-image: url(/src/img/old-black.jpeg)
 }
 
-.Greeting-btns { 
+.Greeting-btns {
   justify-content: center;
   margin-top: 3rem !important;
 }
@@ -46,10 +46,14 @@ li {
   padding: .5rem;
 }
 
-.About-grid, .Projects-grid {
-  background: #780206;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.About-grid,
+.Projects-grid {
+  background: #780206;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .Grid-item {
@@ -99,8 +103,9 @@ li {
     height: 100vh;
   }
 
-  .About-grid, .Projects-grid {
-    padding-top: 3rem; 
+  .About-grid,
+  .Projects-grid {
+    padding-top: 3rem;
   }
 
   .Grid-item {
@@ -110,7 +115,7 @@ li {
     height: 40vh;
     border: .5px solid white;
   }
-  
+
   .Greeting {
     font-size: 1.5rem;
   }
@@ -124,18 +129,16 @@ li {
   }
 }
 
-@media only screen and (min-width: 992px ) {
+@media only screen and (min-width: 992px) {
   .Grid-item {
     width: 27vw !important;
   }
-
-  .Nav-title {
-    padding-right: 12rem;
-  }
 }
 
-@media (orientation: landscape) and (max-width: 960px ) {
-  .About-grid, .Projects-grid {
+@media (orientation: landscape) and (max-width: 960px) {
+
+  .About-grid,
+  .Projects-grid {
     height: 100% !important;
   }
 
@@ -144,4 +147,3 @@ li {
     height: 100vh !important;
   }
 }
-
