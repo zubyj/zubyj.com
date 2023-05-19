@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectItem from './ProjectItem';
+import ProjectItem from '../ProjectItem';
 import PeopleIcon from '@mui/icons-material/People';
 
 function FaceMorpher() {
@@ -8,7 +8,7 @@ function FaceMorpher() {
     const icon = <PeopleIcon className="Facemorpher-icon" />
     const buttonName = "View in iOS App Store";
     const path = 'https://apps.apple.com/us/app/mymorph/id1554421298';
-    const imgPath = require('../../img/projects/MyMorph.png')
+    const imgPath = require('../../../img/projects/MyMorph.png')
 
     const description =
         <div>

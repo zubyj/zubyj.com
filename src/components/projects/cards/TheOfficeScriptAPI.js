@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectItem from './ProjectItem';
+import ProjectItem from '../ProjectItem';
 import ChatIcon from '@mui/icons-material/Chat';
 
 function TheOfficeScriptAPI() {
@@ -8,7 +8,7 @@ function TheOfficeScriptAPI() {
     const icon = <ChatIcon className="Response-bot-icon" />
     const buttonName = "Open Website"
     const path = "https://theofficescript.com/"
-    const imgPath = require('../../img/projects/the-office-script-api.png');
+    const imgPath = require('../../../img/projects/the-office-script-api.png');
 
     const description =
         <div>

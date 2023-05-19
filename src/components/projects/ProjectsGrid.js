@@ -1,20 +1,19 @@
 import React from 'react';
 import { Box } from '@mui/system';
-import Grid from "@mui/material/Grid";
+import Grid from '@mui/material/Grid';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 import ProjectsGreeting from './ProjectsGreeting';
-import FaceMorpher from './FaceMorpher';
-import Appnaca from './Appnaca';
-import CountdownTimer from './CountdownTimer';
-import TheOfficeScriptAPI from './TheOfficeScriptAPI';
-import TheOfficeResponseBot from './TheOfficeResponseBot';
-import ToDoList from './ToDoList';
-import TippingCalculator from './TippingCalculator';
+import FaceMorpher from './cards/FaceMorpher';
+import Appnaca from './cards/Appnaca';
+import CountdownTimer from './cards/CountdownTimer';
+import TheOfficeScriptAPI from './cards/TheOfficeScriptAPI';
+import TheOfficeResponseBot from './cards/TheOfficeResponseBot';
+import ToDoList from './cards/ToDoList';
+import TippingCalculator from './cards/TippingCalculator';
 
 // Projects Grid items
 function ProjectsGrid() {
-
     let projectItems = [
         <FaceMorpher />,
         <Appnaca />,
@@ -26,33 +25,30 @@ function ProjectsGrid() {
     ];
 
     /*
-    Adds project component at location depending on screen size. 
-    If large screen, place at center of grid.
-    If mobile, place at 1st of item of grid. 
+      Adds project component at location depending on screen size.
+      If large screen, place at the center of the grid.
+      If mobile, place as the first item of the grid.
     */
     const isLargeScreen = useMediaQuery('(min-width: 1200px)');
     if (isLargeScreen) {
         projectItems.splice(4, 0, <ProjectsGreeting />);
-    }
-    else {
+    } else {
         projectItems.unshift(<ProjectsGreeting />);
     }
 
     return (
-        <Box >
+        <Box>
             <Grid className="Projects-grid" container spacing={3}>
                 {projectItems.map((item) => {
                     return (
                         <Grid key={item.props.name} item xs={12} lg={4}>
                             {item}
                         </Grid>
-                    )
+                    );
                 })}
             </Grid>
         </Box>
-    )
+    );
 }
-
-
 
 export default ProjectsGrid;

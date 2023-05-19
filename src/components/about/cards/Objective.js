@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import GridItem from './AboutItem';
+import GridItem from '../AboutItem';
 import CallToActionIcon from '@mui/icons-material/CallToAction';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
@@ -39,7 +39,7 @@ function Objective() {
                     onClick={(e) => e.stopPropagation()}
                     className="Dl-resume-btn"
                     target="_blank"
-                    href={require('../../img/Zuby_Javed_Resume.pdf')}
+                    href={require('../../../img/Zuby_Javed_Resume.pdf')}
                 >
                     <ArticleIcon />
                     Open Resume

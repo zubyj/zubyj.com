@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectItem from './ProjectItem';
+import ProjectItem from '../ProjectItem';
 import TimerIcon from '@mui/icons-material/Timer';
 
 function CountdownTimer() {
@@ -8,7 +8,7 @@ function CountdownTimer() {
     const icon = <TimerIcon className="Timer-icon" />;
     const buttonName = "Open download page";
     const path = "https://icaretimer.com";
-    const imgPath = require('../../img/projects/iCare.png');
+    const imgPath = require('../../../img/projects/iCare.png');
 
     const description =
         <div>

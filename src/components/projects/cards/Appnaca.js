@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectItem from './ProjectItem';
+import ProjectItem from '../ProjectItem';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 
 function Appnaca() {
@@ -8,7 +8,7 @@ function Appnaca() {
     const icon = <LocalHospitalIcon className="Appna-icon" />;
     const buttonName = "Open Website";
     const path = 'https://appnaca.org';
-    const imgPath = require('../../img/projects/appnaca.png');
+    const imgPath = require('../../../img/projects/appnaca.png');
 
     const description =
         <div>

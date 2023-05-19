@@ -3,10 +3,10 @@ import { Box } from '@mui/system';
 import Grid from "@mui/material/Grid";
 
 // Cards
-import Education from './Education';
-import Objective from './Objective';
+import Education from './cards/Education';
+import Objective from './cards/Objective';
 import AboutGreeting from './AboutGreeting';
-import Technologies from './Technologies';
+import Technologies from './cards/Technologies';
 
 
 function AboutGrid() {
