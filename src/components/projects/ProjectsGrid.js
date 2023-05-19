@@ -3,7 +3,6 @@ import { Box } from '@mui/system';
 import Grid from "@mui/material/Grid";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import Navbar from '../Navbar';
 import ProjectsGreeting from './ProjectsGreeting';
 import FaceMorpher from './FaceMorpher';
 import Appnaca from './Appnaca';
@@ -41,7 +40,6 @@ function ProjectsGrid() {
 
     return (
         <Box >
-            <Navbar active="projects" />
             <Grid className="Projects-grid" container spacing={3}>
                 {projectItems.map((item) => {
                     return (

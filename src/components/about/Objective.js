@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import GridItem from './AboutItem';
 import CallToActionIcon from '@mui/icons-material/CallToAction';
 import Button from '@mui/material/Button';
@@ -24,41 +24,38 @@ function Objective() {
 
     const alert = <Alert className="Copy-email-alert" severity="success">Copied to clipboard</Alert>
 
-    const sideA = 
+    const sideA =
         <div className="Objective">
             <ul>
                 <li>
-                    I'm a Software Engineer.
+                    I loved developed web, iOS, and desktop applications.
                 </li>
                 <li>
-                    I have experience developing web and iOS applications. 
-                </li>
-                <li className="Give-me-job">
                     Open to job opportunities.
                 </li>
             </ul>
             <ButtonGroup className="Objective-btns" variant="outlined" aria-label="download resume and copy email buttons">
-                    <Button 
+                <Button
                     onClick={(e) => e.stopPropagation()}
                     className="Dl-resume-btn"
                     target="_blank"
                     href={require('../../img/Zuby_Javed_Resume.pdf')}
-                    >
-                        <ArticleIcon />
-                        Open Resume
-                    </Button>
-                    <Button 
+                >
+                    <ArticleIcon />
+                    Open Resume
+                </Button>
+                <Button
                     className="Copy-email-btn"
                     onClick={(e) => copyEmail(e)}
-                    >
-                        <EmailIcon />
-                        Copy Email
-                    </Button>
-                </ButtonGroup>
-                {showAlert && alert}
+                >
+                    <EmailIcon />
+                    Copy Email
+                </Button>
+            </ButtonGroup>
+            {showAlert && alert}
         </div>
 
-    const sideB = 
+    const sideB =
         <div className="Objective">
             <p>
                 I'm a software engineer with experience in web and iOS development. Feel free to reach out.
@@ -68,7 +65,7 @@ function Objective() {
     const icon = <CallToActionIcon className="Objective-icon" />
 
     return (
-        <GridItem name="Objective" icon={icon} sideA={sideA} sideB={sideB}/>
+        <GridItem name="Objective" icon={icon} sideA={sideA} sideB={sideB} />
     )
 }
 

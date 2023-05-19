@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/system';
 import Grid from "@mui/material/Grid";
-import Navbar from '../Navbar';
 
 // Cards
 import Education from './Education';
@@ -20,7 +19,6 @@ function AboutGrid() {
 
     return (
         <Box>
-            <Navbar active="about" />
             <Grid className="Greeting-menu">
                 <AboutGreeting className="About-greeting" />
             </Grid>

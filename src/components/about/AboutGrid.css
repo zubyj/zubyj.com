@@ -2,65 +2,59 @@
     padding-top: 3rem;
     text-align: center;
   }
-  
+
   .School-list li {
     padding-top: 1rem;
   }
-  
+
   .School {
     font-size: 1.2rem;
   }
-  
+
   .School-years {
     font-style: italic;
   }
-  
+
   .Degree {
     font-weight: bold;
     margin-left: 3rem;
     color: #61dafb;
   }
-  
+
   .Grad-pic {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
   }
-  
+
   /* Objective */
   .Objective {
     margin-top: 3rem;
   }
-  
-  .Give-me-job {
-    padding-bottom: 2rem;
-    font-weight: bold;
-    margin-top: 1rem;
-  }
-  
+
   .Objective p {
     line-height: 32px;
   }
-  
+
   .Objective-btns {
     margin-top: 3rem;
   }
-  
+
   .Objective-long-text {
     margin-top: 5rem;
     padding: 1rem;
   }
-  
+
   .Dl-resume-btn {
     color: #61dafb !important;
     width: 180px;
   }
-  
+
   .Copy-email-btn {
     color: #61dafb !important;
     width: 180px;
   }
-  
+
   .Copy-email-alert {
     position: absolute;
     margin-top: 1rem;
@@ -69,50 +63,50 @@
     color: black;
     border-radius: 10px;
   }
-  
+
   /* Languages */
   .Languages-grid {
     justify-content: center;
     text-align: center;
-    margin-top: 1rem !important;
+    margin-top: 0.5rem !important;
   }
-  
+
   .Languages-icon {
-    width: 40px !important;
+    width: 30px !important;
   }
-  
+
   /* Experience */
   .Job-title {
     font-size: 1.2rem;
   }
 
   /* About title Icon colors */
-.Education-icon {
+  .Education-icon {
     color: #E5A823;
   }
-  
+
   .Experience-icon {
     color: #b59b7c;
   }
-  
+
   .Skills-icon {
     color: red;
   }
-  
+
   .Projects-icon {
     color: purple;
   }
-  
+
   .Socials-icon {
-    color: #FF5700; 
+    color: #FF5700;
   }
-  
+
   .Objective-icon {
     color: #CEE3F8;
   }
 
-@media only screen and (min-width: 768px) {
-  .Objective-btns {
-    margin-left: 2rem;
+  @media only screen and (min-width: 768px) {
+    .Objective-btns {
+      margin-left: 2rem;
+    }
   }
-}
