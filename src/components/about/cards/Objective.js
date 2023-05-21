@@ -39,7 +39,7 @@ function Objective() {
                     onClick={(e) => e.stopPropagation()}
                     className="Dl-resume-btn"
                     target="_blank"
-                    href={require('../../../img/Zuby_Javed_Resume.pdf')}
+                    href={require('../../../assets/images/Zuby_Javed_Resume.pdf')}
                 >
                     <ArticleIcon />
                     Open Resume
@@ -58,7 +58,7 @@ function Objective() {
     const sideB =
         <div className="Objective">
             <p>
-                I'm a software engineer with experience in web and iOS development. Feel free to reach out.
+                I am a quick learner and love to learn new technologies. I am a team player and love to work with others. I have experience in web and iOS development. Looking for a full-time position in software engineering.
             </p>
         </div>
 
