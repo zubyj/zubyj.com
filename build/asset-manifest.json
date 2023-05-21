@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.37d6c575.css",
-    "main.js": "/static/js/main.00e25bdf.js",
+    "main.js": "/static/js/main.243683a5.js",
     "static/media/graduate.png": "/static/media/graduate.5d64907ba70636265fbb.png",
     "static/media/static-black.gif": "/static/media/static-black.fcce1a36e0e759370324.gif",
     "static/media/Zuby_Javed_Resume.pdf": "/static/media/Zuby_Javed_Resume.77692380c367d7aaa68e.pdf",
@@ -25,10 +25,10 @@
     "static/media/js.svg": "/static/media/js.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/npm.svg": "/static/media/npm.2c362bda3c7fcda8ec0c3cd014152814.svg",
     "main.37d6c575.css.map": "/static/css/main.37d6c575.css.map",
-    "main.00e25bdf.js.map": "/static/js/main.00e25bdf.js.map"
+    "main.243683a5.js.map": "/static/js/main.243683a5.js.map"
   },
   "entrypoints": [
     "static/css/main.37d6c575.css",
-    "static/js/main.00e25bdf.js"
+    "static/js/main.243683a5.js"
   ]
 }
