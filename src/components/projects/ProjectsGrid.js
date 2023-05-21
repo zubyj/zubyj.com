@@ -3,16 +3,16 @@ import { Box } from '@mui/system';
 import Grid from '@mui/material/Grid';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import ProjectsGreeting from './ProjectsGreeting';
-import ProjectItem from './ProjectItem';
-import projects from '../../assets/projects.json';
+import Project from './Project';
+import projectsData from '../../assets/projects.json';
 
 function ProjectsGrid() {
-    const [projectItems, setProjectItems] = useState([]);
+    const [projects, setProjects] = useState([]);
     const isLargeScreen = useMediaQuery('(min-width: 1200px)');
 
     useEffect(() => {
-        let items = projects.map((project) => (
-            <ProjectItem
+        let items = projectsData.map((project) => (
+            <Project
                 key={project.name}
                 name={project.name}
                 icon={project.icon}
@@ -29,13 +29,13 @@ function ProjectsGrid() {
             items.unshift(<ProjectsGreeting key="greeting" />);
         }
 
-        setProjectItems(items);
+        setProjects(items);
     }, [isLargeScreen]);
 
     return (
         <Box>
             <Grid className="Projects-grid" container spacing={3}>
-                {projectItems.map((item, index) => (
+                {projects.map((item, index) => (
                     <Grid key={item.props.key || index} item xs={12} lg={4}>
                         {item}
                     </Grid>

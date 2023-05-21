@@ -3,7 +3,7 @@ import ReactCardFlip from 'react-card-flip';
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button';
 
-function ProjectItem({ name, path, pathType, imgName, description }) {
+function Project({ name, path, pathType, imgName, description }) {
 
     const [isFlipped, setIsFlipped] = useState(false);
     const [isAutoFlip, setIsAutoFlip] = useState(true);
@@ -61,4 +61,4 @@ function ProjectItem({ name, path, pathType, imgName, description }) {
     )
 }
 
-export default ProjectItem;
+export default Project
