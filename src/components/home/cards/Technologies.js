@@ -1,12 +1,12 @@
 import React from 'react';
 import { Grid } from '@mui/material';
-import GridItem from '../AboutItem';
+import GridItem from '../Card';
 import CodeIcon from '@mui/icons-material/Code';
 
 // Languages
 import js from '../../../assets/images/languages/js.svg';
 import python from '../../../assets/images/languages/python.svg';
-import react from '../../../assets/images/languages/react2.svg';
+import react from '../../../assets/images/languages/react.svg';
 import reactNative from '../../../assets/images/languages/react-native.svg';
 import java from '../../../assets/images/languages/java.svg';
 import node from '../../../assets/images/languages/node.svg';

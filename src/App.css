@@ -8,7 +8,7 @@
 }
 
 .Greeting-menu {
-  background-image: url(/src/assets/images/old-black.gif)
+  background-image: url(/src/assets/images/static-black.gif)
 }
 
 .Greeting-btns {
@@ -46,7 +46,7 @@ li {
   padding: .5rem;
 }
 
-.About-grid,
+.Home,
 .Projects-grid {
   background: #780206;
   /* fallback for old browsers */
@@ -98,11 +98,11 @@ li {
     padding-top: 20vh;
   }
 
-  .About-grid {
+  .Home {
     height: 100vh;
   }
 
-  .About-grid,
+  .Home,
   .Projects-grid {
     padding-top: 3rem;
   }
@@ -136,7 +136,7 @@ li {
 
 @media (orientation: landscape) and (max-width: 960px) {
 
-  .About-grid,
+  .Home,
   .Projects-grid {
     height: 100% !important;
   }

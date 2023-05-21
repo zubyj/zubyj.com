@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import GridItem from '../AboutItem';
+import GridItem from '../Card';
 import CallToActionIcon from '@mui/icons-material/CallToAction';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import './App.css';
-import './components/about/AboutGrid.css';
+import './components/home/Home.css';
 import './components/projects/ProjectsGrid.css';
 import ProjectsGrid from './components/projects/ProjectsGrid';
-import AboutGrid from './components/about/AboutGrid';
+import Home from './components/home/Home';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <Router>
         <Routes>
-          <Route path="/" element={<AboutGrid />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectsGrid />} />
         </Routes>
       </Router>

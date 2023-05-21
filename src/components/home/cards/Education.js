@@ -1,6 +1,6 @@
 import React from 'react';
 import SchoolIcon from '@mui/icons-material/School';
-import GridItem from '../AboutItem';
+import GridItem from '../Card';
 import Avatar from '@mui/material/Avatar';
 
 function Education() {

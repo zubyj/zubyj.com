@@ -5,11 +5,12 @@ import Grid from "@mui/material/Grid";
 // Cards
 import Education from './cards/Education';
 import Objective from './cards/Objective';
-import AboutGreeting from './AboutGreeting';
+import HomeGreeting from './HomeGreeting';
+
 import Technologies from './cards/Technologies';
 
 
-function AboutGrid() {
+function Home() {
 
     let gridItems = [
         <Objective />,
@@ -20,9 +21,9 @@ function AboutGrid() {
     return (
         <Box>
             <Grid className="Greeting-menu">
-                <AboutGreeting className="About-greeting" />
+                <HomeGreeting className="Home-greeting" />
             </Grid>
-            <Grid className="About-grid " container spacing={3}>
+            <Grid className="Home " container spacing={3}>
                 {gridItems.map((item) => {
                     return (
                         <Grid key={item.props.name} item xs={12} lg={4}>
@@ -35,4 +36,4 @@ function AboutGrid() {
     )
 }
 
-export default AboutGrid;
+export default Home;

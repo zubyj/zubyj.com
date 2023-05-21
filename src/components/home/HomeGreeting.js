@@ -2,7 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import Greeting from '../Greeting';
 
-function AboutGreeting() {
+function HomeGreeting() {
 
     const typewriter = () => {
         return (
@@ -24,8 +24,8 @@ function AboutGreeting() {
     }
 
     return (
-        <Greeting text={typewriter()} activePage="about" />
+        <Greeting text={typewriter()} activePage="home" />
     )
 }
 
-export default AboutGreeting;
+export default HomeGreeting;

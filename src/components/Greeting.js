@@ -1,20 +1,20 @@
 import React from 'react';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
 import InfoIcon from '@mui/icons-material/Info';
 
-function Greeting({text, activePage}) {
-    return ( 
+function Greeting({ text, activePage }) {
+    return (
         <div className="Greeting">
             {text}
             <ButtonGroup aria-label="outlined primary button group" className="Greeting-btns">
                 <Link to="/">
-                <Button className={activePage === "about" ? "Greeting-btn Greeting-btn-active" : "Greeting-btn"}>
-                    <InfoIcon className="Greeting-icon" />
-                    About
+                    <Button className={activePage === "home" ? "Greeting-btn Greeting-btn-active" : "Greeting-btn"}>
+                        <InfoIcon className="Greeting-icon" />
+                        Home
                     </Button>
                 </Link>
                 <Link to="/projects" >
@@ -25,10 +25,10 @@ function Greeting({text, activePage}) {
                 </Link>
                 <Button
                     className="Greeting-btn"
-                    target="_blank" 
+                    target="_blank"
                     href="https://github.com/zubyj"
                 >
-                    <GitHubIcon className="Greeting-icon"/>
+                    <GitHubIcon className="Greeting-icon" />
                     Github
                 </Button>
             </ButtonGroup>

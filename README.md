@@ -7,7 +7,7 @@ npm i
 npm start
 ```
 
-## About
+## Home
 Portfolio website showcasing my skills and projects. 
 
 ## Technologies

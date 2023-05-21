@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import Container from '@mui/material/Container'
 
-function AboutItem({name, icon, sideA, sideB}) {
+function Card({ name, icon, sideA, sideB }) {
 
     const [isFlipped, setIsFlipped] = useState(false);
     const [isAutoFlip, setIsAutoFlip] = useState(true);
@@ -11,12 +11,12 @@ function AboutItem({name, icon, sideA, sideB}) {
     const startAutoFlip = (duration) => {
         const timer = setTimeout(() => setIsFlipped(!isFlipped), 4000);
         setTimeout(() => setIsAutoFlip(false), duration);
-    
+
         if (!isAutoFlip) {
             clearTimeout(timer);
         }
     }
-    
+
     startAutoFlip(8000);
 
     const handleClick = (e) => {
@@ -32,12 +32,12 @@ function AboutItem({name, icon, sideA, sideB}) {
                 {name}
             </div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                    <span>{sideA}</span>
-                    <span>{sideB}</span>
+                <span>{sideA}</span>
+                <span>{sideB}</span>
             </ReactCardFlip>
         </Container>
 
     )
 }
 
-export default AboutItem;
+export default Card;
