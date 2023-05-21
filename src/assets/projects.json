@@ -18,9 +18,9 @@
         "pathType": "iOS App",
         "imgName": "mymorph.png",
         "description": [
-            "Created a mobile app using React Native that blends two faces together to create a unique morphed image, leading to over on 13,000 downloads on the iOS App Store",
-            "Implemented client-side input validation and server logging mechanisms, leading to a 10% reduction in server load and enhancing app security",
-            "React Native, Expo, Google Firebase"
+            "Upload two images and morph them together to create a unique image",
+            "React Native, Expo, Google Firebase",
+            "Over 13,000 downloads in the App Store"
         ]
     },
     {
@@ -30,9 +30,10 @@
         "pathType": "Website",
         "imgName": "the-office-script-api.png",
         "description": [
-            "Designed and developed REST API using ExpressJS and AWS RDS for interacting with characters from The Office",
+            "Get lines & talk to characters from NBC's The Office",
             "Implemented full-text search and levenshtein distance functionality for chatting with characters",
-            "ExpressJS, PostgreSQL, AWS RDS, Postman, VueJS, NodeJS, Winston"
+            "VueJS, ExpressJS, PostgreSQL, AWS RDS, Heroku, Postman, VueJS, NodeJS, Winston",
+            "Over 1,000 API calls"
         ]
     },
     {
@@ -42,9 +43,9 @@
         "pathType": "Website",
         "imgName": "appnaca.png",
         "description": [
-            "Created for local nonprofit organization",
-            "Allow users to donate to various charities, schedule appointments at free health clinics, and register for the org",
-            "ExpressJS, Nginx, Bootstrap 4, Adobe XD, Google Analytics, and DigitalOcean"
+            "Created main website for local nonprofit organization",
+            "Donate to charities & schedule appointments for free health clinics",
+            "ExpressJS, Nginx, Adobe XD, Google Analytics, and DigitalOcean"
         ]
     },
     {
@@ -54,8 +55,8 @@
         "pathType": "Download page",
         "imgName": "icare.png",
         "description": [
-            "Led a team of 4 engineers in developing a desktop application, utilizing agile methodologies by conducting scrum meetings, handling code reviews, and merging pull requests",
-            "Designed and developed the backend functionality using MySQL and ExpressJS, including the implementation of user preference storage and retrieval, such as timer duration, custom sound notifications, and usage data analysis",
+            "Smart countdown timer that helps you stay focused and productive",
+            "Served as tech lead handling code reviews, merging pull requests, and conducting scrum meetings",
             "ElectronJS, ReactJS, ExpressJS,  MySQL, Trello, Nginx, Github Actions, and DigitalOcean"
         ]
     },
@@ -65,6 +66,9 @@
         "path": "/projects/the-office-chat-bot",
         "pathType": "Website",
         "imgName": "the-office-chat-bot.png",
-        "description": []
+        "description": [
+            "Chat bot for interacting with The Office Script API",
+            "ReactJS, MaterialUI, ExpressJS"
+        ]
     }
 ]
