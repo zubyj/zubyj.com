@@ -1,5 +1,17 @@
 [
     {
+        "name": "Leetcode Explained",
+        "component": "LeetcodeExplained",
+        "path": "https://leetcodeapp.com",
+        "pathType": "Chrome Extension",
+        "imgName": "leetcode-explained.png",
+        "description": [
+            "Watch video solutions directly inside Leetcode problems",
+            "Get your code complexity using ChatGPT",
+            "Over 150 downloads in the Chrome Web Store"
+        ]
+    },
+    {
         "name": "appnaca.org",
         "component": "Appnaca",
         "path": "https://appnaca.org",
@@ -16,7 +28,7 @@
         "component": "CountdownTimer",
         "path": "https://icaretimer.com",
         "pathType": "Download page",
-        "imgName": "iCare.png",
+        "imgName": "icare.png",
         "description": [
             "Led a team of 4 engineers in developing a desktop application, utilizing agile methodologies by conducting scrum meetings, handling code reviews, and merging pull requests",
             "Designed and developed the backend functionality using MySQL and ExpressJS, including the implementation of user preference storage and retrieval, such as timer duration, custom sound notifications, and usage data analysis",
@@ -28,7 +40,7 @@
         "component": "FaceMorpher",
         "path": "https://icaremorph.com",
         "pathType": "Download page",
-        "imgName": "MyMorph.png",
+        "imgName": "mymorph.png",
         "description": [
             "Created a mobile app using React Native that blends two faces together to create a unique morphed image, leading to over on 13,000 downloads on the iOS App Store",
             "Implemented client-side input validation and server logging mechanisms, leading to a 10% reduction in server load and enhancing app security",
