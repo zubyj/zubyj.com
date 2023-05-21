@@ -63,7 +63,7 @@
     {
         "name": "The Office Chat Bot",
         "component": "TheOfficeChatBot",
-        "path": "/projects/the-office-chat-bot",
+        "path": "/the-office-chat-bot",
         "pathType": "Website",
         "imgName": "the-office-chat-bot.png",
         "description": [
