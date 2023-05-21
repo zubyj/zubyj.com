@@ -30,13 +30,13 @@ function ProjectsGrid() {
         }
 
         setProjectItems(items);
-    }, []);
+    }, [isLargeScreen]);
 
     return (
         <Box>
             <Grid className="Projects-grid" container spacing={3}>
-                {projectItems.map((item) => (
-                    <Grid key={item.props.name} item xs={12} lg={4}>
+                {projectItems.map((item, index) => (
+                    <Grid key={item.props.key || index} item xs={12} lg={4}>
                         {item}
                     </Grid>
                 ))}

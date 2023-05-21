@@ -4,20 +4,19 @@
     font-weight: bold;
 }
 
-.Project-languages{
+.Project-languages {
     font-style: italic;
 }
-  
+
 .Dates {
     margin-left: 1rem;
 }
-  
-.Project-img { 
+
+.Project-img {
     margin-top: 1rem;
-    max-height: 200px !important;
     border: .5px solid #61dafb;
 }
-  
+
 .Open-project-btn {
     margin-top: 1rem !important;
     margin-left: .5rem !important;
@@ -27,17 +26,17 @@
 .Facemorpher-icon {
     color: purple;
 }
-  
+
 .Appna-icon {
     color: #ED1B2E;
 }
-  
+
 .Timer-icon {
     color: #EFF7FF;
 }
 
 .Response-bot-icon {
-    color:#b59b7c;
+    color: #b59b7c;
 }
 
 .Todolist-icon {
@@ -56,5 +55,5 @@
     .Project-img {
         max-width: 100%;
         max-height: 15rem;
-      }
+    }
 }
