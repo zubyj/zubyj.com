@@ -4,21 +4,12 @@ A personal portfolio website showcasing my projects and skills. It's a single-pa
 
 ## Table of Contents
 
-- [Features](#features)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
 - [Deployment](#deployment)
 - [License](#license)
 - [Contact](#contact)
-
-## Features
-
-- A dynamic introduction with a typewriter effect.
-- An objective card which can be clicked to flip and reveal more information.
-- An education card showcasing my educational qualifications.
-- A technologies card that highlights the technologies I have worked with.
-- A projects grid showcasing my projects with live links.
 
 ## Getting Started
 
@@ -34,10 +25,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository
 ```git clone https://github.com/your-username/portfolio-website.git```
+
 2. Move into the directory
 ```cd portfolio-website```
+
 3. Install NPM packages
 ```npm install```
+
 4. Start the local development server
 ```npm start```
 
@@ -47,7 +41,9 @@ The project can be deployed using any static site hosting service. The example b
 
 1. Build the React app for production.
 ```npm run build```
+
 2. Copy the build folder to your server.
+
 3. Set up Nginx to serve the static files and start the Nginx service.
 
 Note: For detailed instructions, please follow the DigitalOcean's guide on [how to deploy a React application with Nginx](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-react-application-with-nginx-on-ubuntu-18-04)
