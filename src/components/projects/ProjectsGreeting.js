@@ -10,7 +10,7 @@ function ProjectsGreeting() {
                 onInit={(typewriter) =>
                     typewriter.typeString("<h2>Projects</h2>")
                         .changeDelay(50)
-                        .typeString("<p><span class='Important-text'>(1)</span> Chrome Extension published</p>")
+                        .typeString("<p><span class='Important-text'>(2)</span> Chrome Extension published</p>")
                         .typeString("<p><span class='Important-text'>(2)</span> iOS apps published</p>")
                         .typeString("<p><span class='Important-text'>(5)</span> Websites live</p>")
                         .changeDelay(30)
