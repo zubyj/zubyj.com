@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.37d6c575.css",
-    "main.js": "/static/js/main.fb4976b4.js",
+    "main.js": "/static/js/main.0f827fdd.js",
     "static/media/graduate.png": "/static/media/graduate.5d64907ba70636265fbb.png",
     "static/media/static-black.gif": "/static/media/static-black.fcce1a36e0e759370324.gif",
-    "static/media/Zuby_Javed_Resume.pdf": "/static/media/Zuby_Javed_Resume.77692380c367d7aaa68e.pdf",
     "static/media/appnaca.png": "/static/media/appnaca.b6763f0427c4a3cd71ff.png",
     "static/media/leetcode-explained.png": "/static/media/leetcode-explained.72657c1a2848f83aa560.png",
     "static/media/mymorph.png": "/static/media/mymorph.50446032fa5989cbf490.png",
@@ -25,10 +24,10 @@
     "static/media/js.svg": "/static/media/js.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/npm.svg": "/static/media/npm.2c362bda3c7fcda8ec0c3cd014152814.svg",
     "main.37d6c575.css.map": "/static/css/main.37d6c575.css.map",
-    "main.fb4976b4.js.map": "/static/js/main.fb4976b4.js.map"
+    "main.0f827fdd.js.map": "/static/js/main.0f827fdd.js.map"
   },
   "entrypoints": [
     "static/css/main.37d6c575.css",
-    "static/js/main.fb4976b4.js"
+    "static/js/main.0f827fdd.js"
   ]
 }

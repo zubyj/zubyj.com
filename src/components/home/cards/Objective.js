@@ -39,7 +39,7 @@ function Objective() {
                     onClick={(e) => e.stopPropagation()}
                     className="Dl-resume-btn"
                     target="_blank"
-                    href={require('../../../assets/images/Zuby_Javed_Resume.pdf')}
+                // href={require('../../../assets/images/Zuby_Javed_Resume.pdf')}
                 >
                     <ArticleIcon />
                     Open Resume
