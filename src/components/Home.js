@@ -82,7 +82,7 @@ function Home() {
             <Box>
                 <Grid className="Projects-grid" container spacing={3}>
                     {projects.map((item, index) => (
-                        <Grid key={item.props.key || index} item xs={12} lg={4}>
+                        <Grid key={item.props.key || index} item xs={12} lg={6} xl={4}>
                             {item}
                         </Grid>
                     ))}
