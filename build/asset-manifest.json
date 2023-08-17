@@ -1,33 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.37d6c575.css",
-    "main.js": "/static/js/main.0f827fdd.js",
-    "static/media/graduate.png": "/static/media/graduate.5d64907ba70636265fbb.png",
+    "main.css": "/static/css/main.088a6475.css",
+    "main.js": "/static/js/main.ccf840d2.js",
+    "static/media/speech-to-text-gpt.png": "/static/media/speech-to-text-gpt.61da64838a75e047369e.png",
     "static/media/static-black.gif": "/static/media/static-black.fcce1a36e0e759370324.gif",
+    "static/media/compareprenatals.png": "/static/media/compareprenatals.4b5cea2dec82c434b58f.png",
+    "static/media/recipe-gpt.png": "/static/media/recipe-gpt.ade3278fb5cc0fce52e4.png",
     "static/media/appnaca.png": "/static/media/appnaca.b6763f0427c4a3cd71ff.png",
     "static/media/leetcode-explained.png": "/static/media/leetcode-explained.72657c1a2848f83aa560.png",
     "static/media/mymorph.png": "/static/media/mymorph.50446032fa5989cbf490.png",
     "static/media/shark-attack-game.png": "/static/media/shark-attack-game.f9f46ddca676f1b28ea1.png",
     "static/media/icare.png": "/static/media/icare.85eece565f6f2e71355e.png",
-    "static/media/vim.svg": "/static/media/vim.47959bed5c257d2c7e7da8c7deb8c7e7.svg",
     "static/media/the-office-script-api.png": "/static/media/the-office-script-api.10c4869559a998a30f08.png",
-    "static/media/react-native.svg": "/static/media/react-native.573e83fd52a26acb631ffa45bb4be7fd.svg",
-    "static/media/react.svg": "/static/media/react.7098e2714733fed1ce8cdb90d51c4289.svg",
-    "static/media/java.svg": "/static/media/java.8cb1fd4a951e0324c83e632215f39b64.svg",
-    "static/media/node.svg": "/static/media/node.10354602b1c0786e53037290e5ad547a.svg",
-    "static/media/python.svg": "/static/media/python.439dd3d27dbba23fa07acb94633c7a7d.svg",
-    "static/media/expo.svg": "/static/media/expo.60f79fb46683e91b11d57ebaa7b90204.svg",
-    "static/media/bootstrap.svg": "/static/media/bootstrap.333f5e43f07c0838ca3c160adb53e877.svg",
-    "static/media/git.svg": "/static/media/git.c0ad6253313a0547812bfb9a9f0894d6.svg",
-    "static/media/nginx.svg": "/static/media/nginx.c6fca915bbd139fdb968c5316f6bbb17.svg",
     "index.html": "/index.html",
-    "static/media/js.svg": "/static/media/js.eb9d2cb6a3b49394e8e20873cb00479e.svg",
-    "static/media/npm.svg": "/static/media/npm.2c362bda3c7fcda8ec0c3cd014152814.svg",
-    "main.37d6c575.css.map": "/static/css/main.37d6c575.css.map",
-    "main.0f827fdd.js.map": "/static/js/main.0f827fdd.js.map"
+    "main.088a6475.css.map": "/static/css/main.088a6475.css.map",
+    "main.ccf840d2.js.map": "/static/js/main.ccf840d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.37d6c575.css",
-    "static/js/main.0f827fdd.js"
+    "static/css/main.088a6475.css",
+    "static/js/main.ccf840d2.js"
   ]
 }
