@@ -11,10 +11,6 @@
     font-size: 1.2rem;
   }
 
-  .School-years {
-    font-style: italic;
-  }
-
   .Degree {
     font-weight: bold;
     margin-left: 3rem;
@@ -127,7 +123,6 @@
 
   .Project-img {
     margin-top: 1rem;
-    border: .5px solid #61dafb;
   }
 
   .Open-project-btn {

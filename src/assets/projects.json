@@ -3,13 +3,13 @@
         "name": "Leetcode Explained",
         "component": "LeetcodeExplained",
         "path": "https://leetcodeapp.com",
-        "pathType": "Chrome Extension",
+        "pathType": "Browser Extension",
         "imgName": "leetcode-explained.png",
         "description": [
-            "Watch video solutions directly inside Leetcode problems",
-            "View the top 5 company tags for each problem",
-            "Get your code complexity using ChatGPT",
-            "Over 300 downloads in the Chrome Web Store"
+            "Created a free, open source browser extension with over 1k daily active users",
+            "Adds company tags, solution videos, and GPT code analysis directly into Leetcode problems",
+            "Available for Chrome, Firefox, and Edge",
+            "Technologies: TypeScript, NodeJS, HTML, CSS, Javascript, Webpack, OpenAI API, Youtube Data API"
         ]
     },
     {
@@ -19,9 +19,9 @@
         "pathType": "iOS App",
         "imgName": "mymorph.png",
         "description": [
-            "Upload two images and morph them together to create a unique image",
-            "React Native, Expo, Google Firebase",
-            "Over 13,000 downloads in the App Store"
+            "Created the frontend for an iOS app with over 13k downloads in the iOS App store",
+            "Blends two faces together and returns the morphed face",
+            "Technologies: React Native, Expo, Google Firebase"
         ]
     },
     {
@@ -31,10 +31,36 @@
         "pathType": "Website",
         "imgName": "the-office-script-api.png",
         "description": [
-            "Get lines & talk to characters from NBC's The Office",
-            "Implemented full-text search and levenshtein distance functionality for chatting with characters",
-            "VueJS, ExpressJS, PostgreSQL, AWS RDS, Heroku, Postman, VueJS, NodeJS, Winston",
-            "Over 1,000 API calls"
+            "Designed and developed a REST API which receives over 100 requests per week",
+            "Allows users to talk to characters from NBC's The Office",
+            "The character will respond with lines from the show",
+            "Implemented full-text search and levenshtein distance functionality",
+            "Technologies: ExpressJS, Postgres, AWS RDS, Postman, VueJS, NodeJS, Twilio Segment, Google Analytics"
+        ]
+    },
+    {
+        "name": "compareprenatals.com",
+        "component": "ComparePrenatals",
+        "path": "https://compareprenatals.com",
+        "pathType": "Website",
+        "imgName": "compareprenatals.png",
+        "description": [
+            "Created a website that allows pregnant women to find the best prenatal vitamin for them",
+            "Contains over 100 prenatal vitamins with extensive nutritional data",
+            "Allows users to sort vitamins by nutritional content, price, and more",
+            "Technologies: ReactJS, ExpressJS, NodeJS, Google Analytics, DigitalOcean"
+        ]
+    },
+    {
+        "name": "Speech to Text for ChatGPT",
+        "component": "SpeechToTextForChatGPT",
+        "path": "https://chrome.google.com/webstore/detail/speech-to-text-for-chatgp/kplchkeabimhnpklakhhocnhegidpcel?hl=en&authuser=4",
+        "pathType": "Browser Extension",
+        "imgName": "speech-to-text-gpt.png",
+        "description": [
+            "Adds a speech to text microphone into the ChatGPT website",
+            "A free, open source browser extension available for Chromium browsers",
+            "Technologies: TypeScript, NodeJS, Web Speech API, HTML, CSS, Javascript, Webpack, OpenAI API"
         ]
     },
     {
@@ -46,7 +72,7 @@
         "description": [
             "Created main website for local nonprofit organization",
             "Donate to charities & schedule appointments for free health clinics",
-            "ExpressJS, Nginx, Adobe XD, Google Analytics, and DigitalOcean"
+            "Technologies: ExpressJS, Nginx, Adobe XD, Google Analytics, and DigitalOcean"
         ]
     },
     {
@@ -59,6 +85,19 @@
             "Smart countdown timer that helps you stay focused and productive",
             "Served as tech lead handling code reviews, merging pull requests, and conducting scrum meetings",
             "ElectronJS, ReactJS, ExpressJS,  MySQL, Trello, Nginx, Github Actions, and DigitalOcean"
+        ]
+    },
+    {
+        "name": "RecipeGPT",
+        "component": "RecipeGPT",
+        "path": "https://chrome.google.com/webstore/detail/recipegpt/ooelgnphojkcpkmbghmnojcnhojpbnka?hl=en&authuser=4",
+        "pathType": "Browser Extension",
+        "imgName": "recipe-gpt.png",
+        "description": [
+            "Reads recipes from any website and summarizes them using ChatGPT",
+            "No need to scroll through long blog posts to find the recipe",
+            "A free, open source browser extension available for Chromium browsers",
+            "Technologies: TypeScript, NodeJS, HTML, CSS, Javascript, OpenAI API"
         ]
     },
     {

@@ -15,7 +15,7 @@ function Home() {
                 onInit={(typewriter) =>
                     typewriter.changeDelay(60)
                         .typeString("<h1>Hello I'm <span class='Important-text'>Zuby</span></h1>")
-                        .typeString("<h4 style='padding-bottom: 2rem;'>Software Engineer | CS @ SJSU</h4>")
+                        .typeString("<h4 style='padding-bottom: 2rem;'>Software Engineer | CS @ SJSU '22</h4>")
                         .pauseFor(1000)
                         .typeString("<p>Welcome to my portfolio</p>")
                         .pauseFor(1000)
@@ -34,9 +34,9 @@ function Home() {
                 onInit={(typewriter) =>
                     typewriter.typeString("<h2>Projects</h2>")
                         .changeDelay(50)
-                        .typeString("<p><span class='Important-text'>(2)</span> Chrome Extension published</p>")
+                        .typeString("<p><span class='Important-text'>(3)</span> Chrome Extension published</p>")
                         .typeString("<p><span class='Important-text'>(2)</span> iOS apps published</p>")
-                        .typeString("<p><span class='Important-text'>(5)</span> Websites live</p>")
+                        .typeString("<p><span class='Important-text'>(7)</span> Websites live</p>")
                         .changeDelay(30)
                         .typeString("<p><span class='Important-text'>(2)</span> Web apps deployed</p>")
                         .typeString("<p><span class='Important-text'>(1)</span> Windows/MacOS apps available</p>")
