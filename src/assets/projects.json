@@ -99,16 +99,5 @@
             "A free, open source browser extension available for Chromium browsers",
             "Technologies: TypeScript, NodeJS, HTML, CSS, Javascript, OpenAI API"
         ]
-    },
-    {
-        "name": "The Office Chat Bot",
-        "component": "TheOfficeChatBot",
-        "path": "/the-office-chat-bot",
-        "pathType": "Website",
-        "imgName": "the-office-chat-bot.png",
-        "description": [
-            "Chat bot for interacting with The Office Script API",
-            "ReactJS, MaterialUI, ExpressJS"
-        ]
     }
 ]
