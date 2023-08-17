@@ -52,7 +52,7 @@ function Project({ name, path, pathType, imgName, description }) {
                 <ul>
                     {description.map((line) => {
                         return <li className="Project-languages">
-                            - {line}
+                            {line}
                         </li>
                     })}
                 </ul>

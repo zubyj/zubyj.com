@@ -9,7 +9,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 
 function Home() {
 
-    const homeGreetingTypewriter = () => {
+    const homeTypewriter = () => {
         return (
             <Typewriter
                 onInit={(typewriter) =>
@@ -28,7 +28,7 @@ function Home() {
         )
     }
 
-    const projectsGreetingTypewriter = () => {
+    const projectsTypewriter = () => {
         return (
             <Typewriter
                 onInit={(typewriter) =>
@@ -66,9 +66,9 @@ function Home() {
         ));
 
         if (isLargeScreen) {
-            items.splice(4, 0, <NavigationButtons text={projectsGreetingTypewriter()} activePage="projects" key="greeting" />);
+            items.splice(4, 0, <NavigationButtons text={projectsTypewriter()} activePage="projects" key="greeting" />);
         } else {
-            items.unshift(<NavigationButtons text={projectsGreetingTypewriter()} activePage="projects" key="greeting" />);
+            items.unshift(<NavigationButtons text={projectsTypewriter()} activePage="projects" key="greeting" />);
         }
 
         setProjects(items);
@@ -76,8 +76,8 @@ function Home() {
 
     return (
         <Box>
-            <Grid className="Greeting-menu">
-                <NavigationButtons text={homeGreetingTypewriter()} activePage="home" />
+            <Grid className="Typewriter-menu">
+                <NavigationButtons text={homeTypewriter()} activePage="home" />
             </Grid>
             <Box>
                 <Grid className="Projects-grid" container spacing={3}>

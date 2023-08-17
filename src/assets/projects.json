@@ -8,8 +8,17 @@
         "description": [
             "Created a free, open source browser extension with over 1k daily active users",
             "Adds company tags, solution videos, and GPT code analysis directly into Leetcode problems",
-            "Available for Chrome, Firefox, and Edge",
-            "Technologies: TypeScript, NodeJS, HTML, CSS, Javascript, Webpack, OpenAI API, Youtube Data API"
+            "Available for Chrome, Firefox, and Edge"
+        ],
+        "technologies": [
+            "typescript",
+            "nodejs",
+            "html",
+            "css",
+            "javascript",
+            "webpack",
+            "openai-api",
+            "youtube-data-api"
         ]
     },
     {
@@ -20,8 +29,12 @@
         "imgName": "mymorph.png",
         "description": [
             "Created the frontend for an iOS app with over 13k downloads in the iOS App store",
-            "Blends two faces together and returns the morphed face",
-            "Technologies: React Native, Expo, Google Firebase"
+            "Blends two faces together and returns the morphed face"
+        ],
+        "technologies": [
+            "react-native",
+            "expo",
+            "google-firebase"
         ]
     },
     {
@@ -34,8 +47,17 @@
             "Designed and developed a REST API which receives over 100 requests per week",
             "Allows users to talk to characters from NBC's The Office",
             "The character will respond with lines from the show",
-            "Implemented full-text search and levenshtein distance functionality",
-            "Technologies: ExpressJS, Postgres, AWS RDS, Postman, VueJS, NodeJS, Twilio Segment, Google Analytics"
+            "Implemented full-text search and levenshtein distance functionality"
+        ],
+        "technologies": [
+            "expressjs",
+            "postgres",
+            "aws-rds",
+            "postman",
+            "vuejs",
+            "nodejs",
+            "twilio-segment",
+            "google-analytics"
         ]
     },
     {
@@ -47,8 +69,14 @@
         "description": [
             "Created a website that allows pregnant women to find the best prenatal vitamin for them",
             "Contains over 100 prenatal vitamins with extensive nutritional data",
-            "Allows users to sort vitamins by nutritional content, price, and more",
-            "Technologies: ReactJS, ExpressJS, NodeJS, Google Analytics, DigitalOcean"
+            "Allows users to sort vitamins by nutritional content, price, and more"
+        ],
+        "technologies": [
+            "reactjs",
+            "expressjs",
+            "nodejs",
+            "google-analytics",
+            "digitalocean"
         ]
     },
     {
@@ -59,8 +87,17 @@
         "imgName": "speech-to-text-gpt.png",
         "description": [
             "Adds a speech to text microphone into the ChatGPT website",
-            "A free, open source browser extension available for Chromium browsers",
-            "Technologies: TypeScript, NodeJS, Web Speech API, HTML, CSS, Javascript, Webpack, OpenAI API"
+            "A free, open source browser extension available for Chromium browsers"
+        ],
+        "technologies": [
+            "typescript",
+            "nodejs",
+            "web-speech-api",
+            "html",
+            "css",
+            "javascript",
+            "webpack",
+            "openai-api"
         ]
     },
     {
@@ -71,8 +108,14 @@
         "imgName": "appnaca.png",
         "description": [
             "Created main website for local nonprofit organization",
-            "Donate to charities & schedule appointments for free health clinics",
-            "Technologies: ExpressJS, Nginx, Adobe XD, Google Analytics, and DigitalOcean"
+            "Donate to charities & schedule appointments for free health clinics"
+        ],
+        "technologies": [
+            "expressjs",
+            "nginx",
+            "adobe-xd",
+            "google-analytics",
+            "and-digitalocean"
         ]
     },
     {
@@ -96,8 +139,15 @@
         "description": [
             "Reads recipes from any website and summarizes them using ChatGPT",
             "No need to scroll through long blog posts to find the recipe",
-            "A free, open source browser extension available for Chromium browsers",
-            "Technologies: TypeScript, NodeJS, HTML, CSS, Javascript, OpenAI API"
+            "A free, open source browser extension available for Chromium browsers"
+        ],
+        "technologies": [
+            "typescript",
+            "nodejs",
+            "html",
+            "css",
+            "javascript",
+            "openai-api"
         ]
     }
 ]

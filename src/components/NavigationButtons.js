@@ -4,35 +4,48 @@ import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
-import InfoIcon from '@mui/icons-material/Info';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function NavigationButtons({ text, activePage }) {
+
+    // Function to handle the scrolling to the Projects-Grid
+    const scrollToProjectsGrid = () => {
+        const element = document.querySelector('.Projects-grid');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
     return (
-        <div className="Greeting">
+        <div className="Typewriter">
             {text}
-            <ButtonGroup aria-label="outlined primary button group" className="Greeting-btns">
-                <Link to="/">
-                    <Button className={activePage === "home" ? "Greeting-btn Greeting-btn-active" : "Greeting-btn"}>
-                        <InfoIcon className="Greeting-icon" />
-                        Home
-                    </Button>
-                </Link>
-                <Link to="/projects" >
-                    <Button className={activePage === "projects" ? "Greeting-btn Greeting-btn-active" : "Greeting-btn"} >
-                        <FolderSpecialIcon className="Greeting-icon" />
-                        Projects
-                    </Button>
-                </Link>
+            <ButtonGroup aria-label="outlined primary button group" className="Typewriter-btns">
                 <Button
-                    className="Greeting-btn"
+                    className="Typewriter-btn"
                     target="_blank"
                     href="https://github.com/zubyj"
                 >
-                    <GitHubIcon className="Greeting-icon" />
+                    <GitHubIcon className="Typewriter-icon" />
                     Github
                 </Button>
+                <Button
+                    className="Typewriter-btn"
+                    onClick={scrollToProjectsGrid}
+                >
+                    <FolderSpecialIcon className="Typewriter-icon" />
+                    Projects
+                </Button>
+                <Button
+                    className="Typewriter-btn"
+                    target="_blank"
+                    href="https://linkedin.com/in/zubyj"
+                >
+                    <LinkedInIcon className="Typewriter-icon" />
+                    Linkedin
+                </Button>
+
             </ButtonGroup>
-        </div>
+        </div >
     )
 }
 

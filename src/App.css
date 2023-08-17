@@ -1,5 +1,5 @@
-/* User Greeting component */
-.Greeting {
+/* Typewriter component */
+.Typewriter {
   text-align: center;
   font-size: 1rem;
   padding-top: 2rem;
@@ -7,27 +7,27 @@
   color: whitesmoke !important;
 }
 
-.Greeting-menu {
+.Typewriter-menu {
   background-image: url(/src/assets/images/static-black.gif);
 }
 
-.Greeting-btns {
+.Typewriter-btns {
   justify-content: center;
   margin-top: 3rem !important;
 }
 
-.Greeting-btn {
+.Typewriter-btn {
   background: #282c34 !important;
   color: white !important;
   font-weight: bolder !important;
 }
 
-.Greeting-btn-active {
+.Typewriter-btn-active {
   background: #282c34 !important;
   color: #E5A823 !important;
 }
 
-.Greeting-icon {
+.Typewriter-icon {
   color: #61dafb;
   padding-right: 1rem;
 }
@@ -58,8 +58,8 @@ li {
   padding: 1rem;
   margin: 1rem;
   color: whitesmoke;
-  height: 45vh;
-  width: 33rem;
+  height: 40vh;
+  width: 25rem;
   opacity: 0.95;
   border-radius: 10px;
   background: #222;
@@ -88,7 +88,7 @@ li {
     height: 160vh;
   }
 
-  .Greeting-menu {
+  .Typewriter-menu {
     height: 80vh;
     padding-top: 10vh;
   }
@@ -102,24 +102,24 @@ li {
     padding: 2rem;
     margin: 1rem;
     color: whitesmoke;
-    height: 40vh;
   }
 
-  .Greeting {
+  .Typewriter {
     font-size: 1.5rem;
   }
 
-  .Greeting-btns {
+  .Typewriter-btns {
     margin-top: 4rem !important;
   }
 
-  .Greeting-btn {
+  .Typewriter-btn {
     margin-right: 1rem !important;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .Grid-item {
-    width: 27vw !important;
+    width: 23vw !important;
+    height: 35vh !important;
   }
 }
