@@ -1,163 +1,20 @@
-  .School-list {
-    padding-top: 3rem;
-    text-align: center;
-  }
+/* Projects */
+.Project-img {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
 
-  .School-list li {
-    padding-top: 1rem;
-  }
+.Open-project-btn {
+  margin-top: 1rem !important;
+  margin-left: .5rem !important;
+}
 
-  .School {
-    font-size: 1.2rem;
-  }
 
-  .Degree {
-    font-weight: bold;
-    margin-left: 3rem;
-    color: #61dafb;
-  }
-
-  .Grad-pic {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-  }
-
-  /* Objective */
-  .Objective {
-    margin-top: 3rem;
-  }
-
-  .Objective p {
-    line-height: 32px;
-  }
-
-  .Objective-btns {
-    margin-top: 3rem;
-  }
-
-  .Objective-long-text {
-    margin-top: 5rem;
-    padding: 1rem;
-  }
-
-  .Dl-resume-btn {
-    color: #61dafb !important;
-    width: 180px;
-  }
-
-  .Copy-email-btn {
-    color: #61dafb !important;
-    width: 180px;
-  }
-
-  .Copy-email-alert {
-    position: absolute;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    left: 30%;
-    color: black;
-    border-radius: 10px;
-  }
-
-  /* Languages */
-  .Languages-grid {
-    justify-content: center;
-    text-align: center;
-    margin-top: 0.5rem !important;
-  }
-
-  .Languages-icon {
-    width: 30px !important;
-  }
-
-  /* Experience */
-  .Job-title {
-    font-size: 1.2rem;
-  }
-
-  /* Home Icon colors */
-  .Education-icon {
-    color: #E5A823;
-  }
-
-  .Experience-icon {
-    color: #b59b7c;
-  }
-
-  .Skills-icon {
-    color: red;
-  }
-
-  .Projects-icon {
-    color: purple;
-  }
-
-  .Socials-icon {
-    color: #FF5700;
-  }
-
-  .Objective-icon {
-    color: #CEE3F8;
-  }
-
-  @media only screen and (min-width: 768px) {
-    .Objective-btns {
-      margin-left: 2rem;
-    }
-  }
-
-  .Project-title {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-  }
-
-  .Dates {
-    margin-left: 1rem;
-  }
-
+@media only screen and (min-width: 768px) {
   .Project-img {
-    margin-top: 1rem;
+    max-width: 100%;
+    max-height: 15rem;
   }
-
-  .Open-project-btn {
-    margin-top: 1rem !important;
-    margin-left: .5rem !important;
-  }
-
-  /* colors for icons */
-  .Facemorpher-icon {
-    color: purple;
-  }
-
-  .Appna-icon {
-    color: #ED1B2E;
-  }
-
-  .Timer-icon {
-    color: #EFF7FF;
-  }
-
-  .Response-bot-icon {
-    color: #b59b7c;
-  }
-
-  .Todolist-icon {
-    color: #d24726;
-  }
-
-  .Waves-icon {
-    color: #44A7C4;
-  }
-
-  .Calculate-icon {
-    color: lightcoral;
-  }
-
-  @media only screen and (min-width: 768px) {
-    .Project-img {
-      max-width: 100%;
-      max-height: 15rem;
-    }
-  }
+}

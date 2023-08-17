@@ -46,13 +46,13 @@ function Project({ name, path, pathType, imgName, description }) {
                 </div>
             </div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                <span className="Project-title">
+                <span className="Project-img">
                     {img}
                 </span>
                 <ul>
                     {description.map((line) => {
                         return <li className="Project-languages">
-                            {line}
+                            - {line}
                         </li>
                     })}
                 </ul>
