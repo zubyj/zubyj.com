@@ -1,7 +1,6 @@
 import React from 'react';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
-import { Link } from "react-router-dom";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -17,7 +16,7 @@ function NavigationButtons({ text, activePage }) {
     }
 
     return (
-        <div className="Typewriter">
+        <div className="Nav-btns">
             {text}
             <ButtonGroup aria-label="outlined primary button group" className="Typewriter-btns">
                 <Button

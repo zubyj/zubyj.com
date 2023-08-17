@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.088a6475.css",
-    "main.js": "/static/js/main.ccf840d2.js",
+    "main.css": "/static/css/main.01ffd0d5.css",
+    "main.js": "/static/js/main.a52abb49.js",
     "static/media/speech-to-text-gpt.png": "/static/media/speech-to-text-gpt.61da64838a75e047369e.png",
     "static/media/static-black.gif": "/static/media/static-black.fcce1a36e0e759370324.gif",
     "static/media/compareprenatals.png": "/static/media/compareprenatals.4b5cea2dec82c434b58f.png",
@@ -13,11 +13,11 @@
     "static/media/icare.png": "/static/media/icare.85eece565f6f2e71355e.png",
     "static/media/the-office-script-api.png": "/static/media/the-office-script-api.10c4869559a998a30f08.png",
     "index.html": "/index.html",
-    "main.088a6475.css.map": "/static/css/main.088a6475.css.map",
-    "main.ccf840d2.js.map": "/static/js/main.ccf840d2.js.map"
+    "main.01ffd0d5.css.map": "/static/css/main.01ffd0d5.css.map",
+    "main.a52abb49.js.map": "/static/js/main.a52abb49.js.map"
   },
   "entrypoints": [
-    "static/css/main.088a6475.css",
-    "static/js/main.ccf840d2.js"
+    "static/css/main.01ffd0d5.css",
+    "static/js/main.a52abb49.js"
   ]
 }

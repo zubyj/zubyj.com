@@ -76,7 +76,7 @@ function Home() {
 
     return (
         <Box>
-            <Grid className="Typewriter-menu">
+            <Grid className="Typewriter-section">
                 <NavigationButtons text={homeTypewriter()} activePage="home" />
             </Grid>
             <Box>

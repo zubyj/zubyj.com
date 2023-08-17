@@ -1,19 +1,17 @@
 /* Typewriter component */
-.Typewriter {
-  text-align: center;
-  font-size: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-  color: whitesmoke !important;
-}
-
-.Typewriter-menu {
+.Typewriter-section {
   background-image: url(/src/assets/images/static-black.gif);
 }
 
+.Nav-btns {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 6rem !important;
+  color: whitesmoke !important;
+}
+
 .Typewriter-btns {
-  justify-content: center;
-  margin-top: 3rem !important;
+  padding-top: 3rem;
 }
 
 .Typewriter-btn {
@@ -21,6 +19,7 @@
   color: white !important;
   font-weight: bolder !important;
 }
+
 
 .Typewriter-btn-active {
   background: #282c34 !important;
@@ -88,7 +87,7 @@ li {
     height: 160vh;
   }
 
-  .Typewriter-menu {
+  .Typewriter-section {
     height: 80vh;
     padding-top: 10vh;
   }
@@ -104,15 +103,15 @@ li {
     color: whitesmoke;
   }
 
-  .Typewriter {
+  .Nav-btns {
     font-size: 1.5rem;
   }
 
-  .Typewriter-btns {
+  .Greeting-btns {
     margin-top: 4rem !important;
   }
 
-  .Typewriter-btn {
+  .Greeting-btn {
     margin-right: 1rem !important;
   }
 }
@@ -121,5 +120,26 @@ li {
   .Grid-item {
     width: 23vw !important;
     height: 35vh !important;
+  }
+}
+
+/* Projects */
+.Project-img {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.Open-project-btn {
+  margin-top: 1rem !important;
+  margin-left: .5rem !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .Project-img {
+    max-width: 100%;
+    max-height: 15rem;
   }
 }
