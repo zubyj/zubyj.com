@@ -32,7 +32,7 @@ function Project({ name, path, pathType, imgName, description }) {
         window.open(path, '_blank');
     }
 
-    const img = <img className="Project-img" src={require(`../../assets/images/projects/${imgName}`)} alt="Project screenshot" />
+    const img = <img className="Project-img" src={require(`../assets/images/projects/${imgName}`)} alt="Project screenshot" />
 
     return (
         <Container className="Grid-item" onClick={handleClick}>

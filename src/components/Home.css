@@ -110,3 +110,63 @@
       margin-left: 2rem;
     }
   }
+
+  .Project-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .Project-languages {
+    font-style: italic;
+  }
+
+  .Dates {
+    margin-left: 1rem;
+  }
+
+  .Project-img {
+    margin-top: 1rem;
+    border: .5px solid #61dafb;
+  }
+
+  .Open-project-btn {
+    margin-top: 1rem !important;
+    margin-left: .5rem !important;
+  }
+
+  /* colors for icons */
+  .Facemorpher-icon {
+    color: purple;
+  }
+
+  .Appna-icon {
+    color: #ED1B2E;
+  }
+
+  .Timer-icon {
+    color: #EFF7FF;
+  }
+
+  .Response-bot-icon {
+    color: #b59b7c;
+  }
+
+  .Todolist-icon {
+    color: #d24726;
+  }
+
+  .Waves-icon {
+    color: #44A7C4;
+  }
+
+  .Calculate-icon {
+    color: lightcoral;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .Project-img {
+      max-width: 100%;
+      max-height: 15rem;
+    }
+  }
