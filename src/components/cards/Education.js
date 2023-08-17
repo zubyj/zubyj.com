@@ -9,7 +9,7 @@ function Education() {
         <div className="Grad-pic">
             <Avatar
                 alt="Zuby J"
-                src={require("../../../assets/images/graduate.png")}
+                src={require("../../assets/images/graduate.png")}
                 sx={{ width: 200, height: 200 }}
             />
         </div>

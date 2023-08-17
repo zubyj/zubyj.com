@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 import Education from './cards/Education';
 import Objective from './cards/Objective';
 import HomeGreeting from './HomeGreeting';
-
+import ProjectsGrid from './ProjectsGrid';
 import Technologies from './cards/Technologies';
 
 
@@ -32,6 +32,7 @@ function Home() {
                     )
                 })}
             </Grid>
+            <ProjectsGrid />
         </Box>
     )
 }

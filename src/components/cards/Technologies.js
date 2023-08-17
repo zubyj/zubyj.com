@@ -4,20 +4,20 @@ import GridItem from '../Card';
 import CodeIcon from '@mui/icons-material/Code';
 
 // Languages
-import js from '../../../assets/images/languages/js.svg';
-import python from '../../../assets/images/languages/python.svg';
-import react from '../../../assets/images/languages/react.svg';
-import reactNative from '../../../assets/images/languages/react-native.svg';
-import java from '../../../assets/images/languages/java.svg';
-import node from '../../../assets/images/languages/node.svg';
+import js from '../../assets/images/languages/js.svg';
+import python from '../../assets/images/languages/python.svg';
+import react from '../../assets/images/languages/react.svg';
+import reactNative from '../../assets/images/languages/react-native.svg';
+import java from '../../assets/images/languages/java.svg';
+import node from '../../assets/images/languages/node.svg';
 
 // Technologies
-import git from '../../../assets/images/technologies/git.svg';
-import vim from '../../../assets/images/technologies/vim.svg';
-import npm from '../../../assets/images/technologies/npm.svg';
-import nginx from '../../../assets/images/technologies/nginx.svg';
-import bootstrap from '../../../assets/images/technologies/bootstrap.svg';
-import expo from '../../../assets/images/technologies/expo.svg';
+import git from '../../assets/images/technologies/git.svg';
+import vim from '../../assets/images/technologies/vim.svg';
+import npm from '../../assets/images/technologies/npm.svg';
+import nginx from '../../assets/images/technologies/nginx.svg';
+import bootstrap from '../../assets/images/technologies/bootstrap.svg';
+import expo from '../../assets/images/technologies/expo.svg';
 
 function Technologies() {
     const langs = {

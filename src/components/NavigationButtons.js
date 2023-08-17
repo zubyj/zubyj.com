@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
 import InfoIcon from '@mui/icons-material/Info';
 
-function Greeting({ text, activePage }) {
+function NavigationButtons({ text, activePage }) {
     return (
         <div className="Greeting">
             {text}
@@ -36,4 +36,4 @@ function Greeting({ text, activePage }) {
     )
 }
 
-export default Greeting;
+export default NavigationButtons;

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import './App.css';
-import './components/home/Home.css';
-import './components/projects/ProjectsGrid.css';
-import ProjectsGrid from './components/projects/ProjectsGrid';
-import Home from './components/home/Home';
+import './components/Home.css';
+import './components/ProjectsGrid.css';
+import ProjectsGrid from './components/ProjectsGrid';
+import Home from './components/Home';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

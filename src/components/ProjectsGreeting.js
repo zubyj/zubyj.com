@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import Greeting from '../Greeting';
+import NavigationButtons from './NavigationButtons';
 
 function ProjectsGreeting() {
 
@@ -26,7 +26,7 @@ function ProjectsGreeting() {
     }
 
     return (
-        <Greeting text={typewriter()} activePage="projects" />
+        <NavigationButtons text={typewriter()} activePage="projects" />
     )
 }
 

@@ -3,8 +3,8 @@ import { Box } from '@mui/system';
 import Grid from '@mui/material/Grid';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import ProjectsGreeting from './ProjectsGreeting';
-import Project from './Project';
-import projectsData from '../../assets/projects.json';
+import Project from './cards/Project';
+import projectsData from '../assets/projects.json';
 
 function ProjectsGrid() {
     const [projects, setProjects] = useState([]);
