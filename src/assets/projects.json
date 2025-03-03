@@ -6,7 +6,7 @@
         "pathType": "Browser Extension",
         "imgName": "leetcode-explained.png",
         "description": [
-            "Created a free, open source browser extension with over 1k daily active users",
+            "Created a free, open source browser extension with over 15k daily active users",
             "Adds company tags, solution videos, and GPT code analysis directly into Leetcode problems",
             "Available for Chrome, Firefox, and Edge"
         ],
@@ -28,7 +28,7 @@
         "pathType": "iOS App",
         "imgName": "mymorph.png",
         "description": [
-            "Created the frontend for an iOS app with over 13k downloads in the iOS App store",
+            "Created the frontend for an iOS app with over 15k downloads in the iOS App store",
             "Blends two faces together and returns the morphed face"
         ],
         "technologies": [
