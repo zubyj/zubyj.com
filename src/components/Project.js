@@ -32,26 +32,26 @@ function Project({ name, path, pathType, imgName, description }) {
         window.open(path, '_blank');
     }
 
-    const img = <img className="Project-img" src={require(`../assets/images/projects/${imgName}`)} alt="Project screenshot" />
+    const img = <img className="project-img" src={require(`../assets/images/projects/${imgName}`)} alt="Project screenshot" />
 
     return (
-        <Container className="Grid-item" onClick={handleClick}>
-            <div className="Item-title">
-                {/* <span className="Title-icon">{icon}</span> */}
+        <Container className="grid-item" onClick={handleClick}>
+            <div className="item-title">
+                {/* <span className="title-icon">{icon}</span> */}
                 {name}
                 <div>
-                    <Button className="Open-project-btn" onClick={open} variant="contained" target="_blank">
+                    <Button className="open-project-btn" onClick={open} variant="contained" target="_blank">
                         Open {pathType}
                     </Button>
                 </div>
             </div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                <span className="Project-img">
+                <span className="project-img">
                     {img}
                 </span>
                 <ul>
                     {description.map((line) => {
-                        return <li className="Project-languages">
+                        return <li className="project-languages">
                             {line}
                         </li>
                     })}

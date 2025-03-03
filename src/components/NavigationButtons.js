@@ -9,37 +9,37 @@ function NavigationButtons({ text, activePage }) {
 
     // Function to handle the scrolling to the Projects-Grid
     const scrollToProjectsGrid = () => {
-        const element = document.querySelector('.Projects-grid');
+        const element = document.querySelector('.projects-grid');
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
         }
     }
 
     return (
-        <div className="Nav-btns">
+        <div className="nav-buttons">
             {text}
-            <ButtonGroup aria-label="outlined primary button group" className="Typewriter-btns">
+            <ButtonGroup aria-label="outlined primary button group" className="typewriter-buttons">
                 <Button
-                    className="Typewriter-btn"
+                    className="typewriter-btn"
                     target="_blank"
                     href="https://github.com/zubyj"
                 >
-                    <GitHubIcon className="Typewriter-icon" />
+                    <GitHubIcon className="typewriter-icon" />
                     Github
                 </Button>
                 <Button
-                    className="Typewriter-btn"
+                    className="typewriter-btn"
                     onClick={scrollToProjectsGrid}
                 >
-                    <FolderSpecialIcon className="Typewriter-icon" />
+                    <FolderSpecialIcon className="typewriter-icon" />
                     Projects
                 </Button>
                 <Button
-                    className="Typewriter-btn"
+                    className="typewriter-btn"
                     target="_blank"
                     href="https://linkedin.com/in/zubyj"
                 >
-                    <LinkedInIcon className="Typewriter-icon" />
+                    <LinkedInIcon className="typewriter-icon" />
                     Linkedin
                 </Button>
 

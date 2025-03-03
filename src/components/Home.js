@@ -14,7 +14,7 @@ function Home() {
             <Typewriter
                 onInit={(typewriter) =>
                     typewriter.changeDelay(60)
-                        .typeString("<h1>Hello I'm <span class='Important-text'>Zuby</span></h1>")
+                        .typeString("<h1>Hello I'm <span class='highlighted-text'>Zuby</span></h1>")
                         .typeString("<h4 style='padding-bottom: 2rem;'>Software Engineer | CS @ SJSU</h4>")
                         .pauseFor(1000)
                         .typeString("<p>Welcome to my portfolio</p>")
@@ -34,14 +34,14 @@ function Home() {
                 onInit={(typewriter) =>
                     typewriter.typeString("<h2>Projects</h2>")
                         .changeDelay(50)
-                        .typeString("<p><span class='Important-text'>(3)</span> Chrome Extension published</p>")
-                        .typeString("<p><span class='Important-text'>(2)</span> iOS apps published</p>")
-                        .typeString("<p><span class='Important-text'>(7)</span> Websites live</p>")
+                        .typeString("<p><span class='highlighted-text'>(3)</span> Chrome Extension published</p>")
+                        .typeString("<p><span class='highlighted-text'>(2)</span> iOS apps published</p>")
+                        .typeString("<p><span class='highlighted-text'>(7)</span> Websites live</p>")
                         .changeDelay(30)
-                        .typeString("<p><span class='Important-text'>(2)</span> Web apps deployed</p>")
-                        .typeString("<p><span class='Important-text'>(1)</span> Windows/MacOS apps available</p>")
+                        .typeString("<p><span class='highlighted-text'>(2)</span> Web apps deployed</p>")
+                        .typeString("<p><span class='highlighted-text'>(1)</span> Windows/MacOS apps available</p>")
                         .pauseFor(1000)
-                        .typeString("<span class='App-link'>Stay tuned for more</span>")
+                        .typeString("<span class='app-link'>Stay tuned for more</span>")
                         .pauseFor(1000)
                         .start()
                 }
@@ -76,11 +76,11 @@ function Home() {
 
     return (
         <Box>
-            <Grid className="Typewriter-section">
+            <Grid className="typewriter-section">
                 <NavigationButtons text={homeTypewriter()} activePage="home" />
             </Grid>
             <Box>
-                <Grid className="Projects-grid" container spacing={3}>
+                <Grid className="projects-grid" container spacing={3}>
                     {projects.map((item, index) => (
                         <Grid key={item.props.key || index} item xs={12} lg={6} xl={4}>
                             {item}

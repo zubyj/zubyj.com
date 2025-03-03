@@ -1,40 +1,5 @@
-/* Typewriter component */
-.Typewriter-section {
-  background-image: url(/src/assets/images/static-black.gif);
-}
-
-.Nav-btns {
-  text-align: center;
-  font-size: 1rem;
-  color: whitesmoke;
-}
-
-.Typewriter-btns {
-  padding-top: 3rem;
-}
-
-.Typewriter-btn {
-  background: #282c34 !important;
-  color: white !important;
-  font-weight: bolder !important;
-}
-
-.Typewriter-btn-active {
-  background: #282c34 !important;
-  color: #E5A823 !important;
-}
-
-.Typewriter-icon {
-  color: #61dafb;
-  padding-right: 1rem;
-}
-
-/* General & shared components */
-.App-link {
-  color: #61dafb;
-  text-decoration: none;
-}
-
+/* General styles
+---------------------------------------- */
 ul {
   list-style: none;
 }
@@ -43,14 +8,27 @@ li {
   padding: 0.5rem;
 }
 
-.Home,
-.Projects-grid {
+.highlighted-text {
+  color: #E5A823 !important;
+}
+
+/* Typography and links
+---------------------------------------- */
+.app-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+/* Layout components
+---------------------------------------- */
+.home,
+.projects-grid {
   background: #780206;
   background: -webkit-linear-gradient(to right, #061161, #780206);
   background: linear-gradient(to right, #061161, #780206);
 }
 
-.Grid-item {
+.grid-item {
   cursor: pointer;
   padding: 1rem;
   margin: 1rem 0;
@@ -63,81 +41,119 @@ li {
   box-sizing: border-box;
 }
 
-.Grid-item:hover {
+.grid-item:hover {
   border: 1px solid #61dafb;
 }
 
-.Item-title {
+.item-title {
   font-size: 1.3rem;
   text-align: center;
 }
 
-.Title-icon {
+.title-icon {
   margin-right: 0.5rem;
 }
 
-.Important-text {
+/* Typewriter component
+---------------------------------------- */
+.typewriter-section {
+  background-image: url(/src/assets/images/static-black.gif);
+}
+
+.nav-buttons {
+  text-align: center;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.typewriter-buttons {
+  padding-top: 3rem;
+}
+
+.typewriter-btn {
+  background: #282c34 !important;
+  color: white !important;
+  font-weight: bolder !important;
+}
+
+.typewriter-btn-active {
+  background: #282c34 !important;
   color: #E5A823 !important;
 }
 
-@media only screen and (min-width: 768px) {
-  .Nav-link {
-    margin: 1rem;
-    font-size: 1rem !important;
-  }
-
-  .Projects-grid {
-    height: 160vh;
-  }
-
-  .Typewriter-section {
-    height: 80vh;
-    padding-top: 10vh;
-  }
-
-  .Home,
-  .Projects-grid {
-    padding-top: 3rem;
-  }
-
-  .Grid-item {
-    padding: 2rem;
-    margin: 1rem;
-    color: whitesmoke;
-  }
-
-  .Nav-btns {
-    font-size: 1.5rem;
-  }
-
-  .Greeting-btns {
-    margin-top: 4rem !important;
-  }
-
-  .Greeting-btn {
-    margin-right: 1rem !important;
-  }
+.typewriter-icon {
+  color: #61dafb;
+  padding-right: 1rem;
 }
 
-@media only screen and (min-width: 992px) {}
-
-/* Projects */
-.Project-img {
+/* Project components
+---------------------------------------- */
+.project-img {
   display: flex;
   justify-content: center;
   font-weight: bold;
   margin-top: 2rem;
 }
 
-.Open-project-btn {
+.open-project-btn {
   margin-top: 1rem !important;
   margin-left: .5rem !important;
 }
 
-
+/* Media Queries
+---------------------------------------- */
 @media only screen and (min-width: 768px) {
-  .Project-img {
+
+  .nav-link {
+    margin: 1rem;
+    font-size: 1rem !important;
+  }
+
+  .projects-grid {
+    height: 160vh;
+  }
+
+  .typewriter-section {
+    height: 80vh;
+    padding-top: 10vh;
+  }
+
+  .home,
+  .projects-grid {
+    padding-top: 3rem;
+  }
+
+  .grid-item {
+    padding: 2rem;
+    margin: 1rem;
+    color: whitesmoke;
+  }
+
+  .nav-buttons {
+    font-size: 1.5rem;
+  }
+
+  .greeting-btns {
+    margin-top: 4rem !important;
+  }
+
+  .greeting-btn {
+    margin-right: 1rem !important;
+  }
+
+  .project-img {
     max-width: 100%;
     max-height: 15rem;
   }
+}
+
+@media only screen and (max-width: 767px) {
+  .typewriter-section {
+    min-height: 60vh;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Add styles for larger screens if needed */
 }

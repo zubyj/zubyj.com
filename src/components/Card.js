@@ -26,9 +26,9 @@ function Card({ name, icon, sideA, sideB }) {
     }
 
     return (
-        <Container className="Grid-item" onClick={handleClick}>
-            <div className="Item-title">
-                <span className="Title-icon">{icon}</span>
+        <Container className="grid-item" onClick={handleClick}>
+            <div className="item-title">
+                <span className="title-icon">{icon}</span>
                 {name}
             </div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
