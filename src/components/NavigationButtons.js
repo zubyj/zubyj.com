@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 function NavigationButtons({ text, activePage, className }) {
 
@@ -18,7 +19,11 @@ function NavigationButtons({ text, activePage, className }) {
     return (
         <div className={`nav-buttons ${className || ''}`}>
             {text}
-            <ButtonGroup aria-label="outlined primary button group" className="typewriter-buttons">
+            <ButtonGroup
+                aria-label="outlined primary button group"
+                className="typewriter-buttons"
+                size={useMediaQuery('(min-width:600px)') ? 'large' : 'medium'}
+            >
                 <Button
                     className="typewriter-btn"
                     target="_blank"

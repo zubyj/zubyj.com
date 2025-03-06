@@ -1,5 +1,11 @@
-/* General styles
----------------------------------------- */
+:root {
+  --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+  --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+  --font-size-lg: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  --font-size-xl: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+}
+
+/* General styles */
 ul {
   list-style: none;
 }
@@ -22,15 +28,13 @@ h6 {
   padding: 0;
 }
 
-/* Typography and links
----------------------------------------- */
+/* Typography and links */
 .app-link {
   color: #61dafb;
   text-decoration: none;
 }
 
-/* Layout components
----------------------------------------- */
+/* Layout components */
 .home,
 .projects-grid {
   background: #780206;
@@ -40,8 +44,8 @@ h6 {
 
 .grid-item {
   cursor: pointer;
-  padding: 1rem;
-  margin: 0.5rem;
+  padding: clamp(1rem, 2vw, 2rem);
+  margin: clamp(0.5rem, 1vw, 1rem);
   color: whitesmoke;
   width: calc(100% - 2rem) !important;
   min-height: 350px !important;
@@ -57,7 +61,7 @@ h6 {
 }
 
 .item-title {
-  font-size: 1.3rem;
+  font-size: var(--font-size-md);
   text-align: center;
 }
 
@@ -65,8 +69,7 @@ h6 {
   margin-right: 0.5rem;
 }
 
-/* Typewriter component
----------------------------------------- */
+/* Typewriter component */
 .typewriter-section {
   background-image: url(/src/assets/images/static-black.gif);
   padding-top: 15vh;
@@ -75,12 +78,12 @@ h6 {
 
 .nav-buttons {
   text-align: center;
-  font-size: 1rem;
+  font-size: var(--font-size-base);
   color: whitesmoke;
 }
 
 .typewriter-buttons {
-  padding-top: 3rem;
+  padding-top: clamp(1rem, 3vw, 3rem);
 }
 
 .typewriter-btn {
@@ -99,13 +102,12 @@ h6 {
   padding-right: 1rem;
 }
 
-/* Project components
----------------------------------------- */
+/* Project components */
 .project-img {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: clamp(0.5rem, 2vw, 2rem);
   width: 100%;
   height: auto;
   max-height: 200px;
@@ -118,17 +120,14 @@ h6 {
 }
 
 .open-project-btn {
-  margin-top: 1rem !important;
-  margin-left: .5rem !important;
+  margin-top: clamp(0.5rem, 2vw, 1rem) !important;
+  margin-left: clamp(0.25rem, 1vw, 0.5rem) !important;
 }
 
-/* Media Queries
----------------------------------------- */
+/* Media Queries */
 @media only screen and (min-width: 768px) {
-
   .nav-link {
     margin: 1rem;
-    font-size: 1rem !important;
   }
 
   .projects-grid {
@@ -155,7 +154,7 @@ h6 {
   }
 
   .nav-buttons {
-    font-size: 1.5rem;
+    font-size: var(--font-size-lg);
   }
 
   .greeting-btns {
@@ -165,7 +164,6 @@ h6 {
   .greeting-btn {
     margin-right: 1rem !important;
   }
-
 }
 
 @media only screen and (max-width: 767px) {
