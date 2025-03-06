@@ -15,7 +15,7 @@ function Home() {
                 onInit={(typewriter) =>
                     typewriter.changeDelay(60)
                         .typeString("<h1>Hello I'm <span class='highlighted-text'>Zuby</span></h1>")
-                        .typeString("<h4 style='padding-bottom: 2rem;'>Software Engineer | CS @ SJSU</h4>")
+                        .typeString("<h4>Software Engineer | CS @ SJSU</h4>")
                         .pauseFor(1000)
                         .typeString("<p>Welcome to my portfolio</p>")
                         .pauseFor(1000)

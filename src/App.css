@@ -3,6 +3,14 @@
   --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
   --font-size-lg: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
   --font-size-xl: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+
+  /* Professional color palette */
+  --primary-dark: #1a1a2e;
+  --primary-light: #16213e;
+  --accent-blue: #0088cc;
+  --accent-gold: #ffd700;
+  --text-light: #f8f9fa;
+  --text-muted: #9ca3af;
 }
 
 /* General styles */
@@ -15,7 +23,7 @@ li {
 }
 
 .highlighted-text {
-  color: #E5A823 !important;
+  color: var(--accent-gold) !important;
 }
 
 h1,
@@ -30,34 +38,36 @@ h6 {
 
 /* Typography and links */
 .app-link {
-  color: #61dafb;
+  color: var(--accent-blue);
   text-decoration: none;
 }
 
 /* Layout components */
 .home,
 .projects-grid {
-  background: #780206;
-  background: -webkit-linear-gradient(to right, #061161, #780206);
-  background: linear-gradient(to right, #061161, #780206);
+  background: var(--primary-dark);
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
 }
 
 .grid-item {
   cursor: pointer;
   padding: clamp(1rem, 2vw, 2rem);
   margin: clamp(0.5rem, 1vw, 1rem);
-  color: whitesmoke;
+  color: var(--text-light);
   width: calc(100% - 2rem) !important;
   min-height: 350px !important;
   height: auto !important;
   opacity: 0.95;
   border-radius: 10px;
-  background: #222;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
 }
 
 .grid-item:hover {
-  border: 1px solid #61dafb;
+  border: 1px solid var(--accent-blue);
+  box-shadow: 0 0 20px rgba(0, 136, 204, 0.2);
 }
 
 .item-title {
@@ -79,7 +89,7 @@ h6 {
 .nav-buttons {
   text-align: center;
   font-size: var(--font-size-base);
-  color: whitesmoke;
+  color: var(--text-light);
 }
 
 .typewriter-buttons {
@@ -87,19 +97,39 @@ h6 {
 }
 
 .typewriter-btn {
-  background: #282c34 !important;
-  color: white !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-light) !important;
   font-weight: bolder !important;
+  margin: 0 0.5rem !important;
+  backdrop-filter: blur(5px);
+  /* Add horizontal margin between buttons */
+}
+
+.typewriter-btn:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
 }
 
 .typewriter-btn-active {
-  background: #282c34 !important;
-  color: #E5A823 !important;
+  background: var(--accent-blue) !important;
+  color: var(--text-light) !important;
 }
 
 .typewriter-icon {
-  color: #61dafb;
+  color: var(--accent-blue);
   padding-right: 1rem;
+}
+
+/* Add consistent spacing for typewriter text */
+.nav-buttons h1,
+.nav-buttons h2,
+.nav-buttons h4,
+.nav-buttons p {
+  margin-bottom: 1.5rem;
+}
+
+/* Remove margin from last element to avoid extra space */
+.nav-buttons p:last-child {
+  margin-bottom: 0;
 }
 
 /* Project components */
@@ -122,6 +152,12 @@ h6 {
 .open-project-btn {
   margin-top: clamp(0.5rem, 2vw, 1rem) !important;
   margin-left: clamp(0.25rem, 1vw, 0.5rem) !important;
+  background-color: var(--accent-blue) !important;
+  color: var(--text-light) !important;
+}
+
+.open-project-btn:hover {
+  background-color: #0099e6 !important;
 }
 
 /* Media Queries */
