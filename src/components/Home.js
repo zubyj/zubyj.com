@@ -67,8 +67,6 @@ function Home() {
 
         if (isLargeScreen) {
             items.splice(4, 0, <NavigationButtons text={projectsTypewriter()} activePage="projects" key="greeting" />);
-        } else {
-            items.unshift(<NavigationButtons text={projectsTypewriter()} activePage="projects" key="greeting" />);
         }
 
         setProjects(items);
