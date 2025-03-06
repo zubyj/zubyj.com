@@ -58,6 +58,8 @@ li {
 ---------------------------------------- */
 .typewriter-section {
   background-image: url(/src/assets/images/static-black.gif);
+  padding-top: 50vh;
+
 }
 
 .nav-buttons {
@@ -115,7 +117,6 @@ li {
 
   .typewriter-section {
     height: 80vh;
-    padding-top: 10vh;
   }
 
   .home,

@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-function NavigationButtons({ text, activePage }) {
+function NavigationButtons({ text, activePage, className }) {
 
     // Function to handle the scrolling to the Projects-Grid
     const scrollToProjectsGrid = () => {
@@ -16,7 +16,7 @@ function NavigationButtons({ text, activePage }) {
     }
 
     return (
-        <div className="nav-buttons">
+        <div className={`nav-buttons ${className || ''}`}>
             {text}
             <ButtonGroup aria-label="outlined primary button group" className="typewriter-buttons">
                 <Button
