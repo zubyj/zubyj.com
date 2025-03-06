@@ -23,6 +23,7 @@ function NavigationButtons({ text, activePage, className }) {
                 aria-label="outlined primary button group"
                 className="typewriter-buttons"
                 size={useMediaQuery('(min-width:600px)') ? 'large' : 'medium'}
+                sx={{ gap: 2 }}  // Add spacing between buttons (2 * 8px = 16px gap)
             >
                 <Button
                     className="typewriter-btn"
