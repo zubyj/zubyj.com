@@ -12,6 +12,16 @@ li {
   color: #E5A823 !important;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 /* Typography and links
 ---------------------------------------- */
 .app-link {
@@ -59,8 +69,8 @@ li {
 ---------------------------------------- */
 .typewriter-section {
   background-image: url(/src/assets/images/static-black.gif);
-  padding-top: 0vh;
-
+  padding-top: 15vh;
+  margin-top: 0;
 }
 
 .nav-buttons {
@@ -161,7 +171,7 @@ li {
 @media only screen and (max-width: 767px) {
   .typewriter-section {
     min-height: 60vh;
-    padding-top: 0;
+    margin-top: 0;
   }
 }
 
